@@ -1,0 +1,6160 @@
+### Game log ###
+
+Time step 0
+Resources : 50, 0
+Supply : 12/14
+Selected : [], []
+Larvae : 3
+Available actions : [0 1 2 3 4]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 47)]
+
+Time step 1
+Resources : 50, 0
+Supply : 12/14
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 467]
+Chose action 467/Train_Drone_quick (3/queued [2]), args ['now']
+
+Time step 2
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 3
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 4
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 5
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 6
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 7
+Resources : 5, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 8
+Resources : 10, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 9
+Resources : 20, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 10
+Resources : 30, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 11
+Resources : 45, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 12
+Resources : 60, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (31, 39)]
+
+Time step 13
+Resources : 60, 0
+Supply : 13/14
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 467]
+Chose action 467/Train_Drone_quick (3/queued [2]), args ['now']
+
+Time step 14
+Resources : 10, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+
+Time step 15
+Resources : 15, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+
+Time step 16
+Resources : 35, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 17
+Resources : 40, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 18
+Resources : 45, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 19
+Resources : 65, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 20
+Resources : 70, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 21
+Resources : 70, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 22
+Resources : 70, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 23
+Resources : 90, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 24
+Resources : 100, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 25
+Resources : 100, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 26
+Resources : 120, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 27
+Resources : 130, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 28
+Resources : 135, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 29
+Resources : 135, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 30
+Resources : 145, 0
+Supply : 14/14
+Selected : [[151   1   0   0   0   0   0]], []
+Larvae : 2
+
+Time step 31
+Resources : 165, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 32
+Resources : 165, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 33
+Resources : 170, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 34
+Resources : 190, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 35
+Resources : 200, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 36
+Resources : 200, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 37
+Resources : 210, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 38
+Resources : 220, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 39
+Resources : 230, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 40
+Resources : 235, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 41
+Resources : 245, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 42
+Resources : 260, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 43
+Resources : 265, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 44
+Resources : 280, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 45
+Resources : 285, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 46
+Resources : 290, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 47
+Resources : 300, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  51  52  59 451 452 453 331
+ 332 333 334  84 230]
+Chose action 59/Build_Hatchery_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (59, 46)]
+
+Time step 48
+Resources : 310, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  51  52  59 451 452 453 331
+ 332 333 334  84 230]
+Chose action 59/Build_Hatchery_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (34, 58)]
+
+Time step 49
+Resources : 315, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  51  52  59 451 452 453 331
+ 332 333 334  84 230]
+Chose action 59/Build_Hatchery_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (36, 48)]
+
+Time step 50
+Resources : 325, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52  59 451 452 453 331 332
+ 333 334  84 230]
+Chose action 59/Build_Hatchery_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (13, 64)]
+
+Time step 51
+Resources : 350, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52  59 451 452 453 331 332
+ 333 334  84 230]
+Chose action 59/Build_Hatchery_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (27, 13)]
+
+Time step 52
+Resources : 50, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 53
+Resources : 60, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 54
+Resources : 65, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 55
+Resources : 75, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 56
+Resources : 85, 0
+Supply : 13/14
+Selected : [[ 86   1 162   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451 452 140 335 336 343 344]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 57
+Resources : 90, 0
+Supply : 13/14
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 467]
+Chose action 467/Train_Drone_quick (3/queued [2]), args ['now']
+
+Time step 58
+Resources : 55, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (46, 41)]
+
+Time step 59
+Resources : 65, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 274
+  52]
+Chose action 52/Build_Extractor_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (60, 21)]
+
+Time step 60
+Resources : 45, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 274
+  52]
+Chose action 52/Build_Extractor_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (25, 56)]
+
+Time step 61
+Resources : 50, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 274
+  52]
+Chose action 52/Build_Extractor_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (60, 21)]
+
+Time step 62
+Resources : 65, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 274
+  52]
+Chose action 52/Build_Extractor_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (60, 21)]
+
+Time step 63
+Resources : 65, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 274
+  52]
+Chose action 52/Build_Extractor_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (60, 21)]
+
+Time step 64
+Resources : 75, 0
+Supply : 13/14
+Selected : [[88  1 57  0  0  0  1]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 140]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (38, 40)]
+
+Time step 65
+Resources : 85, 0
+Supply : 13/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 274
+  51  52]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (38, 40)]
+
+Time step 66
+Resources : 90, 0
+Supply : 13/14
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 467]
+Chose action 467/Train_Drone_quick (3/queued [2]), args ['now']
+
+Time step 67
+Resources : 55, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+
+Time step 68
+Resources : 65, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+
+Time step 69
+Resources : 65, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+
+Time step 70
+Resources : 75, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+
+Time step 71
+Resources : 90, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+
+Time step 72
+Resources : 95, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 73
+Resources : 95, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 74
+Resources : 115, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 75
+Resources : 120, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 76
+Resources : 125, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 77
+Resources : 130, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 78
+Resources : 145, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 79
+Resources : 155, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 80
+Resources : 155, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 81
+Resources : 160, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 82
+Resources : 185, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 83
+Resources : 190, 0
+Supply : 14/14
+Selected : [[151   1   0   0   0   0   0]], []
+Larvae : 2
+
+Time step 84
+Resources : 190, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 85
+Resources : 210, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (25, 42)]
+
+Time step 86
+Resources : 220, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (23, 60)]
+
+Time step 87
+Resources : 220, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (49, 66)]
+
+Time step 88
+Resources : 225, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (71, 82)]
+
+Time step 89
+Resources : 230, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (75, 64)]
+
+Time step 90
+Resources : 255, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  51  52 451 452 453 331 332
+ 333 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (19, 18)]
+
+Time step 91
+Resources : 260, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  51  52 451 452 453 331 332
+ 333 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (8, 61)]
+
+Time step 92
+Resources : 270, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  51  52 451 452 453 331 332
+ 333 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (29, 5)]
+
+Time step 93
+Resources : 280, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (37, 33)]
+
+Time step 94
+Resources : 290, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (38, 60)]
+
+Time step 95
+Resources : 290, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (74, 20)]
+
+Time step 96
+Resources : 295, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (35, 4)]
+
+Time step 97
+Resources : 300, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52  59 451 452 453 331 332
+ 333 334  84 230]
+Chose action 84/Build_SpawningPool_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (42, 15)]
+
+Time step 98
+Resources : 130, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 99
+Resources : 135, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 100
+Resources : 145, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 101
+Resources : 155, 0
+Supply : 13/14
+Selected : [[ 89   1 101   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 140]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 43)]
+
+Time step 102
+Resources : 155, 0
+Supply : 13/14
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483 467]
+Chose action 467/Train_Drone_quick (3/queued [2]), args ['now']
+
+Time step 103
+Resources : 110, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 43)]
+
+Time step 104
+Resources : 115, 0
+Supply : 14/14
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 483]
+Chose action 483/Train_Overlord_quick (3/queued [2]), args ['now']
+
+Time step 105
+Resources : 45, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (53, 31)]
+
+Time step 106
+Resources : 50, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 269
+ 274  52]
+Chose action 264/Harvest_Gather_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (60, 21)]
+
+Time step 107
+Resources : 50, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 269
+ 274  52]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (47, 35)]
+
+Time step 108
+Resources : 60, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 274
+  52]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (45, 37)]
+
+Time step 109
+Resources : 70, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 274
+  52]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (53, 31)]
+
+Time step 110
+Resources : 70, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 269
+ 274  52]
+Chose action 264/Harvest_Gather_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (60, 21)]
+
+Time step 111
+Resources : 70, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453 549 230 264 451 452 331 332 333 334  12  13 269
+ 274  52]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (52, 34)]
+
+Time step 112
+Resources : 85, 4
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  51  52 451 452 453 331 332
+ 333 334 230]
+Chose action 264/Harvest_Gather_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (60, 21)]
+
+Time step 113
+Resources : 100, 4
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+
+Time step 114
+Resources : 100, 4
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+
+Time step 115
+Resources : 110, 4
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+
+Time step 116
+Resources : 120, 8
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 1
+
+Time step 117
+Resources : 120, 8
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 118
+Resources : 120, 12
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 119
+Resources : 130, 12
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 120
+Resources : 140, 16
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 121
+Resources : 150, 16
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 122
+Resources : 155, 20
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 123
+Resources : 165, 20
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 124
+Resources : 170, 24
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 125
+Resources : 170, 24
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 126
+Resources : 180, 28
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 127
+Resources : 185, 28
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 128
+Resources : 200, 32
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+
+Time step 129
+Resources : 205, 32
+Supply : 14/22
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 42)]
+
+Time step 130
+Resources : 210, 36
+Supply : 14/22
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52 451 452 453 331 332 333
+ 334  84 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 131
+Resources : 220, 36
+Supply : 14/22
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 483 467]
+Chose action 467/Train_Drone_quick (3/queued [2]), args ['now']
+
+Time step 132
+Resources : 180, 40
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 133
+Resources : 185, 40
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 134
+Resources : 185, 44
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 135
+Resources : 205, 44
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 136
+Resources : 205, 48
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 137
+Resources : 215, 48
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 138
+Resources : 220, 52
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 139
+Resources : 235, 52
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 140
+Resources : 240, 52
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 141
+Resources : 240, 56
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 142
+Resources : 245, 56
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 143
+Resources : 265, 60
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 144
+Resources : 270, 60
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 145
+Resources : 270, 64
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 146
+Resources : 290, 64
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 147
+Resources : 295, 68
+Supply : 15/22
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 148
+Resources : 295, 68
+Supply : 15/22
+Selected : [[151   1   0   0   0   0   0]], []
+Larvae : 3
+
+Time step 149
+Resources : 300, 72
+Supply : 15/22
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 150
+Resources : 310, 72
+Supply : 15/22
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 151
+Resources : 320, 76
+Supply : 15/22
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 152
+Resources : 325, 76
+Supply : 15/22
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 153
+Resources : 340, 80
+Supply : 15/22
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 154
+Resources : 345, 80
+Supply : 15/22
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 155
+Resources : 350, 84
+Supply : 15/22
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 156
+Resources : 360, 84
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 157
+Resources : 365, 88
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 158
+Resources : 375, 88
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 159
+Resources : 375, 92
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 160
+Resources : 395, 92
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 161
+Resources : 405, 96
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 162
+Resources : 410, 96
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 163
+Resources : 415, 100
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 164
+Resources : 425, 100
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 264  12  13 274 549  51  52  59 451 452 453 331 332
+ 333 334  84 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (49, 25)]
+
+Time step 165
+Resources : 430, 104
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 166
+Resources : 440, 104
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 264  12  13 274 549  41  51  52  59 451 452 453 331
+ 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (50, 25)]
+
+Time step 167
+Resources : 450, 108
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 168
+Resources : 455, 108
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 264  12  13 274 549  41  51  52  59 451 452 453 331
+ 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (50, 25)]
+
+Time step 169
+Resources : 470, 112
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+
+Time step 170
+Resources : 470, 112
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 264  12  13 274 549  41  51  52  59 451 452 453 331
+ 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (51, 24)]
+
+Time step 171
+Resources : 485, 116
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+
+Time step 172
+Resources : 485, 116
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 264  12  13 274 549  41  51  52  59 451 452 453 331
+ 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (51, 24)]
+
+Time step 173
+Resources : 505, 116
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 264  12  13 274 549  41  51  52  59 451 452 453 331
+ 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (45, 27)]
+
+Time step 174
+Resources : 510, 120
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 264  12  13 274 549  41  51  52  59 451 452 453 331
+ 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (51, 24)]
+
+Time step 175
+Resources : 510, 120
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  41  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 264/Harvest_Gather_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (58, 31)]
+
+Time step 176
+Resources : 530, 120
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  41  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (52, 24)]
+
+Time step 177
+Resources : 535, 120
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  41  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 264/Harvest_Gather_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (58, 31)]
+
+Time step 178
+Resources : 540, 120
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  41  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (52, 24)]
+
+Time step 179
+Resources : 545, 120
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  41  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 264/Harvest_Gather_screen (3/queued [2]; 0/screen [0, 0]), args ['now', (58, 31)]
+
+Time step 180
+Resources : 565, 120
+Supply : 15/28
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 264  12  13 269 274 549  41  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (42, 14)]
+
+Time step 181
+Resources : 570, 120
+Supply : 15/28
+Selected : [[  89    1 1000    0    0    0    0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 450]
+Chose action 450/Research_ZerglingMetabolicBoost_quick (3/queued [2]), args ['now']
+
+Time step 182
+Resources : 470, 20
+Supply : 15/28
+Selected : [[  89    1 1000    0    0    0    0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 168  11]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (30, 24)]
+
+Time step 183
+Resources : 485, 20
+Supply : 15/28
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 483 467 504]
+Chose action 467/Train_Drone_quick (3/queued [2]), args ['now']
+
+Time step 184
+Resources : 450, 20
+Supply : 16/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (28, 14)]
+
+Time step 185
+Resources : 450, 20
+Supply : 16/28
+Selected : [[  86    1 1500    0    0    0    0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 451 486 452   9 335 336 343 344]
+Chose action 486/Train_Queen_quick (3/queued [2]), args ['now']
+
+Time step 186
+Resources : 310, 20
+Supply : 18/28
+Selected : [[  86    1 1500    0    0    0    0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 451 486 452 168   9  11 335 336 343 344]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 43)]
+
+Time step 187
+Resources : 325, 20
+Supply : 18/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 453 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 24)]
+
+Time step 188
+Resources : 330, 20
+Supply : 18/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 41)]
+
+Time step 189
+Resources : 335, 20
+Supply : 18/28
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 483 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 190
+Resources : 300, 20
+Supply : 19/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 41)]
+
+Time step 191
+Resources : 315, 20
+Supply : 19/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 40)]
+
+Time step 192
+Resources : 325, 20
+Supply : 19/28
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 483 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 193
+Resources : 280, 20
+Supply : 20/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (30, 23)]
+
+Time step 194
+Resources : 290, 20
+Supply : 20/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 41)]
+
+Time step 195
+Resources : 300, 20
+Supply : 20/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 23)]
+
+Time step 196
+Resources : 310, 20
+Supply : 20/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 197
+Resources : 315, 20
+Supply : 20/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 42)]
+
+Time step 198
+Resources : 330, 20
+Supply : 20/28
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 199
+Resources : 295, 20
+Supply : 21/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (28, 24)]
+
+Time step 200
+Resources : 300, 20
+Supply : 21/28
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 483   6 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 201
+Resources : 260, 20
+Supply : 22/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (25, 23)]
+
+Time step 202
+Resources : 260, 20
+Supply : 22/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (25, 23)]
+
+Time step 203
+Resources : 280, 20
+Supply : 22/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (26, 23)]
+
+Time step 204
+Resources : 285, 20
+Supply : 22/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (26, 23)]
+
+Time step 205
+Resources : 290, 20
+Supply : 22/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (26, 23)]
+
+Time step 206
+Resources : 305, 20
+Supply : 22/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (27, 23)]
+
+Time step 207
+Resources : 320, 20
+Supply : 22/28
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483   6 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 208
+Resources : 275, 20
+Supply : 23/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 24)]
+
+Time step 209
+Resources : 285, 20
+Supply : 23/28
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 483   6 467 504]
+Chose action 483/Train_Overlord_quick (3/queued [2]), args ['now']
+
+Time step 210
+Resources : 200, 20
+Supply : 23/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 451   6 452 168  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 211
+Resources : 210, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453   6 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 212
+Resources : 215, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453   6 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 213
+Resources : 225, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (38, 42)]
+
+Time step 214
+Resources : 240, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (38, 42)]
+
+Time step 215
+Resources : 250, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 42)]
+
+Time step 216
+Resources : 255, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (30, 23)]
+
+Time step 217
+Resources : 265, 20
+Supply : 23/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 42)]
+
+Time step 218
+Resources : 280, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 219
+Resources : 295, 20
+Supply : 23/28
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 23)]
+
+Time step 220
+Resources : 295, 20
+Supply : 23/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 41)]
+
+Time step 221
+Resources : 315, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 41)]
+
+Time step 222
+Resources : 325, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (28, 24)]
+
+Time step 223
+Resources : 330, 20
+Supply : 23/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (30, 24)]
+
+Time step 224
+Resources : 340, 20
+Supply : 23/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 41)]
+
+Time step 225
+Resources : 350, 20
+Supply : 23/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 226
+Resources : 365, 20
+Supply : 23/28
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 227
+Resources : 370, 20
+Supply : 23/28
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 41)]
+
+Time step 228
+Resources : 385, 20
+Supply : 23/28
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (28, 26)]
+
+Time step 229
+Resources : 395, 20
+Supply : 23/28
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 230
+Resources : 355, 20
+Supply : 24/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (33, 40)]
+
+Time step 231
+Resources : 360, 20
+Supply : 24/28
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 232
+Resources : 320, 20
+Supply : 25/28
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 233
+Resources : 330, 20
+Supply : 25/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 25)]
+
+Time step 234
+Resources : 345, 20
+Supply : 25/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 25)]
+
+Time step 235
+Resources : 360, 20
+Supply : 25/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 236
+Resources : 365, 20
+Supply : 25/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (28, 25)]
+
+Time step 237
+Resources : 380, 20
+Supply : 25/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 238
+Resources : 385, 20
+Supply : 25/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (27, 25)]
+
+Time step 239
+Resources : 390, 20
+Supply : 25/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 41)]
+
+Time step 240
+Resources : 405, 20
+Supply : 25/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 43)]
+
+Time step 241
+Resources : 410, 20
+Supply : 25/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 242
+Resources : 380, 20
+Supply : 26/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 41)]
+
+Time step 243
+Resources : 390, 20
+Supply : 26/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (28, 22)]
+
+Time step 244
+Resources : 395, 20
+Supply : 26/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (27, 23)]
+
+Time step 245
+Resources : 405, 20
+Supply : 26/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 40)]
+
+Time step 246
+Resources : 415, 20
+Supply : 26/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (26, 24)]
+
+Time step 247
+Resources : 425, 20
+Supply : 26/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 24)]
+
+Time step 248
+Resources : 435, 20
+Supply : 26/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 249
+Resources : 395, 20
+Supply : 27/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (28, 22)]
+
+Time step 250
+Resources : 415, 20
+Supply : 27/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 251
+Resources : 370, 20
+Supply : 28/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 40)]
+
+Time step 252
+Resources : 380, 20
+Supply : 28/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (33, 41)]
+
+Time step 253
+Resources : 390, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 42)]
+
+Time step 254
+Resources : 395, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 42)]
+
+Time step 255
+Resources : 410, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 42)]
+
+Time step 256
+Resources : 420, 20
+Supply : 28/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 42)]
+
+Time step 257
+Resources : 430, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 41)]
+
+Time step 258
+Resources : 445, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 41)]
+
+Time step 259
+Resources : 450, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 42)]
+
+Time step 260
+Resources : 460, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 41)]
+
+Time step 261
+Resources : 465, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 23)]
+
+Time step 262
+Resources : 485, 20
+Supply : 28/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 263
+Resources : 490, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 264
+Resources : 495, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (30, 22)]
+
+Time step 265
+Resources : 515, 20
+Supply : 28/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 42)]
+
+Time step 266
+Resources : 525, 20
+Supply : 28/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 42)]
+
+Time step 267
+Resources : 530, 20
+Supply : 28/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 268
+Resources : 485, 20
+Supply : 29/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 25)]
+
+Time step 269
+Resources : 505, 20
+Supply : 29/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 270
+Resources : 465, 20
+Supply : 30/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 42)]
+
+Time step 271
+Resources : 475, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 42)]
+
+Time step 272
+Resources : 480, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 273
+Resources : 495, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 274
+Resources : 505, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 42)]
+
+Time step 275
+Resources : 515, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 42)]
+
+Time step 276
+Resources : 525, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (30, 24)]
+
+Time step 277
+Resources : 540, 20
+Supply : 30/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (30, 23)]
+
+Time step 278
+Resources : 545, 20
+Supply : 30/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 279
+Resources : 550, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 23)]
+
+Time step 280
+Resources : 565, 20
+Supply : 30/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 281
+Resources : 580, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 282
+Resources : 585, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 42)]
+
+Time step 283
+Resources : 600, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 40)]
+
+Time step 284
+Resources : 605, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (27, 25)]
+
+Time step 285
+Resources : 620, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 41)]
+
+Time step 286
+Resources : 625, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 40)]
+
+Time step 287
+Resources : 630, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 41)]
+
+Time step 288
+Resources : 645, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (28, 24)]
+
+Time step 289
+Resources : 665, 20
+Supply : 30/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 43)]
+
+Time step 290
+Resources : 675, 20
+Supply : 30/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 291
+Resources : 675, 20
+Supply : 30/36
+Selected : [[105   1  35   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 42)]
+
+Time step 292
+Resources : 690, 20
+Supply : 30/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 293
+Resources : 650, 20
+Supply : 31/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 42)]
+
+Time step 294
+Resources : 655, 20
+Supply : 31/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 295
+Resources : 620, 20
+Supply : 32/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 25)]
+
+Time step 296
+Resources : 635, 20
+Supply : 32/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (28, 22)]
+
+Time step 297
+Resources : 645, 20
+Supply : 32/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 298
+Resources : 600, 20
+Supply : 33/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (36, 41)]
+
+Time step 299
+Resources : 605, 20
+Supply : 33/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 23)]
+
+Time step 300
+Resources : 620, 20
+Supply : 33/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 23)]
+
+Time step 301
+Resources : 630, 20
+Supply : 33/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 42)]
+
+Time step 302
+Resources : 635, 20
+Supply : 33/36
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 43)]
+
+Time step 303
+Resources : 655, 20
+Supply : 33/36
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (27, 23)]
+
+Time step 304
+Resources : 665, 20
+Supply : 33/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 305
+Resources : 620, 20
+Supply : 34/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 306
+Resources : 630, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 2
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 307
+Resources : 640, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 308
+Resources : 650, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 309
+Resources : 660, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 310
+Resources : 680, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 311
+Resources : 685, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 312
+Resources : 695, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 313
+Resources : 705, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 314
+Resources : 715, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 315
+Resources : 720, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 316
+Resources : 735, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 317
+Resources : 750, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 318
+Resources : 760, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 319
+Resources : 765, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 320
+Resources : 770, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 321
+Resources : 785, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 322
+Resources : 795, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 323
+Resources : 800, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 324
+Resources : 820, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 325
+Resources : 825, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 326
+Resources : 840, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 327
+Resources : 845, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 328
+Resources : 860, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 329
+Resources : 870, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 330
+Resources : 880, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 331
+Resources : 890, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 332
+Resources : 900, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 333
+Resources : 910, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 334
+Resources : 920, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 335
+Resources : 925, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 336
+Resources : 940, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 337
+Resources : 955, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 338
+Resources : 960, 20
+Supply : 33/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  23   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 24)]
+
+Time step 339
+Resources : 965, 20
+Supply : 33/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 6
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 25)]
+
+Time step 340
+Resources : 980, 20
+Supply : 32/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 6
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 341
+Resources : 940, 20
+Supply : 33/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (29, 22)]
+
+Time step 342
+Resources : 950, 20
+Supply : 33/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 343
+Resources : 905, 20
+Supply : 34/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 344
+Resources : 930, 20
+Supply : 33/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  11   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  13   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 41)]
+
+Time step 345
+Resources : 935, 20
+Supply : 32/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 4
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 346
+Resources : 890, 20
+Supply : 33/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (26, 23)]
+
+Time step 347
+Resources : 900, 20
+Supply : 33/36
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (26, 23)]
+
+Time step 348
+Resources : 910, 20
+Supply : 33/36
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 43)]
+
+Time step 349
+Resources : 925, 20
+Supply : 33/36
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 42)]
+
+Time step 350
+Resources : 930, 20
+Supply : 33/36
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 42)]
+
+Time step 351
+Resources : 945, 20
+Supply : 33/36
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 453   6   7 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (35, 41)]
+
+Time step 352
+Resources : 960, 20
+Supply : 33/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 3
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 353
+Resources : 915, 20
+Supply : 34/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 354
+Resources : 920, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  15   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 2
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 355
+Resources : 935, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  16   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 356
+Resources : 945, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  16   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 357
+Resources : 955, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  16   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 358
+Resources : 965, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  17   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 359
+Resources : 980, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  17   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 3
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 360
+Resources : 990, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  17   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 361
+Resources : 995, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  17   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 362
+Resources : 1005, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  18   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 363
+Resources : 1015, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  18   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 364
+Resources : 1030, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  18   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 365
+Resources : 1040, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  18   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 366
+Resources : 1045, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  19   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 367
+Resources : 1060, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  19   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  23   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 368
+Resources : 1070, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  19   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  18   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 369
+Resources : 1080, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  20   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  12   0   0   0   0]]
+Larvae : 4
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 370
+Resources : 1080, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  20   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1   6   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 371
+Resources : 1105, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  20   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1   0   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 372
+Resources : 1110, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  14   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 373
+Resources : 1115, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1   9   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 374
+Resources : 1130, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1   9   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 375
+Resources : 1140, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  23   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1   9   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 376
+Resources : 1150, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  24   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1   9   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 377
+Resources : 1155, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  24   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  10   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 378
+Resources : 1165, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  24   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  10   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 379
+Resources : 1185, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  24   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  10   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 380
+Resources : 1190, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  11   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 381
+Resources : 1200, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  11   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 382
+Resources : 1215, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  21   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  11   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 383
+Resources : 1220, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  21   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  11   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 384
+Resources : 1235, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  21   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  12   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 385
+Resources : 1240, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  22   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  12   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 386
+Resources : 1250, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  22   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  12   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 387
+Resources : 1265, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  22   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  12   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 388
+Resources : 1270, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  23   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  13   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 389
+Resources : 1280, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  23   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  13   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 390
+Resources : 1295, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  23   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  13   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 391
+Resources : 1305, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  23   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  14   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 392
+Resources : 1320, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  24   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  14   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 393
+Resources : 1320, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  24   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  14   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 394
+Resources : 1340, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  24   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  14   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 395
+Resources : 1345, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  24   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  15   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 396
+Resources : 1355, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  15   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 397
+Resources : 1365, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  16   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  15   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 398
+Resources : 1380, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1   6   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  15   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 399
+Resources : 1395, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1   6   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  16   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 400
+Resources : 1395, 20
+Supply : 33/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  16   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (27, 25)]
+
+Time step 401
+Resources : 1400, 20
+Supply : 33/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 6
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (34, 43)]
+
+Time step 402
+Resources : 1420, 20
+Supply : 33/36
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 6
+Available actions : [  0   1   2   3   4   6   7 264  12  13 274 549  51  52  59 451 452 453
+ 331 332 333 334  80  84  85  87 230]
+Chose action 2/select_point (6/select_point_act [4]; 0/screen [0, 0]), args ['select', (37, 41)]
+
+Time step 403
+Resources : 1425, 20
+Supply : 33/36
+Selected : [[151   1  25   0   0   0   0]], []
+Larvae : 6
+Available actions : [  0   1   2   3   4 483   6   7 467 504]
+Chose action 504/Train_Zergling_quick (3/queued [2]), args ['now']
+
+Time step 404
+Resources : 1385, 20
+Supply : 34/36
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 5
+Available actions : [  0   1   2   3   4 451   6   7 168 452  11 335 336]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 405
+Resources : 1400, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  17   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 13/Attack_minimap (3/queued [2]; 1/minimap [0, 0]), args ['now', (12, 16)]
+
+Time step 406
+Resources : 1410, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  26   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  18   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 407
+Resources : 1420, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  18   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 408
+Resources : 1425, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  18   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 409
+Resources : 1435, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  27   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  18   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 410
+Resources : 1450, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  19   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 411
+Resources : 1455, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  19   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 412
+Resources : 1475, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  33   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  19   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 413
+Resources : 1480, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  28   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  20   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 414
+Resources : 1490, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  20   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 415
+Resources : 1500, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  34   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  20   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 416
+Resources : 1505, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  20   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 417
+Resources : 1515, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  29   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  21   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 5
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 418
+Resources : 1530, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  21   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 419
+Resources : 1540, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  25   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  21   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 420
+Resources : 1555, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  19   0   0   0   0]
+ [105   1  30   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  21   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 421
+Resources : 1570, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  14   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  22   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 422
+Resources : 1570, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  14   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  22   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 423
+Resources : 1580, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  14   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  22   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 424
+Resources : 1585, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  14   0   0   0   0]
+ [105   1  31   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  23   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 425
+Resources : 1595, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  15   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  23   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
+Larvae : 6
+Available actions : [  0   1   2   3   4   5   6   7 453 451 452 331 332 333 334  12  13 274]
+Chose action 7/select_army (7/select_add [2]), args ['select']
+
+Time step 426
+Resources : 1620, 20
+Supply : 34/36
+Selected : [], [[105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  15   0   0   0   0]
+ [105   1  32   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  23   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]
+ [105   1  35   0   0   0   0]]
