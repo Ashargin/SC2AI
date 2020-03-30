@@ -2,11 +2,9 @@ import os
 import numpy as np
 import random as rd
 from pysc2.agents import base_agent
-from pysc2.lib import actions, features, units
-
-_PLAYER_SELF = features.PlayerRelative.SELF
-_PLAYER_NEUTRAL = features.PlayerRelative.NEUTRAL # beacon/minerals
-_PLAYER_ENEMY = features.PlayerRelative.ENEMY
+from pysc2.lib import actions, buffs, features, units, upgrades
+from memory import Memory
+from settings import RESOLUTION
 
 FUNCTIONS = actions.FUNCTIONS
 RAW_FUNCTIONS = actions.RAW_FUNCTIONS
@@ -16,33 +14,37 @@ class BaseAgent(base_agent.BaseAgent):
     def __init__(self):
         super().__init__()
         self.log = None # debug tool
-        self.game = -1
+        self.time_step = 0
+        self.memory = Memory()
+        self.action = None
 
     def reset(self):
         super().reset()
-        self.game += 1
         if self.log is not None:
             self.log.close()
-        self.log = open('{}\\data\\logs\\log_{}_game_{}.txt'.format(
-                        os.path.abspath(os.getcwd()), self.__class__.__name__, self.game), 'w')
+        self.log = open(f'{os.path.abspath(os.getcwd())}'
+                        f'\\data\\logs\\log_{self.__class__.__name__}_game_{self.episodes-1}.txt', 'w')
         self.time_step = 0
+        self.memory = Memory()
 
     def step(self, obs):
         super().step(obs)
         self.obs = obs
+        self.action = None
+        self.memory.update(self.obs)
 
         if obs.first():
             self.log.write('### Game log ###')
 
         # Log data
-        self.log.write('\n\nTime step {}'.format(self.time_step))
-        self.log.write('\nResources : {}, {}'.format(self.obs.observation.player.minerals,
-                                                self.obs.observation.player.vespene))
-        self.log.write('\nSupply : {}/{}'.format(self.obs.observation.player.food_used,
-                                            self.obs.observation.player.food_cap))
-        self.log.write('\nSelected : {}, {}'.format(self.obs.observation.single_select,
-                                                self.obs.observation.multi_select))
-        self.log.write('\nLarvae : {}'.format(self.unit_count(units.Zerg.Larva)))
+        self.log.write(f'\n\nTime step {self.time_step}')
+        self.log.write(f'\nResources : {self.obs.observation.player.minerals}, '
+                       f'{self.obs.observation.player.vespene}')
+        self.log.write(f'\nSupply : {self.obs.observation.player.food_used}'
+                       f'/{self.obs.observation.player.food_cap}')
+        self.log.write(f'\nSelected : {self.obs.observation.single_select}, '
+                       f'{self.obs.observation.multi_select}')
+        self.log.write(f'\nLarvae : {self.unit_count(units.Zerg.Larva)}')
 
         self.time_step += 1
 
@@ -60,17 +62,17 @@ class BaseAgent(base_agent.BaseAgent):
         if unit_type in [u.unit_type for u in self.obs.observation.multi_select]:
             return True
         return False
-  
+
     def available(self, action):
         return action.id in self.obs.observation.available_actions
 
     def do_if_available(self, action, *args, raise_error=True):
-        self.log.write('\nAvailable actions : {}'.format(self.obs.observation.available_actions))
+        self.log.write(f'\nAvailable actions : {self.obs.observation.available_actions}')
         if self.available(action):
-            self.log.write('\nChose action {}, args {}'.format(action, list(args)))
+            self.log.write(f'\nChose action {action}, args {list(args)}')
             return action(*args)
         if raise_error:
-            raise Warning('Cannot perform action {}'.format(action))
+            raise Warning(f'Cannot perform action {action}')
         return FUNCTIONS.no_op()
 
     # Base actions
@@ -84,23 +86,23 @@ class BaseAgent(base_agent.BaseAgent):
                 x, y = picked.x, picked.y
             else:
                 x, y = how
-            x = min(max(x, 0), 83)
-            y = min(max(y, 0), 83)
+            x = min(max(x, 0), RESOLUTION - 1)
+            y = min(max(y, 0), RESOLUTION - 1)
             return self.do_if_available(FUNCTIONS.select_point,
                                         'select', (x, y))
-        raise Warning('No available {} to be selected'.format(unit_type))
+        raise Warning(f'No available {unit_type} to be selected')
 
     def try_build(self, action, how='naive'):
         if self.unit_type_is_selected(self.worker_type) \
                 and all([u[2] > 0 for u in self.obs.observation.single_select]) \
                 and all([u[2] > 0 for u in self.obs.observation.multi_select]):
             if how == 'naive':
-                x = np.random.randint(0, 83)
-                y = np.random.randint(0, 83)
+                x = np.random.randint(0, RESOLUTION - 1)
+                y = np.random.randint(0, RESOLUTION - 1)
             else:
                 x, y = how
-            x = min(max(x, 0), 83)
-            y = min(max(y, 0), 83)
+            x = min(max(x, 0), RESOLUTION - 1)
+            y = min(max(y, 0), RESOLUTION - 1)
             return self.do_if_available(action,
                                         'now', (x, y), raise_error=False)
         return self.try_select(self.worker_type)
@@ -135,7 +137,7 @@ class ZergAgent(BaseAgent):
         if unit_type == units.Zerg.Zergling:
             mul = 2
         live_count = self.unit_count(unit_type)
-        raw_train_id = getattr(RAW_FUNCTIONS, 'Train_{}_quick'.format(unit_type.name)).id
+        raw_train_id = getattr(RAW_FUNCTIONS, f'Train_{unit_type.name}_quick').id
         training_count = sum([t.order_id_0 == raw_train_id
                                 for t in self.get_units_by_type(trainer)])
         return live_count + training_count * mul
@@ -223,17 +225,13 @@ class ZerglingRush(ZergAgent):
         minerals = self.obs.observation.player.minerals
         vespene = self.obs.observation.player.vespene
         player_relative = self.obs.observation.feature_minimap.player_relative
+        raw_units = self.obs.observation.raw_units
         n_workers = self.unit_count_with_training(self.worker_type)
 
         # Get attack coordinates
         if obs.first():
-            player_y, player_x = (player_relative == _PLAYER_SELF).nonzero()
-            xmean = player_x.mean()
-            ymean = player_y.mean()
-            if xmean <= 31 and ymean <= 31:
-                self.attack_coordinates = (49, 49)
-            else:
-                self.attack_coordinates = (12, 16)
+            hatchery = [u for u in raw_units if u.unit_type == 86][0]
+            self.attack_coordinates = (RESOLUTION - 1 - hatchery.x, RESOLUTION - 1 - hatchery.y)
 
         # Build order
         # 14 Hatchery
@@ -358,3 +356,8 @@ class ZerglingRush(ZergAgent):
         # Send zergling close to enemy base before 34
         # Set rally point of bases when attack is launched
         # Second queen?
+        # Micro
+
+        # Compte units dict
+        # Plus haut niveau
+        # no hard coded
