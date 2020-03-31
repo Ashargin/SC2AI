@@ -5,407 +5,469 @@ Resources : 50, 0
 Supply : 12/14
 Selected : [], []
 Larvae : 3
-Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4346871809]
+Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4346609665]
 
 Time step 1
 Resources : 0, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 2
 Resources : 0, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 3
 Resources : 0, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 4
 Resources : 0, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 5
 Resources : 0, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 6
 Resources : 0, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 7
 Resources : 5, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 8
 Resources : 10, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 9
 Resources : 20, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 10
 Resources : 25, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 11
 Resources : 45, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 12
 Resources : 60, 0
 Supply : 13/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
-Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4346609665]
+Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4346871809]
 
 Time step 13
 Resources : 10, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 14
 Resources : 10, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 15
 Resources : 15, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 16
 Resources : 35, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 17
 Resources : 40, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 18
 Resources : 45, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 19
 Resources : 65, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 20
 Resources : 70, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 21
 Resources : 70, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 22
 Resources : 70, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 23
 Resources : 90, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 24
 Resources : 100, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 25
 Resources : 100, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 26
 Resources : 120, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 27
 Resources : 130, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 28
 Resources : 130, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 29
 Resources : 130, 0
 Supply : 14/14
 Selected : [[151   1   0   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 30
 Resources : 145, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 31
 Resources : 165, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 32
 Resources : 165, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 33
 Resources : 170, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 34
 Resources : 190, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 35
 Resources : 195, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 36
 Resources : 200, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 37
 Resources : 210, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 38
 Resources : 225, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 39
 Resources : 230, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 40
-Resources : 235, 0
+Resources : 240, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 41
 Resources : 245, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 42
-Resources : 260, 0
+Resources : 255, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 43
-Resources : 265, 0
+Resources : 270, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 44
 Resources : 280, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 45
-Resources : 285, 0
+Resources : 280, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 46
 Resources : 295, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 47
 Resources : 305, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
-Chose action 197/Build_Hatchery_pt (1/queued [2]; 2/unit_tags [512]; 0/world [0, 0]), args ['now', 4347396097, (175, 115)]
+Chose action 197/Build_Hatchery_pt (1/queued [2]; 2/unit_tags [512]; 0/world [0, 0]), args ['now', 4347920385, (175, 115)]
 
 Time step 48
 Resources : 5, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 49
 Resources : 15, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 50
-Resources : 25, 0
+Resources : 30, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
-Chose action 193/Build_Extractor_unit (1/queued [2]; 2/unit_tags [512]; 3/target_unit_tag [512]), args ['now', 4348444673, 4299685889]
+Chose action 193/Build_Extractor_unit (1/queued [2]; 2/unit_tags [512]; 3/target_unit_tag [512]), args ['now', 4348706817, 4299948033]
 
 Time step 51
 Resources : 15, 0
 Supply : 14/14
 Selected : [[104   1  40   0   0   0   0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 52
-Resources : 15, 0
-Supply : 14/14
-Selected : [[104   1  40   0   0   0   0]], []
+Resources : 20, 0
+Supply : 13/14
+Selected : [[88  1 52  0  0  0  0]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 53
 Resources : 35, 0
 Supply : 13/14
-Selected : [[88  1 62  0  0  0  2]], []
+Selected : [[88  1 67  0  0  0  3]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 54
 Resources : 40, 0
 Supply : 13/14
-Selected : [[88  1 77  0  0  0  6]], []
+Selected : [[88  1 82  0  0  0  7]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 55
 Resources : 40, 0
 Supply : 13/14
-Selected : [[88  1 92  0  0  0  9]], []
+Selected : [[88  1 97  0  0  0 10]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 56
 Resources : 45, 0
 Supply : 13/14
-Selected : [[ 88   1 107   0   0   0  12]], []
+Selected : [[ 88   1 112   0   0   0  13]], []
 Larvae : 3
+Chose action 0/no_op (), args []
 
 Time step 57
-Resources : 60, 0
+Resources : 65, 0
 Supply : 13/14
-Selected : [[ 88   1 122   0   0   0  16]], []
+Selected : [[ 88   1 127   0   0   0  17]], []
 Larvae : 3
-Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4354998273]
+Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4347133953]
 
 Time step 58
-Resources : 20, 0
+Resources : 25, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 59
 Resources : 25, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 60
 Resources : 35, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 61
 Resources : 45, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 62
-Resources : 50, 0
+Resources : 45, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 63
 Resources : 50, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 64
-Resources : 60, 0
+Resources : 65, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 65
 Resources : 75, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 66
 Resources : 80, 0
 Supply : 14/14
 Selected : [[103   1 200   0   0   0   0]], []
 Larvae : 2
+Chose action 0/no_op (), args []
 
 Time step 67
 Resources : 90, 0
@@ -416,3 +478,1617 @@ Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now
 
 Time step 68
 Resources : 50, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+Chose action 0/no_op (), args []
+
+Time step 69
+Resources : 55, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+Chose action 0/no_op (), args []
+
+Time step 70
+Resources : 55, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+Chose action 0/no_op (), args []
+
+Time step 71
+Resources : 80, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+Chose action 0/no_op (), args []
+
+Time step 72
+Resources : 85, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 73
+Resources : 90, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 74
+Resources : 95, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 75
+Resources : 100, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 76
+Resources : 115, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 77
+Resources : 120, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 78
+Resources : 130, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 79
+Resources : 140, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 80
+Resources : 145, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 81
+Resources : 155, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 82
+Resources : 160, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 83
+Resources : 170, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 84
+Resources : 185, 0
+Supply : 14/14
+Selected : [[151   1   0   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 85
+Resources : 195, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 86
+Resources : 200, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 2
+Chose action 217/Build_SpawningPool_pt (1/queued [2]; 2/unit_tags [512]; 0/world [0, 0]), args ['now', 4355260417, (168, 155)]
+
+Time step 87
+Resources : 0, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 88
+Resources : 10, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 89
+Resources : 15, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 90
+Resources : 25, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 91
+Resources : 40, 0
+Supply : 13/14
+Selected : [[ 89   1 104   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 92
+Resources : 55, 0
+Supply : 13/14
+Selected : [[ 89   1 118   0   0   0   2]], []
+Larvae : 3
+Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4356833281]
+
+Time step 93
+Resources : 5, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 94
+Resources : 20, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 95
+Resources : 20, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 96
+Resources : 25, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 97
+Resources : 30, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 98
+Resources : 55, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 99
+Resources : 65, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 100
+Resources : 70, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 101
+Resources : 80, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 102
+Resources : 85, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 103
+Resources : 85, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 104
+Resources : 85, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 105
+Resources : 115, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 515/Train_Overlord_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4354998273]
+
+Time step 106
+Resources : 20, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 1
+Chose action 0/no_op (), args []
+
+Time step 107
+Resources : 30, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 108
+Resources : 40, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 109
+Resources : 45, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 110
+Resources : 45, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 111
+Resources : 55, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 112
+Resources : 70, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 113
+Resources : 75, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 114
+Resources : 85, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 115
+Resources : 100, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 116
+Resources : 110, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 117
+Resources : 110, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 118
+Resources : 115, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 119
+Resources : 130, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 120
+Resources : 140, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 121
+Resources : 145, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 0/no_op (), args []
+
+Time step 122
+Resources : 155, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 123
+Resources : 165, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 124
+Resources : 175, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 125
+Resources : 185, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 126
+Resources : 190, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 127
+Resources : 190, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 128
+Resources : 205, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 129
+Resources : 215, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 130
+Resources : 220, 0
+Supply : 14/22
+Selected : [[151   1   0   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 131
+Resources : 245, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 132
+Resources : 250, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 133
+Resources : 255, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 134
+Resources : 260, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 135
+Resources : 275, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 136
+Resources : 275, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 137
+Resources : 290, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 138
+Resources : 305, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 139
+Resources : 320, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 140
+Resources : 325, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 141
+Resources : 325, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 142
+Resources : 335, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 143
+Resources : 345, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 144
+Resources : 355, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 145
+Resources : 365, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 146
+Resources : 385, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 147
+Resources : 390, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 148
+Resources : 395, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 149
+Resources : 400, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 150
+Resources : 405, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 151
+Resources : 425, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 152
+Resources : 425, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 153
+Resources : 435, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 154
+Resources : 460, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 155
+Resources : 460, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 156
+Resources : 465, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 157
+Resources : 475, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 158
+Resources : 490, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 159
+Resources : 490, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 160
+Resources : 510, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 161
+Resources : 520, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 162
+Resources : 530, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 163
+Resources : 535, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 164
+Resources : 540, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 165
+Resources : 555, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 166
+Resources : 565, 0
+Supply : 14/22
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 0/no_op (), args []
+
+Time step 167
+Resources : 570, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 168
+Resources : 580, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 169
+Resources : 600, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 170
+Resources : 600, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 171
+Resources : 610, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 172
+Resources : 615, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 173
+Resources : 625, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 174
+Resources : 640, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 175
+Resources : 640, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 176
+Resources : 655, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 177
+Resources : 670, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 178
+Resources : 680, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 179
+Resources : 680, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 180
+Resources : 695, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 181
+Resources : 705, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 4
+Chose action 0/no_op (), args []
+
+Time step 182
+Resources : 705, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 183
+Resources : 720, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 184
+Resources : 725, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 185
+Resources : 750, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 186
+Resources : 750, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 187
+Resources : 760, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 188
+Resources : 770, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 189
+Resources : 775, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 190
+Resources : 780, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 191
+Resources : 795, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 192
+Resources : 810, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 193
+Resources : 815, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 194
+Resources : 830, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 195
+Resources : 835, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 196
+Resources : 835, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 5
+Chose action 0/no_op (), args []
+
+Time step 197
+Resources : 850, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 198
+Resources : 860, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 199
+Resources : 865, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 200
+Resources : 885, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 201
+Resources : 895, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 202
+Resources : 895, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 203
+Resources : 905, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 204
+Resources : 910, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 205
+Resources : 925, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 206
+Resources : 935, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 207
+Resources : 945, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 208
+Resources : 965, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 209
+Resources : 965, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 210
+Resources : 975, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 211
+Resources : 980, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 212
+Resources : 995, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 213
+Resources : 1000, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 214
+Resources : 1010, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 215
+Resources : 1025, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 216
+Resources : 1030, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 217
+Resources : 1040, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 218
+Resources : 1045, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 219
+Resources : 1055, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 220
+Resources : 1065, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 221
+Resources : 1075, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 222
+Resources : 1080, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 223
+Resources : 1095, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 224
+Resources : 1105, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 225
+Resources : 1115, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 226
+Resources : 1125, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 227
+Resources : 1125, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 228
+Resources : 1145, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 229
+Resources : 1150, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 230
+Resources : 1150, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 231
+Resources : 1170, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 232
+Resources : 1180, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 233
+Resources : 1190, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 234
+Resources : 1195, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 235
+Resources : 1215, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 236
+Resources : 1215, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 237
+Resources : 1220, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 238
+Resources : 1230, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 239
+Resources : 1240, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 240
+Resources : 1260, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 241
+Resources : 1265, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 242
+Resources : 1270, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 243
+Resources : 1285, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 244
+Resources : 1290, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 245
+Resources : 1290, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 246
+Resources : 1315, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 247
+Resources : 1325, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 248
+Resources : 1330, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 249
+Resources : 1340, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 250
+Resources : 1345, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 251
+Resources : 1355, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 252
+Resources : 1360, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 253
+Resources : 1370, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 254
+Resources : 1385, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 255
+Resources : 1405, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 256
+Resources : 1405, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 257
+Resources : 1410, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 258
+Resources : 1425, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 259
+Resources : 1425, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 260
+Resources : 1440, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 261
+Resources : 1445, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 262
+Resources : 1465, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 263
+Resources : 1475, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 264
+Resources : 1475, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 265
+Resources : 1485, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 266
+Resources : 1500, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 267
+Resources : 1505, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 268
+Resources : 1505, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 269
+Resources : 1525, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 270
+Resources : 1535, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 271
+Resources : 1540, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 272
+Resources : 1550, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 273
+Resources : 1560, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 274
+Resources : 1570, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 275
+Resources : 1580, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 276
+Resources : 1585, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 277
+Resources : 1600, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 278
+Resources : 1610, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 279
+Resources : 1615, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 280
+Resources : 1635, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 281
+Resources : 1640, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 282
+Resources : 1645, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 283
+Resources : 1655, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 284
+Resources : 1660, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 285
+Resources : 1670, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 286
+Resources : 1680, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 287
+Resources : 1695, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 288
+Resources : 1700, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 289
+Resources : 1715, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 290
+Resources : 1720, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 291
+Resources : 1720, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 292
+Resources : 1740, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 293
+Resources : 1745, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 294
+Resources : 1760, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 295
+Resources : 1770, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 296
+Resources : 1780, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 297
+Resources : 1785, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []
+
+Time step 298
+Resources : 1790, 0
+Supply : 14/28
+Selected : [[106   1 200   0   0   0   0]], []
+Larvae : 6
+Chose action 0/no_op (), args []

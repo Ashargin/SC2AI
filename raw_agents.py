@@ -158,6 +158,9 @@ class RawAgent(base_agent.BaseAgent):
         attackers = [u.tag for u in attackers]
         return self.do(RAW_FUNCTIONS.Attack_minimap, 'now', attackers, coordinates)
 
+    def wait(self):
+        return self.do(RAW_FUNCTIONS.no_op)
+
 
 class ZergAgent(RawAgent):
     def __init__(self):
@@ -186,27 +189,53 @@ class ZergAgent(RawAgent):
     # Base actions
     def train(self, action, trainer=units.Zerg.Larva, how='random'):
         if trainer == units.Zerg.Larva and self.unit_count(units.Zerg.Larva) == 0:
-            return RAW_FUNCTIONS.no_op()
+            return self.wait()
         return super().train(action, trainer, how=how)
 
     # Specific actions
-    def wait_train_drone(self, how='random'):
+    def train_drone(self, how='random'):
         if self.obs.observation.player.minerals >= 50 \
                     and self.obs.observation.player.food_cap \
                     >= self.obs.observation.player.food_used + 1:
             return self.train(RAW_FUNCTIONS.Train_Drone_quick, how=how)
         else:
-            return RAW_FUNCTIONS.no_op()
+            return self.wait()
 
-    def build_hatchery(self):
-        return self.build(RAW_FUNCTIONS.Build_Hatchery_pt, how='base')
+    def train_overlord(self, how='random'):
+        if self.obs.observation.player.minerals >= 100:
+            return self.train(RAW_FUNCTIONS.Train_Overlord_quick, how=how)
+        else:
+            return self.wait()
+
+    def train_zergling(self, how='random'):
+        if self.obs.observation.player.minerals >= 50 \
+                    and self.obs.observation.player.food_cap \
+                    >= self.obs.observation.player.food_used + 1:
+            return self.train(RAW_FUNCTIONS.Train_Zergling_quick, how=how)
+        else:
+            return self.wait()
+
+    def build_hatchery(self, where='random'):
+        if self.obs.observation.player.minerals >= 300:
+            return self.build(RAW_FUNCTIONS.Build_Hatchery_pt, how='base', where=where)
+        else:
+            return self.wait()
+
+    def build_spawning_pool(self, how=1, where='random'):
+        if self.obs.observation.player.minerals >= 200:
+            return self.build(RAW_FUNCTIONS.Build_SpawningPool_pt, how=how, where=where)
+        else:
+            return self.wait()
 
     def build_extractor(self, how=1):
-        neutral_vespenes = self.get_units_by_type(units.Neutral.VespeneGeyser)
-        x, y = self.memory.base_locations[how - 1]
-        dists = [(v.x - x)**2 + (v.y - y)**2 for v in neutral_vespenes]
-        vespene = neutral_vespenes[np.argmin(dists)]
-        return self.build(RAW_FUNCTIONS.Build_Extractor_unit, how=how, where=vespene.tag)
+        if self.obs.observation.player.minerals >= 25:
+            neutral_vespenes = self.get_units_by_type(units.Neutral.VespeneGeyser)
+            x, y = self.memory.base_locations[how - 1]
+            dists = [(v.x - x)**2 + (v.y - y)**2 for v in neutral_vespenes]
+            vespene = neutral_vespenes[np.argmin(dists)]
+            return self.build(RAW_FUNCTIONS.Build_Extractor_unit, how=how, where=vespene.tag)
+        else:
+            return self.wait()
 
     def move_worker_to_gas(self):
         extractors = self.get_units_by_type(units.Zerg.Extractor)
@@ -253,6 +282,41 @@ class ZergAgent(RawAgent):
         w = workers[np.argmin(dists)]
         return self.try_select(self.worker_type, how=(w.x, w.y))
 
+    # High-level actions
+    def train_drone_hl(self, n, how='random'):
+        if self.action is None:
+            if not self.unit_count_with_training(units.Zerg.Drone) >= n:
+                self.action = self.train_drone(how=how)
+
+    def train_overlord_hl(self, n, how='random'):
+        if self.action is None:
+            if not self.unit_count_with_training(units.Zerg.Overlord) >= n:
+                self.action = self.train_overlord(how=how)
+
+    def train_zergling_hl(self, n, how='random'):
+        if self.action is None:
+            if not self.unit_count_with_training(units.Zerg.Zergling) >= n:
+                self.action = self.train_zergling(how=how)
+
+    def build_hatchery_hl(self, n, where='random'):
+        if self.action is None:
+            if not len(self.get_bases()) >= n:
+                self.action = self.build_hatchery(where=where)
+
+    def build_spawning_pool_hl(self, n, how=1, where='random'):
+        if self.action is None:
+            if not self.unit_count(units.Zerg.SpawningPool) >= n:
+                self.action = self.build_spawning_pool(how=how, where=where)
+
+    def build_extractor_hl(self, n, how=1):
+        if self.action is None:
+            if not self.unit_count(units.Zerg.Extractor) >= n:
+                self.action = self.build_extractor(how=how)
+
+    def wait_hl(self):
+        if self.action is None:
+            self.action = self.wait()
+
 
 class ZerglingRush(ZergAgent):
     """Build : https://lotv.spawningtool.com/build/118355/"""
@@ -263,59 +327,55 @@ class ZerglingRush(ZergAgent):
 
     def step(self, obs):
         super().step(obs)
-        pop = self.obs.observation.player.food_used
-        cap = self.obs.observation.player.food_cap
-        minerals = self.obs.observation.player.minerals
-        vespene = self.obs.observation.player.vespene
-        player_relative = self.obs.observation.feature_minimap.player_relative
-        raw_units = self.obs.observation.raw_units
-        n_workers = self.unit_count_with_training(self.worker_type)
 
-        # Get attack coordinates
+        # Get enemy spawn coordinates
         if obs.first():
-            hatchery = [u for u in raw_units if u.unit_type == 86][0]
+            hatchery = self.get_bases()[0]
             self.attack_coordinates = (RESOLUTION - 1 - hatchery.x, RESOLUTION - 1 - hatchery.y)
 
         # Build order
-        # 14 Hatchery
-        if not self.unit_count(units.Zerg.Hatchery) >= 2:
-            if n_workers >= 14:
-                if minerals >= 300:
-                    return self.build_hatchery()
-                else:
-                    return RAW_FUNCTIONS.no_op()
-            else:
-                return self.wait_train_drone()
+        self.train_drone_hl(14)
+        self.build_hatchery_hl(2)
 
-        # 14 Extractor
-        if not self.unit_count(units.Zerg.Extractor) >= 1:
-            if n_workers >= 14:
-                if minerals >= 25:
-                    return self.build_extractor()
-                else:
-                    return RAW_FUNCTIONS.no_op()
-            else:
-                return self.wait_train_drone()
+        self.train_drone_hl(14)
+        self.build_extractor_hl(1)
 
-        # 14 Spawning pool
-        if not self.unit_count(units.Zerg.SpawningPool) >= 1:
-            if n_workers >= 14:
-                if minerals >= 200:
-                    return self.build(RAW_FUNCTIONS.Build_SpawningPool_pt)
-                else:
-                    return RAW_FUNCTIONS.no_op()
-            else:
-                return self.wait_train_drone()
+        self.train_drone_hl(14)
+        self.build_spawning_pool_hl(1)
 
-        # 14 Overlord
-        if not self.unit_count_with_training(units.Zerg.Overlord) >= 2:
-            if n_workers >= 14:
-                if minerals >= 100:
-                    return self.train(RAW_FUNCTIONS.Train_Overlord_quick)
-                else:
-                    return RAW_FUNCTIONS.no_op()
-            else:
-                return self.wait_train_drone()
+        self.train_drone_hl(14)
+        self.train_overlord_hl(2)
+
+        self.wait_hl()
+
+        return self.action
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         # Move drones to gas until 100 vespene are harvested
         spawning_pools = self.get_units_by_type(units.Zerg.SpawningPool)
@@ -404,5 +464,3 @@ class ZerglingRush(ZergAgent):
         # Compte units dict
         # Plus haut niveau
         # no hard coded
-
-        # action = None ==> plus haut niveau
