@@ -288,30 +288,55 @@ class ZergAgent(RawAgent):
             if not self.unit_count_with_training(units.Zerg.Drone) >= n:
                 self.action = self.train_drone(how=how)
 
-    def train_overlord_hl(self, n, how='random'):
+    def train_overlord_hl(self, n, pop=0, how='random', increase=None):
+        if increase is None:
+            increase = self.train_drone
         if self.action is None:
             if not self.unit_count_with_training(units.Zerg.Overlord) >= n:
-                self.action = self.train_overlord(how=how)
+                if self.obs.observation.player.food_used >= pop:
+                    self.action = self.train_overlord(how=how)
+                else:
+                    self.action = increase()
 
-    def train_zergling_hl(self, n, how='random'):
+    def train_zergling_hl(self, n, pop=0, how='random', increase=None):
+        if increase is None:
+            increase = self.train_drone
         if self.action is None:
             if not self.unit_count_with_training(units.Zerg.Zergling) >= n:
-                self.action = self.train_zergling(how=how)
+                if self.obs.observation.player.food_used >= pop:
+                    self.action = self.train_zergling(how=how)
+                else:
+                    self.action = increase()
 
-    def build_hatchery_hl(self, n, where='random'):
+    def build_hatchery_hl(self, n, pop=0, where='random', increase=None):
+        if increase is None:
+            increase = self.train_drone
         if self.action is None:
             if not len(self.get_bases()) >= n:
-                self.action = self.build_hatchery(where=where)
+                if self.obs.observation.player.food_used >= pop:
+                    self.action = self.build_hatchery(where=where)
+                else:
+                    self.action = increase()
 
-    def build_spawning_pool_hl(self, n, how=1, where='random'):
+    def build_spawning_pool_hl(self, n, pop=0, how=1, where='random', increase=None):
+        if increase is None:
+            increase = self.train_drone
         if self.action is None:
             if not self.unit_count(units.Zerg.SpawningPool) >= n:
-                self.action = self.build_spawning_pool(how=how, where=where)
+                if self.obs.observation.player.food_used >= pop:
+                    self.action = self.build_spawning_pool(how=how, where=where)
+                else:
+                    self.action = increase()
 
-    def build_extractor_hl(self, n, how=1):
+    def build_extractor_hl(self, n, pop=0, how=1, increase=None):
+        if increase is None:
+            increase = self.train_drone
         if self.action is None:
             if not self.unit_count(units.Zerg.Extractor) >= n:
-                self.action = self.build_extractor(how=how)
+                if self.obs.observation.player.food_used >= pop:
+                    self.action = self.build_extractor(how=how)
+                else:
+                    self.action = increase()
 
     def wait_hl(self):
         if self.action is None:
@@ -334,18 +359,10 @@ class ZerglingRush(ZergAgent):
             self.attack_coordinates = (RESOLUTION - 1 - hatchery.x, RESOLUTION - 1 - hatchery.y)
 
         # Build order
-        self.train_drone_hl(14)
-        self.build_hatchery_hl(2)
-
-        self.train_drone_hl(14)
-        self.build_extractor_hl(1)
-
-        self.train_drone_hl(14)
-        self.build_spawning_pool_hl(1)
-
-        self.train_drone_hl(14)
-        self.train_overlord_hl(2)
-
+        self.build_hatchery_hl(2, pop=14)
+        self.build_extractor_hl(1, pop=14)
+        self.build_spawning_pool_hl(1, pop=14)
+        self.train_overlord_hl(2, pop=14)
         self.wait_hl()
 
         return self.action
