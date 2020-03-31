@@ -10,11 +10,12 @@ FUNCTIONS = actions.FUNCTIONS
 RAW_FUNCTIONS = actions.RAW_FUNCTIONS
 
 
-class BaseAgent(base_agent.BaseAgent):
+class FeatureAgent(base_agent.BaseAgent):
     def __init__(self):
         super().__init__()
+        self.raw_interface = False
         self.log = None # debug tool
-        self.time_step = 0
+        self.game_step = 0
         self.memory = Memory()
         self.action = None
 
@@ -24,7 +25,7 @@ class BaseAgent(base_agent.BaseAgent):
             self.log.close()
         self.log = open(f'{os.path.abspath(os.getcwd())}'
                         f'\\data\\logs\\log_{self.__class__.__name__}_game_{self.episodes-1}.txt', 'w')
-        self.time_step = 0
+        self.game_step = 0
         self.memory = Memory()
 
     def step(self, obs):
@@ -37,7 +38,7 @@ class BaseAgent(base_agent.BaseAgent):
             self.log.write('### Game log ###')
 
         # Log data
-        self.log.write(f'\n\nTime step {self.time_step}')
+        self.log.write(f'\n\nTime step {self.game_step}')
         self.log.write(f'\nResources : {self.obs.observation.player.minerals}, '
                        f'{self.obs.observation.player.vespene}')
         self.log.write(f'\nSupply : {self.obs.observation.player.food_used}'
@@ -46,15 +47,14 @@ class BaseAgent(base_agent.BaseAgent):
                        f'{self.obs.observation.multi_select}')
         self.log.write(f'\nLarvae : {self.unit_count(units.Zerg.Larva)}')
 
-        self.time_step += 1
+        self.game_step += 1
 
     # Core methods
     def unit_count(self, unit_type):
         return len(self.get_units_by_type(unit_type))
 
     def get_units_by_type(self, unit_type):
-        return [unit for unit in self.obs.observation.feature_units
-                     if unit.unit_type == unit_type]
+        return [u for u in self.obs.observation.feature_units if u.unit_type == unit_type]
 
     def unit_type_is_selected(self, unit_type):
         if unit_type in [u.unit_type for u in self.obs.observation.single_select]:
@@ -63,11 +63,16 @@ class BaseAgent(base_agent.BaseAgent):
             return True
         return False
 
+    @staticmethod
+    def clip_x_y(x, y):
+        return min(max(x, 0), RESOLUTION - 1), min(max(y, 0), RESOLUTION - 1)
+
     def available(self, action):
+        return True
         return action.id in self.obs.observation.available_actions
 
     def do_if_available(self, action, *args, raise_error=True):
-        self.log.write(f'\nAvailable actions : {self.obs.observation.available_actions}')
+        # self.log.write(f'\nAvailable actions : {self.obs.observation.available_actions}')
         if self.available(action):
             self.log.write(f'\nChose action {action}, args {list(args)}')
             return action(*args)
@@ -77,17 +82,17 @@ class BaseAgent(base_agent.BaseAgent):
 
     # Base actions
     def try_select(self, unit_type, how='naive', completed=True):
-        units = self.get_units_by_type(unit_type)
+        type_units = self.get_units_by_type(unit_type)
+        type_units = [u for u in type_units if u.display_type == 1] # visible
         if completed:
-            units = [u for u in units if u.build_progress == 100]
-        if len(units) > 0:
+            type_units = [u for u in type_units if u.build_progress == 100]
+        if len(type_units) > 0:
             if how == 'naive':
-                picked = rd.choice(units)
+                picked = rd.choice(type_units)
                 x, y = picked.x, picked.y
             else:
                 x, y = how
-            x = min(max(x, 0), RESOLUTION - 1)
-            y = min(max(y, 0), RESOLUTION - 1)
+            x, y = self.clip_x_y(x, y)
             return self.do_if_available(FUNCTIONS.select_point,
                                         'select', (x, y))
         raise Warning(f'No available {unit_type} to be selected')
@@ -121,7 +126,7 @@ class BaseAgent(base_agent.BaseAgent):
             return self.do_if_available(FUNCTIONS.select_army, 'select')
 
 
-class ZergAgent(BaseAgent):
+class ZergAgent(FeatureAgent):
     def __init__(self):
         super().__init__()
         self.race_name = 'zerg'

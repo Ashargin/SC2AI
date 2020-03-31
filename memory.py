@@ -8,9 +8,13 @@ class Memory:
         self.self_units = {}
         self.op_units = {}
         self.neutral_units = {}
+        self.birth_dates = {}
+        self.base_locations = []
+        self.game_step = 0
 
     def update(self, obs):
         self.update_units(obs)
+        self.game_step += 1
 
     def update_units(self, obs):
         self_units = [u for u in obs.observation.raw_units
@@ -20,7 +24,6 @@ class Memory:
         neutral_units = [u for u in obs.observation.raw_units
                          if u.alliance == features.PlayerRelative.NEUTRAL]
 
-        print()
         killed = obs.observation._response_observation().observation.raw_data.event.dead_units
         self._update_units(self.self_units, self_units, killed)
         self._update_units(self.op_units, op_units, killed)
@@ -64,11 +67,12 @@ class Memory:
                            and u.unit_type == units.Zerg.Drone
                            and u.order_id_0 in zerg_build_fcts)
 
-            if died:
+            if died or u.tag < 0:
                 to_remove.append(u.tag)
             else:
                 u.display_type = 2 # seen
                 u.time_unseen += 1
+                u.time_alive += 1
 
         for key, type_units in old.items():
             old[key] = [u for u in type_units if u.tag not in to_remove]
@@ -77,9 +81,16 @@ class Memory:
         for u in new:
             old[u.unit_type].append(u)
 
-    @staticmethod
-    def _add_unit_variables(unit):
-        values = {'time_unseen': 0}
+    def _add_unit_variables(self, unit):
+        if unit.tag == 0:
+            unit.tag = min(0, min(self.birth_dates.keys())) - 1
+        if unit.tag not in self.birth_dates:
+            self.birth_dates[unit.tag] = self.game_step
+            if unit.unit_type in [units.Terran.CommandCenter, units.Protoss.Nexus, units.Zerg.Hatchery]:
+                self.base_locations.append((unit.x, unit.y))
+
+        values = {'time_unseen': 0,
+                  'time_alive': self.game_step - self.birth_dates[unit.tag]}
 
         new_values = unit.tolist() + list(values.values())
         new_vars = list(unit._index_names[0].keys()) + list(values.keys())

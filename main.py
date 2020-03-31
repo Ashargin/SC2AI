@@ -2,12 +2,12 @@ import os
 from pysc2.env import sc2_env
 from pysc2.lib import features
 from absl import app
-from agents import ZerglingRush
+from raw_agents import ZerglingRush
 from settings import RESOLUTION, STEP_MUL
 
 # Settings
 agent = ZerglingRush()
-op_race = 'protoss'
+op_race = 'terran'
 op_difficulty = 'easy' # very_easy, easy, medium, medium_hard, harder, very_hard
 map_name = 'AbyssalReef'
 visualize = True
@@ -27,8 +27,7 @@ def main(unused_args):
                     raw_resolution=RESOLUTION,
                     use_feature_units=True,
                     use_raw_units=True,
-                    use_unit_counts=True,
-                    use_camera_position=True,
+                    use_raw_actions=agent.raw_interface,
                     show_cloaked=True,
                     show_burrowed_shadows=True,
                     show_placeholders=True,

@@ -1,0 +1,418 @@
+### Game log ###
+
+Time step 0
+Resources : 50, 0
+Supply : 12/14
+Selected : [], []
+Larvae : 3
+Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4346871809]
+
+Time step 1
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 2
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 3
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 4
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 5
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 6
+Resources : 0, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 7
+Resources : 5, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 8
+Resources : 10, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 9
+Resources : 20, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 10
+Resources : 25, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 11
+Resources : 45, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 12
+Resources : 60, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4346609665]
+
+Time step 13
+Resources : 10, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 14
+Resources : 10, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 15
+Resources : 15, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 16
+Resources : 35, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 17
+Resources : 40, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 18
+Resources : 45, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 19
+Resources : 65, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 20
+Resources : 70, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 21
+Resources : 70, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 22
+Resources : 70, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 23
+Resources : 90, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 24
+Resources : 100, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 25
+Resources : 100, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 26
+Resources : 120, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 27
+Resources : 130, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 28
+Resources : 130, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 3
+
+Time step 29
+Resources : 130, 0
+Supply : 14/14
+Selected : [[151   1   0   0   0   0   0]], []
+Larvae : 3
+
+Time step 30
+Resources : 145, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 31
+Resources : 165, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 32
+Resources : 165, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 33
+Resources : 170, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 34
+Resources : 190, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 35
+Resources : 195, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 36
+Resources : 200, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 37
+Resources : 210, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 38
+Resources : 225, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 39
+Resources : 230, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 40
+Resources : 235, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 41
+Resources : 245, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 42
+Resources : 260, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 43
+Resources : 265, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 44
+Resources : 280, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 45
+Resources : 285, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 46
+Resources : 295, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 47
+Resources : 305, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Chose action 197/Build_Hatchery_pt (1/queued [2]; 2/unit_tags [512]; 0/world [0, 0]), args ['now', 4347396097, (175, 115)]
+
+Time step 48
+Resources : 5, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 49
+Resources : 15, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 50
+Resources : 25, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+Chose action 193/Build_Extractor_unit (1/queued [2]; 2/unit_tags [512]; 3/target_unit_tag [512]), args ['now', 4348444673, 4299685889]
+
+Time step 51
+Resources : 15, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 52
+Resources : 15, 0
+Supply : 14/14
+Selected : [[104   1  40   0   0   0   0]], []
+Larvae : 3
+
+Time step 53
+Resources : 35, 0
+Supply : 13/14
+Selected : [[88  1 62  0  0  0  2]], []
+Larvae : 3
+
+Time step 54
+Resources : 40, 0
+Supply : 13/14
+Selected : [[88  1 77  0  0  0  6]], []
+Larvae : 3
+
+Time step 55
+Resources : 40, 0
+Supply : 13/14
+Selected : [[88  1 92  0  0  0  9]], []
+Larvae : 3
+
+Time step 56
+Resources : 45, 0
+Supply : 13/14
+Selected : [[ 88   1 107   0   0   0  12]], []
+Larvae : 3
+
+Time step 57
+Resources : 60, 0
+Supply : 13/14
+Selected : [[ 88   1 122   0   0   0  16]], []
+Larvae : 3
+Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4354998273]
+
+Time step 58
+Resources : 20, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 59
+Resources : 25, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 60
+Resources : 35, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 61
+Resources : 45, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 62
+Resources : 50, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 63
+Resources : 50, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 64
+Resources : 60, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 65
+Resources : 75, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 66
+Resources : 80, 0
+Supply : 14/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+
+Time step 67
+Resources : 90, 0
+Supply : 13/14
+Selected : [[103   1 200   0   0   0   0]], []
+Larvae : 2
+Chose action 503/Train_Drone_quick (1/queued [2]; 2/unit_tags [512]), args ['now', 4354211841]
+
+Time step 68
+Resources : 50, 0
