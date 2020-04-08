@@ -5,28 +5,31 @@ from pysc2.lib import features, actions, units
 
 class Memory:
     def __init__(self):
+        self.obs = None
         self.self_units = {}
-        self.op_units = {}
+        self.enemy_units = {}
         self.neutral_units = {}
         self.birth_dates = {}
         self.base_locations = []
+        self.discarded_units = []
         self.game_step = 0
 
     def update(self, obs):
-        self.update_units(obs)
+        self.obs = obs
+        self.update_units()
         self.game_step += 1
 
-    def update_units(self, obs):
-        self_units = [u for u in obs.observation.raw_units
+    def update_units(self):
+        self_units = [u for u in self.obs.observation.raw_units
                       if u.alliance == features.PlayerRelative.SELF]
-        op_units = [u for u in obs.observation.raw_units
-                    if u.alliance == features.PlayerRelative.ENEMY]
-        neutral_units = [u for u in obs.observation.raw_units
+        enemy_units = [u for u in self.obs.observation.raw_units
+                       if u.alliance == features.PlayerRelative.ENEMY]
+        neutral_units = [u for u in self.obs.observation.raw_units
                          if u.alliance == features.PlayerRelative.NEUTRAL]
 
-        killed = obs.observation._response_observation().observation.raw_data.event.dead_units
+        killed = self.obs.observation._response_observation().observation.raw_data.event.dead_units
         self._update_units(self.self_units, self_units, killed)
-        self._update_units(self.op_units, op_units, killed)
+        self._update_units(self.enemy_units, enemy_units, killed)
         self._update_units(self.neutral_units, neutral_units, killed)
 
     def _update_units(self, old, new, killed):
@@ -55,6 +58,7 @@ class Memory:
             except KeyError:
                 pass
 
+        visibility_map = self.obs.observation.feature_minimap.visibility_map.T
         for u in missing:
             # Untrack dead units
             # Make sure that we are not cheating :
@@ -69,10 +73,24 @@ class Memory:
 
             if died or u.tag < 0:
                 to_remove.append(u.tag)
+                self.discarded_units.append(u.tag)
+                if u.alliance == features.PlayerRelative.SELF \
+                                        and u.unit_type in [units.Zerg.Hatchery,
+                                                            units.Zerg.Lair,
+                                                            units.Zerg.Hive,
+                                                            units.Protoss.Nexus,
+                                                            units.Terran.CommandCenter,
+                                                            units.Terran.CommandCenterFlying,
+                                                            units.Terran.OrbitalCommand,
+                                                            units.Terran.OrbitalCommandFlying,
+                                                            units.Terran.PlanetaryFortress]:
+                    self.base_locations.remove((u.x, u.y))
             else:
                 u.display_type = 2 # seen
                 u.time_unseen += 1
                 u.time_alive += 1
+                if visibility_map[u.x, u.y] == features.Visibility.VISIBLE:
+                    u.pos_tracked = 0
 
         for key, type_units in old.items():
             old[key] = [u for u in type_units if u.tag not in to_remove]
@@ -86,11 +104,13 @@ class Memory:
             unit.tag = min(0, min(self.birth_dates.keys())) - 1
         if unit.tag not in self.birth_dates:
             self.birth_dates[unit.tag] = self.game_step
-            if unit.unit_type in [units.Terran.CommandCenter, units.Protoss.Nexus, units.Zerg.Hatchery]:
+            if unit.unit_type in [units.Terran.CommandCenter, units.Protoss.Nexus, units.Zerg.Hatchery] \
+                                                    and unit.alliance == features.PlayerRelative.SELF:
                 self.base_locations.append((unit.x, unit.y))
 
         values = {'time_unseen': 0,
-                  'time_alive': self.game_step - self.birth_dates[unit.tag]}
+                  'time_alive': self.game_step - self.birth_dates[unit.tag],
+                  'pos_tracked': 1}
 
         new_values = unit.tolist() + list(values.values())
         new_vars = list(unit._index_names[0].keys()) + list(values.keys())

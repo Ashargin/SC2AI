@@ -8,11 +8,11 @@ from settings import RESOLUTION, STEP_MUL
 # Settings
 agent = ZerglingRush()
 op_race = 'random'
-op_difficulty = 'easy' # very_easy, easy, medium, medium_hard, harder, very_hard
+op_difficulty = 'very_hard' # very_easy, easy, medium, medium_hard, harder, very_hard
 map_name = 'WorldofSleepers'
 visualize = True
 realtime = False
-save_replay_episodes = 0 # whether to save a replay
+save_replay_episodes = 1 # whether to save a replay
 
 def main(unused_args):
     try:
