@@ -8,7 +8,7 @@ from pysc2.agents import base_agent
 from pysc2.lib import actions, buffs, features, units, upgrades
 from pysc2.lib.named_array import NamedNumpyArray
 from memory import Memory
-from settings import RESOLUTION, THRESHOLD, CAP_MINERALS, CAP_GAS, ATTACK_PRIORITY
+from settings import RESOLUTION, THRESHOLD, CAP_MINERALS, CAP_GAS, ATTACK_PRIORITY, STEP_MUL
 
 FUNCTIONS = actions.FUNCTIONS
 RAW_FUNCTIONS = actions.RAW_FUNCTIONS
@@ -23,7 +23,7 @@ class RawAgent(base_agent.BaseAgent):
         self.action = None
         self.enemy_coordinates = None
         self.dists_first_base = None
-        self.memory = Memory()
+        self.memory = Memory(self)
 
     def reset(self):
         super().reset()
@@ -33,12 +33,11 @@ class RawAgent(base_agent.BaseAgent):
                         f'\\data\\logs\\log_{self.__class__.__name__}_game_{self.episodes-1}.txt', 'w')
         self.game_step = 0
         self.dists_first_base = None
-        self.memory = Memory()
+        self.memory = Memory(self)
 
     def step(self, obs):
         super().step(obs)
         self.obs = obs
-        self.action = None
         self.memory.update(self.obs)
 
         if obs.first():
@@ -48,6 +47,8 @@ class RawAgent(base_agent.BaseAgent):
             self.enemy_coordinates = np.subtract(RESOLUTION - 1, self.self_coordinates)
 
         # Log data
+        if not obs.first():
+            self.log.write(f'\nChose action {str(self.action.function.name)}, args {self.action.arguments}')
         self.log.write(f'\n\nTime step {self.game_step}')
         self.log.write(f'\nResources : {self.obs.observation.player.minerals}, '
                        f'{self.obs.observation.player.vespene}')
@@ -55,6 +56,7 @@ class RawAgent(base_agent.BaseAgent):
                        f'/{self.obs.observation.player.food_cap}')
         self.log.write(f'\nLarvae : {self.unit_count_by_type(units.Zerg.Larva)}')
 
+        self.action = None
         self.game_step += 1
 
     # Core methods
@@ -70,16 +72,21 @@ class RawAgent(base_agent.BaseAgent):
             return self.memory.neutral_units[unit_type]
         return []
 
-    def get_bases(self):
-        return self.get_units_by_type(units.Zerg.Hatchery) \
-             + self.get_units_by_type(units.Zerg.Lair) \
-             + self.get_units_by_type(units.Zerg.Hive) \
-             + self.get_units_by_type(units.Protoss.Nexus) \
-             + self.get_units_by_type(units.Terran.CommandCenter) \
-             + self.get_units_by_type(units.Terran.CommandCenterFlying) \
-             + self.get_units_by_type(units.Terran.OrbitalCommand) \
-             + self.get_units_by_type(units.Terran.OrbitalCommandFlying) \
-             + self.get_units_by_type(units.Terran.PlanetaryFortress)
+    def get_bases(self, how='all'):
+        if how == 'all':
+            return self.get_units_by_type(units.Zerg.Hatchery) \
+                + self.get_units_by_type(units.Zerg.Lair) \
+                + self.get_units_by_type(units.Zerg.Hive) \
+                + self.get_units_by_type(units.Protoss.Nexus) \
+                + self.get_units_by_type(units.Terran.CommandCenter) \
+                + self.get_units_by_type(units.Terran.CommandCenterFlying) \
+                + self.get_units_by_type(units.Terran.OrbitalCommand) \
+                + self.get_units_by_type(units.Terran.OrbitalCommandFlying) \
+                + self.get_units_by_type(units.Terran.PlanetaryFortress)
+        else:
+            if not isinstance(how, list):
+                how = [how]
+            return [self.get_base(i) for i in how]
 
     def get_base(self, how=1):
         return [b for b in self.get_bases() if (b.x, b.y) == self.memory.base_locations[how - 1]][0]
@@ -108,13 +115,68 @@ class RawAgent(base_agent.BaseAgent):
             vespenes = [v for v in vespenes if all([(v.x, v.y) != (e.x, e.y) for e in extractors])]
         return vespenes
 
-    def do(self, action, *args, raise_error=True):
-        self.log.write(f'\nChose action {action}, args {list(args)}')
+    def get_premade_coordinates(self, coordinates):
+        if coordinates == 'proxy':
+            out_coordinates = 0.2 * np.array(self.self_coordinates) \
+                            + 0.8 * np.array(self.enemy_coordinates)
+            started_on_top_right = np.sign(np.subtract(*self.self_coordinates))
+            out_coordinates += 0.6 * out_coordinates.min() * started_on_top_right
+        elif coordinates == 'home':
+            out_coordinates = 0.8 * np.array(self.self_coordinates) \
+                            + 0.2 * np.array(self.enemy_coordinates)
+        elif coordinates == 'enemy':
+            out_coordinates = self.enemy_coordinates
+        elif coordinates == 'enemy_far':
+            out_coordinates = -0.04 * np.array(self.self_coordinates) \
+                             + 1.04 * np.array(self.enemy_coordinates)
+        elif coordinates == 'enemy_close':
+            out_coordinates = 0.04 * np.array(self.self_coordinates) \
+                            + 0.96 * np.array(self.enemy_coordinates)
+        elif coordinates == 'self':
+            out_coordinates = self.self_coordinates
+
+        return tuple(np.array(out_coordinates).astype(int))
+
+    def get_true_buildable_map(self, action):
+        # Create the matrix of possible locations
+        creep_constraint = np.ones((RESOLUTION, RESOLUTION))
+        if self.race_name == 'zerg' and action != RAW_FUNCTIONS.Build_Hatchery_pt:
+            creep_constraint = self.obs.observation.feature_minimap.creep
+        player_relative = self.obs.observation.feature_minimap.player_relative
+
+        visibility_constraint = np.ones((RESOLUTION, RESOLUTION))
+        diam_neutral = int(THRESHOLD * 0.48) # unbuildable border around minerals / vespene
+        if action in [RAW_FUNCTIONS.Build_CreepTumor_Queen_pt,
+                          RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt]:
+            visibility_constraint = self.obs.observation.feature_minimap.visibility_map == features.Visibility.VISIBLE
+            diam_neutral = 1
+
+        can_build = np.stack([self.obs.observation.feature_minimap.pathable,
+                              self.obs.observation.feature_minimap.buildable,
+                              # should be improved to not let flying units block :
+                              (player_relative == 0).astype('uint8'),
+                              cv2.erode(np.array(player_relative != 3).astype('uint8'),
+                                        np.ones((diam_neutral, diam_neutral))),
+                              creep_constraint,
+                              visibility_constraint]).all(axis=0).T.astype('uint8')
+
+        diam = int(THRESHOLD * 0.23) # approximate standard building size
+        if action in [RAW_FUNCTIONS.Build_CommandCenter_pt,
+                      RAW_FUNCTIONS.Build_Nexus_pt,
+                      RAW_FUNCTIONS.Build_Hatchery_pt]:
+            diam = int(THRESHOLD * 0.38) # approximate base building size
+        elif action in [RAW_FUNCTIONS.Build_CreepTumor_Queen_pt,
+                        RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt]:
+            diam = 1
+        can_build = cv2.erode(can_build, np.ones((diam, diam)))
+
+        return can_build
+
+    def do(self, action, *args):
         return action(*args)
 
     # Base actions
     def build(self, action, builder=None, how=1, where='random'):
-        ################################################### energy/cooldown (tumor/queen) + how='creep'
         ################################################### nydus worm
         if isinstance(builder, list):
             builders = list(itertools.chain.from_iterable(
@@ -137,30 +199,12 @@ class RawAgent(base_agent.BaseAgent):
                                     RAW_FUNCTIONS.Harvest_Return_Probe_quick.id,
                                     RAW_FUNCTIONS.Harvest_Return_SCV_quick.id,]]
         builders = builders_available
-        if not builders and (how == 'base' or how < 50):
+        if not builders and not (isinstance(how, int) and how > 50):
             return None # keep looking for an action to take
 
         # Choose target location / tag
         if where == 'random': # tag target cannot be random, must be deterministic
-            # Create the matrix of possible locations
-            creep_constraint = np.ones((RESOLUTION, RESOLUTION))
-            if self.race_name == 'zerg' and action != RAW_FUNCTIONS.Build_Hatchery_pt:
-                creep_constraint = self.obs.observation.feature_minimap.creep
-            player_relative = self.obs.observation.feature_minimap.player_relative
-            diam_neutral = int(THRESHOLD * 0.48) # unbuildable border around minerals / vespene
-            can_build = np.stack([self.obs.observation.feature_minimap.pathable,
-                                  self.obs.observation.feature_minimap.buildable,
-                                  # should be improved to not let flying units block :
-                                  (player_relative == 0).astype('uint8'),
-                                  cv2.erode(np.array(player_relative != 3).astype('uint8'),
-                                            np.ones((diam_neutral, diam_neutral))),
-                                  creep_constraint]).all(axis=0).T.astype('uint8')
-            diam = int(THRESHOLD * 0.23) # approximate standard building size
-            if action in [RAW_FUNCTIONS.Build_CommandCenter_pt,
-                          RAW_FUNCTIONS.Build_Nexus_pt,
-                          RAW_FUNCTIONS.Build_Hatchery_pt]:
-                diam = int(THRESHOLD * 0.38) # approximate base building size
-            can_build = cv2.erode(can_build, np.ones((diam, diam)))
+            can_build = self.get_true_buildable_map(action)
 
             # Choose the marker point
             if how == 'base':
@@ -186,6 +230,7 @@ class RawAgent(base_agent.BaseAgent):
                         dist += 1
                         edge = new_edge
                     dist_matrix[dist_matrix == -1] = np.inf
+                    diam_neutral = int(THRESHOLD * 0.48) # unbuildable border around minerals / vespene
                     dist_matrix = np.maximum(dist_matrix, int(diam_neutral / 2))
                     return dist_matrix
 
@@ -195,7 +240,8 @@ class RawAgent(base_agent.BaseAgent):
                 if self.dists_first_base is None: # only computed once
                     self.dists_first_base = shortest_path(pathable, [self.memory.base_locations[0]],
                                                                             max_lookup=RESOLUTION**2)
-                dists_all_bases = np.sqrt([[(m.x - b.x)**2 + (m.y - b.y)**2 for b in bases] for m in minerals])
+                dists_all_bases = np.sqrt([[(m.x - b.x)**2 + (m.y - b.y)**2 for b in bases]
+                                                                        for m in minerals])
                 if bases:
                     dists_all_bases = np.min(dists_all_bases, axis=1)
                 else:
@@ -234,7 +280,8 @@ class RawAgent(base_agent.BaseAgent):
 
         # Choose builder
         if how == 'base':
-            x, y = target if where == 'random' else self.memory.base_locations[max(len(self.get_bases()) - 1, 0)]
+            x, y = target if where == 'random' \
+                          else self.memory.base_locations[max(len(self.get_bases()) - 1, 0)]
             dists = [(b.x - x)**2 + (b.y - y)**2 for b in builders]
             picked = builders[np.argmin(dists)]
             tag = picked.tag
@@ -254,6 +301,7 @@ class RawAgent(base_agent.BaseAgent):
                 [self.get_units_by_type(unit_type) for unit_type in trainer]))
         else:
             trainers = self.get_units_by_type(trainer)
+        trainers = [t for t in trainers if t.build_progress == 100]
         trainers_available = [t for t in trainers if t.order_id_0 == RAW_FUNCTIONS.no_op.id]
         if not trainers_available:
             trainers_available = [t for t in trainers if t.order_id_0 in
@@ -270,15 +318,13 @@ class RawAgent(base_agent.BaseAgent):
                                                      RAW_FUNCTIONS.Attack_Redirect_pt.id,
                                                      RAW_FUNCTIONS.Attack_Redirect_unit.id]]
         trainers = trainers_available
+        if not trainers and not (isinstance(how, int) and how > 50):
+            return None # keep looking for an action to take
 
         if how == 'random':
-            if not trainers:
-                return None # keep looking for an action to take
             picked = rd.choice(trainers)
             tag = picked.tag
         elif how < 50: # how is the number of the base to train from
-            if not trainers:
-                return None # keep looking for an action to take
             x, y = self.memory.base_locations[how - 1]
             dists = [(t.x - x)**2 + (t.y - y)**2 for t in trainers]
             picked = trainers[np.argmin(dists)]
@@ -288,8 +334,142 @@ class RawAgent(base_agent.BaseAgent):
 
         return self.do(action, 'now', tag)
 
+    def cast(self, action, caster, target=('enemy', None), energy=0, how='random'):
+        # Filter casters
+        if isinstance(caster, list):
+            casters = list(itertools.chain.from_iterable(
+                [self.get_units_by_type(unit_type) for unit_type in caster]))
+        else:
+            casters = self.get_units_by_type(caster)
+        if not casters:
+            return None
+
+        casters = [c for c in casters if c.build_progress == 100 and c.energy >= energy]
+        if action == RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt:
+            casters = [c for c in casters if c.time_alive * STEP_MUL >= 800
+                                          and c.tag not in self.memory.expired_tumors]
+        casters_available = [c for c in casters if c.order_id_0 == RAW_FUNCTIONS.no_op.id]
+        if not casters_available:
+            casters_available = [c for c in casters if c.order_id_0 in
+                                                    [RAW_FUNCTIONS.Move_pt.id,
+                                                     RAW_FUNCTIONS.Move_unit.id,
+                                                     RAW_FUNCTIONS.Move_Move_pt.id,
+                                                     RAW_FUNCTIONS.Move_Move_unit.id,
+                                                     RAW_FUNCTIONS.Attack_pt.id,
+                                                     RAW_FUNCTIONS.Attack_unit.id,
+                                                     RAW_FUNCTIONS.Attack_Attack_pt.id,
+                                                     RAW_FUNCTIONS.Attack_Attack_unit.id,
+                                                     RAW_FUNCTIONS.Attack_AttackBuilding_pt.id,
+                                                     RAW_FUNCTIONS.Attack_AttackBuilding_unit.id,
+                                                     RAW_FUNCTIONS.Attack_Redirect_pt.id,
+                                                     RAW_FUNCTIONS.Attack_Redirect_unit.id]]
+        casters = casters_available
+        if not casters:
+            return None # keep looking for an action to take
+
+        # Choose caster
+        if how == 'random':
+            picked = rd.choice(casters)
+            tag = picked.tag
+        else: # how is the tag of the trainer
+            tag = how
+            picked = [u for u in list(itertools.chain.from_iterable(self.memory.self_units.values())) 
+                      if u.tag == tag][0]
+
+        # Filter targets
+        alliance, target = target
+
+        if target == 'creep':
+            can_build = self.get_true_buildable_map(action)
+
+            y, x = np.ogrid[-picked.x:RESOLUTION - picked.x, -picked.y:RESOLUTION - picked.y]
+            mask = np.sqrt(x**2 + y**2) > int(0.7 * THRESHOLD)
+            can_build[mask] = 0
+
+            started_on_top_right = max(np.sign(np.subtract(*self.self_coordinates)),0)
+            if action == RAW_FUNCTIONS.Build_CreepTumor_Queen_pt:
+                base_x, base_y = self.self_coordinates
+                n = 4 * THRESHOLD
+                can_build[:max(base_x-n, 0), :] = can_build[min(base_x+n, RESOLUTION-1):, :] \
+                    = can_build[:, :max(base_y-n, 0)] = can_build[:, min(base_y+n, RESOLUTION-1):] = 0
+            elif action == RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt:
+                if started_on_top_right:
+                    can_build[picked.x:, :picked.y] = 0
+                else:
+                    can_build[:picked.x, picked.y:] = 0
+            save = can_build.copy()
+            for t in [int(0.7 * THRESHOLD), int(0.5 * THRESHOLD), int(0.2 * THRESHOLD), 0]:
+                can_build = save.copy()
+                for u in self.get_units_agg('CreepTumor', with_training=True):
+                    y, x = np.ogrid[-u.x:RESOLUTION - u.x, -u.y:RESOLUTION - u.y]
+                    mask = np.sqrt(x**2 + y**2) <= t
+                    can_build[mask] = 0
+                if can_build.sum() > 0:
+                    break
+
+            candidates = np.argwhere(can_build == 1)
+            if candidates.size == 0:
+                self.memory.expired_tumors.add(picked.tag)
+                return None
+
+            on_our_side = started_on_top_right == np.sign(np.subtract(picked.x, picked.y))
+            if on_our_side:
+                base_x, base_y = self.self_coordinates
+                scores = np.sqrt((candidates[:, 0] - base_x)**2 + (candidates[:, 1] - base_y)**2) \
+                       + np.minimum(np.sqrt(2) * RESOLUTION / 2
+                                  - np.sqrt((candidates[:, 0] - RESOLUTION / 2)**2
+                                          + (candidates[:, 1] - RESOLUTION / 2)**2),
+                                    RESOLUTION / 2 * 0.75)
+            else:
+                base_x, base_y = self.enemy_coordinates
+                scores = -np.sqrt((candidates[:, 0] - base_x)**2 + (candidates[:, 1] - base_y)**2) \
+                       + np.minimum(np.sqrt(2) * RESOLUTION / 2
+                                  - np.sqrt((candidates[:, 0] - RESOLUTION / 2)**2
+                                          + (candidates[:, 1] - RESOLUTION / 2)**2),
+                                    RESOLUTION / 2 * 0.75)
+
+            if action == RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt:
+                creep_score_map = self.obs.observation.feature_minimap.creep.T
+                creep_prox = int(THRESHOLD * 0.3)
+                creep_score_map = 1 - cv2.erode(creep_score_map.astype('uint8'), np.ones((creep_prox, creep_prox)))
+                for i, (x, y) in enumerate(candidates):
+                    scores[i] += RESOLUTION * 0.1 * creep_score_map[x, y]
+            skill_target = candidates[np.argmax(scores)]
+            skill_target = tuple(skill_target)
+
+        else:
+            if not isinstance(target, list):
+                target = [target]
+            if alliance == 'self':
+                candidates = list(itertools.chain.from_iterable(
+                             [self.get_units_by_type(t) for t in target]))
+            elif alliance == 'enemy':
+                candidates = list(itertools.chain.from_iterable(
+                             [self.memory.enemy_units[t] for t in target]))
+            elif alliance == 'neutral':
+                candidates = list(itertools.chain.from_iterable(
+                             [self.memory.neutral_units[t] for t in target]))
+            else:
+                raise Warning(f'Unknown alliance : {alliance}')
+            candidates = [c for c in candidates if c.display_type == 1] # visible
+            if not candidates:
+                return None
+
+            dists = [(u.x - picked.x)**2 + (u.y - picked.y)**2 for u in candidates]
+            skill_target = candidates[np.argmin(dists)]
+            if action.name.endswith('unit'):
+                skill_target = skill_target.tag
+            else:
+                skill_target = (skill_target.x, skill_target.y)
+
+        ################################################################## skill cooldown
+        return self.do(action, 'now', tag, skill_target)
+
     def attack(self, attackers, coordinates=None, can_reach_ground=True, can_reach_air=True,
-                                                                            where='mean'):
+                                                                            where='median'):
+        busy = list(itertools.chain.from_iterable(self.memory.scouts.values()))
+        attackers = [u for u in attackers if u.tag not in busy]
+
         if not attackers:
             return None
         if can_reach_ground and can_reach_air:
@@ -299,7 +479,7 @@ class RawAgent(base_agent.BaseAgent):
         else:
             prio = ATTACK_PRIORITY['Air']
 
-        if where == 'mean':
+        if where == 'median':
             x, y = np.median([[u.x, u.y] for u in attackers], axis=0)
         else:
             base_x, base_y = self.self_coordinates
@@ -339,12 +519,19 @@ class RawAgent(base_agent.BaseAgent):
         attackers = [u.tag for u in attackers]
         return self.do(RAW_FUNCTIONS.Attack_pt, 'now', attackers, coordinates)
 
-    ######################################################################### move
-    def move(self, units_to_move, coordinates):
+    def move(self, units_to_move, coordinates='home'):
+        busy = list(itertools.chain.from_iterable(self.memory.scouts.values()))
+        units_to_move = [u for u in units_to_move if u.tag not in busy]
+
+        if isinstance(coordinates, str):
+            out_coordinates = self.get_premade_coordinates(coordinates)
+        else:
+            out_coordinates = coordinates
+
         units_to_move = [u.tag for u in units_to_move]
         if not units_to_move:
             return None
-        return self.do(RAW_FUNCTIONS.Move_pt, 'now', units_to_move, coordinates)
+        return self.do(RAW_FUNCTIONS.Move_pt, 'now', units_to_move, out_coordinates)
 
     def wait(self):
         return self.do(RAW_FUNCTIONS.no_op)
@@ -355,6 +542,10 @@ class ZergAgent(RawAgent):
         super().__init__()
         self.race_name = 'zerg'
         self.worker_type = units.Zerg.Drone
+
+    def step(self, obs):
+        super().step(obs)
+        self.check_rally_points_workers_hl()
 
     # Core methods
     def get_harvest_state(self, how=1):
@@ -476,7 +667,7 @@ class ZergAgent(RawAgent):
             if with_burrowed:
                 res = res + self.get_units_by_type(units.Zerg.QueenBurrowed)
             if with_training:
-                res = res + [u for u in self.get_bases()
+                res = res + [u for u in self.get_units_agg('Hatchery')
                         if u.order_id_0 == RAW_FUNCTIONS.Train_Queen_quick.id]
         elif name == 'Ravager':
             res = self.get_units_by_type(units.Zerg.Ravager)
@@ -520,10 +711,12 @@ class ZergAgent(RawAgent):
         elif name == 'BanelingNest':
             res = self.get_units_by_type(units.Zerg.BanelingNest)
         elif name == 'CreepTumor':
-            res = self.get_units_by_type(units.Zerg.CreepTumor) \
-                + self.get_units_by_type(units.Zerg.CreepTumorQueen)
-            if with_burrowed:
-                res = res + self.get_units_by_type(units.Zerg.CreepTumorBurrowed)
+            res = self.get_units_by_type(units.Zerg.CreepTumorBurrowed)
+            if not with_burrowed:
+                res = [u for u in res if u.tag not in self.memory.expired_tumors]
+            if with_training:
+                res = res + self.get_units_by_type(units.Zerg.CreepTumor) \
+                          + self.get_units_by_type(units.Zerg.CreepTumorQueen)
         elif name == 'EvolutionChamber':
             res = self.get_units_by_type(units.Zerg.EvolutionChamber)
         elif name == 'Extractor':
@@ -724,6 +917,22 @@ class ZergAgent(RawAgent):
             res = [u for u in res if u.build_progress == 100]
         return res
 
+    def get_army(self, unit_names='all', with_queen=False, with_drone=False):
+        if unit_names == 'all':
+            names = ['Baneling', 'BroodLord', 'Corruptor', 'Hydralisk', 'Infestor',
+                     'Lurker', 'Mutalisk', 'OverlordTransport', 'Overseer',
+                     'Ravager', 'Roach', 'SwarmHost', 'Ultralisk', 'Viper', 'Zergling']
+        else:
+            names = unit_names
+        res = list(itertools.chain.from_iterable(
+                    [self.get_units_agg(unit_name) for unit_name in names]))
+        if with_queen and 'Queen' not in names:
+            res += self.get_units_agg('Queen')
+        if with_drone and 'Drone' not in names:
+            res += self.get_units_agg('Drone')
+
+        return res
+
     def check_requirements(self, req, n=1, how=1):
         if req == 'BanelingNest':
             return self.check_requirements_building('BanelingNest', self.build_baneling_nest)
@@ -835,21 +1044,21 @@ class ZergAgent(RawAgent):
         met_requirements = all(req_states)
         enough_minerals = self.obs.observation.player.minerals >= minerals
         enough_vespene = self.obs.observation.player.vespene >= vespene
-        enough_supply = self.obs.observation.player.food_cap \
-                        >= self.obs.observation.player.food_used + supply
+        enough_supply = supply <= 0 or self.obs.observation.player.food_cap \
+                                       >= self.obs.observation.player.food_used + supply
         if not isinstance(trainer, list):
             trainer = [trainer]
         available_trainers = sum([self.unit_count_by_type(t) for t in trainer]) > 0
         if enough_minerals and enough_vespene and enough_supply \
                            and available_trainers and met_requirements:
             return self.train(action, trainer, how=how)
-        elif not enough_supply:
+        if not enough_supply:
             if self.unit_count_agg('Overlord') == self.unit_count_agg('Overlord', with_training=False):
                 return self.train_overlord()
-        elif not enough_minerals or not enough_vespene:
-            return self.adjust_workers_distribution_intra()
-        else: # no available trainers or requirements not met
-            return None # keep looking for an action to take
+        if not enough_minerals or not enough_vespene:
+            answer = self.adjust_workers_distribution_intra()
+            return self.wait() if answer is None else answer
+        return None # no available trainers or requirements not met
 
     def build_check_conditions(self, action, builder=units.Zerg.Drone,
                                requirements=None,
@@ -870,10 +1079,26 @@ class ZergAgent(RawAgent):
         available_builders = sum([self.unit_count_by_type(b) for b in builder]) > 0
         if enough_minerals and enough_vespene and available_builders and met_requirements:
             return self.build(action, builder, how=how, where=where)
-        elif not enough_minerals or not enough_vespene:
-            return self.adjust_workers_distribution_intra()
-        else: # no available builders or requirements not met
-            return None # keep looking for an action to take
+        if not enough_minerals or not enough_vespene:
+            answer = self.adjust_workers_distribution_intra()
+            return self.wait() if answer is None else answer
+        return None # no available trainers or requirements not met
+
+    def cast_check_conditions(self, action, caster,
+                              requirements=None,
+                              target=('enemy', None), energy=0, how='random'):
+        req_states = []
+        if requirements is not None:
+            for req in requirements:
+                b_state = self.check_requirements(req)
+                if not isinstance(b_state, bool):
+                    return b_state
+                req_states.append(b_state)
+
+        met_requirements = all(req_states)
+        if met_requirements:
+            return self.cast(action, caster, target=target, energy=energy, how=how)
+        return None
 
     def train_baneling(self, n=1, how='random'):
         return self.train_check_conditions(RAW_FUNCTIONS.Train_Baneling_quick,
@@ -1163,18 +1388,6 @@ class ZergAgent(RawAgent):
                 requirements=['SpawningPool'],
                 minerals=100, vespene=50, how=how, where=where)
 
-    def build_creep_tumor_queen(self, how=1, where='random'):
-        return self.build_check_conditions(RAW_FUNCTIONS.Build_CreepTumor_Queen_pt,
-                builder=units.Zerg.Queen,
-                requirements=['Queen'],
-                how=how, where=where)
-
-    def build_creep_tumor_tumor(self, how=1, where='random'):
-        return self.build_check_conditions(RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt,
-                builder=[units.Zerg.CreepTumor, units.Zerg.CreepTumorQueen],
-                requirements=['CreepTumor'],
-                how=how, where=where)
-
     def build_extractor(self, how=1, where='random'):
         if where == 'random':
             neutral_vespenes = self.get_vespenes(from_raw=True)
@@ -1251,6 +1464,40 @@ class ZergAgent(RawAgent):
         return self.build_check_conditions(RAW_FUNCTIONS.Build_UltraliskCavern_pt,
                 requirements=['Hive'],
                 minerals=150, vespene=200, how=how, where=where)
+
+    def build_creep_tumor_queen(self, how='random', target=('self', 'creep')):
+        return self.cast_check_conditions(RAW_FUNCTIONS.Build_CreepTumor_Queen_pt,
+                caster=units.Zerg.Queen,
+                target=target, energy=25, how=how)
+
+    def build_creep_tumor_tumor(self, how='random', target=('self', 'creep')):
+        return self.cast_check_conditions(RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt,
+                caster=units.Zerg.CreepTumorBurrowed,
+                target=target, how=how)
+
+    def cast_inject_larva(self):
+        queens = self.get_units_agg('Queen')
+        can_cast = [u for u in queens if u.energy >= 25 and u.order_id_0 == RAW_FUNCTIONS.no_op.id]
+        if not can_cast:
+            return None
+
+        for b in self.get_units_agg('Hatchery'):
+            if b.buff_id_0 != buffs.Buffs.QueenSpawnLarvaTimer \
+                                and b.tag not in self.memory.spell_targets.values(): # needs an injection
+                dists = np.sqrt([(u.x - b.x)**2 + (u.y - b.y)**2 for u in can_cast])
+
+                if min(dists) > 4 * THRESHOLD:
+                    continue
+                if min(dists) > THRESHOLD:
+                    dists_all_queens = np.sqrt([(u.x - b.x)**2 + (u.y - b.y)**2 for u in queens])
+                    if min(dists_all_queens) <= THRESHOLD:
+                        continue
+
+                picked = can_cast[np.argmin(dists)]
+                self.memory.spell_targets[picked.tag] = b.tag
+                return self.do(RAW_FUNCTIONS.Effect_InjectLarva_unit, 'now', [picked.tag], b.tag)
+
+        return None
 
     def move_workers_to(self, to, how='all', only_idle=False, may_build_extractor=False):
         if not self.memory.base_locations:
@@ -1338,45 +1585,180 @@ class ZergAgent(RawAgent):
         capped_gas = self.obs.observation.player.vespene >= CAP_GAS
 
         if capped_minerals and not capped_gas:
-            answer = self.move_workers_to_gas(may_build_extractor=True)
-
-        elif capped_gas and not capped_minerals:
-            answer = self.move_workers_to_minerals()
-
-        else:
-            answer = self.wait()
-
-        return self.wait() if answer is None else answer
-
-    ############################################################################## ADD HL
-    def adjust_workers_distribution_inter(self):
-        capped_minerals = self.obs.observation.player.minerals >= CAP_MINERALS
-        capped_gas = self.obs.observation.player.vespene >= CAP_GAS
-
-        if capped_minerals and not capped_gas:
             return self.move_workers_to_gas(may_build_extractor=True)
 
         elif capped_gas and not capped_minerals:
             return self.move_workers_to_minerals()
 
-        return self.wait()
+        else:
+            return None
 
-    ################################################################################# ADD HL
-    def send_idle_workers(self):
-        pass
+    def adjust_workers_distribution_inter(self, how='equal'):
+        n_bases = len(self.get_bases())
+        excess_workers = []
+        for i in range(n_bases):
+            base = self.get_base(i+1)
+            if base.build_progress == 100:
+                excess_workers.append(base.assigned_harvesters - base.ideal_harvesters)
+            else:
+                excess_workers.append(0)
+
+        if not (max(excess_workers) > 0 and min(excess_workers) < 0):
+            return None
+
+        id_from = np.argmax(excess_workers)
+        candidate_ids = [i for i in range(n_bases)
+                           if excess_workers[i] <= -excess_workers[id_from]]
+        id_dists = [np.abs(i - id_from) for i in candidate_ids]
+        id_to = candidate_ids[np.argmin(id_dists)]
+        excess_base = self.get_base(id_from + 1)
+        target_base = self.get_base(id_to + 1)
+
+        if how == 'excess':
+            n_workers = min(excess_workers[id_from], -excess_workers[id_to])
+        elif how == 'equal':
+            n_workers = int((excess_workers[id_from] - excess_workers[id_to]) / 2)
+        else:
+            raise Warning(f'Unknown worker inter-base distribution mode : {how}')
+
+        workers = self.get_workers()
+        workers = [w for w in workers
+                     if w.order_id_0 == RAW_FUNCTIONS.no_op.id
+                     or w.order_id_0 == RAW_FUNCTIONS.Harvest_Return_Drone_quick.id
+                        and w.buff_id_0 in [buffs.Buffs.CarryMineralFieldMinerals,
+                                            buffs.Buffs.CarryHighYieldMineralFieldMinerals]]
+        dists = np.sqrt([(w.x - excess_base.x)**2 + (w.y - excess_base.y)**2 for w in workers])
+        workers = [w for i, w in enumerate(workers) if dists[i] < THRESHOLD][:n_workers]
+        workers = [w.tag for w in workers]
+
+        minerals = self.get_minerals(from_raw=True)
+        dists = [np.abs(m.x - target_base.x) + np.abs(m.y - target_base.y) for m in minerals]
+        target = minerals[np.argmin(dists)]
+
+        return self.do(RAW_FUNCTIONS.Harvest_Gather_unit, 'now', workers, target.tag)
+
+    def check_rally_points_workers(self):
+        for b in self.get_units_agg('Hatchery', with_training=True):
+            if b.tag > 0 and b.time_alive == 0: # has just been created
+                minerals = self.get_minerals(from_raw=True)
+                dists = [(m.x - b.x)**2 + (m.y - b.y)**2 for m in minerals]
+                picked = minerals[np.argmin(dists)]
+                return self.do(RAW_FUNCTIONS.Rally_Workers_unit, 'now', [b.tag], picked.tag)
+
+        return None
+
+    def set_rally_point_units(self, coordinates='home', how='all'):
+        bases = self.get_bases(how=how)
+        bases = [b for b in bases if b.tag not in self.memory.has_rally_point and b.tag > 0]
+        if not bases:
+            return None
+
+        for b in bases:
+            self.memory.has_rally_point.append(b.tag)
+
+        if isinstance(coordinates, str):
+            out_coordinates = self.get_premade_coordinates(coordinates)
+        else:
+            out_coordinates = coordinates
+
+        tags = [b.tag for b in bases]
+        return self.do(RAW_FUNCTIONS.Rally_Units_pt, 'now', tags, out_coordinates)
+
+    def scout_zergling(self, pack_size=1, coordinates='enemy_far'):
+        zerglings = self.get_units_agg('Zergling', with_burrowed=False)
+        if coordinates not in self.memory.scouts:
+            self.memory.scouts[coordinates] = set()
+        if any([u.tag in self.memory.scouts[coordinates] for u in zerglings]):
+            return None
+
+        scouts = list(itertools.chain.from_iterable(self.memory.scouts.values()))
+        zerglings = [u for u in zerglings if u.tag not in scouts]
+        if len(zerglings) < pack_size:
+            return None
+
+        if isinstance(coordinates, str):
+            out_coordinates = self.get_premade_coordinates(coordinates)
+        else:
+            out_coordinates = coordinates
+
+        dists = [(u.x - out_coordinates[0])**2 + (u.y - out_coordinates[1])**2 for u in zerglings]
+        zerglings = [zerglings[i] for i in np.argsort(dists)[:pack_size]]
+
+        answer = self.move(units_to_move=pack, coordinates=out_coordinates)
+
+        if answer is not None:
+            for u in pack:
+                self.memory.scouts[coordinates].add(u.tag)
+
+        return answer
+
+    def scout_overlord(self, with_overseer=False, stay=False, timeout=6000, coordinates='enemy_far'):
+        overlords = self.get_units_agg('Overlord')
+        overlords = [u for u in overlords if u.unit_type != units.Zerg.OverlordTransport]
+        if coordinates not in self.memory.scouts:
+            self.memory.scouts[coordinates] = set()
+        if any([u.tag in self.memory.scouts[coordinates] for u in overlords]):
+            if stay:
+                return None
+
+            scout = [u for u in overlords if u.tag in self.memory.scouts[coordinates]][0]
+            if isinstance(coordinates, str):
+                out_coordinates = self.get_premade_coordinates(coordinates)
+            else:
+                out_coordinates = coordinates
+            if out_coordinates == (scout.x, scout.y):
+                self.memory.scouts[coordinates].remove(scout.tag) # head back to base
+                answer = self.move(units_to_move=[scout], coordinates='self')
+                if answer is None: # movement back to base failed
+                    self.memory.scouts[coordinates].add(scout.tag)
+                return answer
+            return None
+
+        if coordinates in self.memory.scout_timeout:
+            return None
+
+        if not with_overseer:
+            overlords = [u for u in overlords if u.unit_type == units.Zerg.Overlord]
+        scouts = list(itertools.chain.from_iterable(self.memory.scouts.values()))
+        overlords = [u for u in overlords if u.tag not in scouts]
+        if with_overseer:
+            overseers = [u for u in overlords if u.unit_type != units.Zerg.Overlord]
+            if overseers:
+                overlords = overseers
+        if not overlords:
+            return None
+
+        if isinstance(coordinates, str):
+            out_coordinates = self.get_premade_coordinates(coordinates)
+        else:
+            out_coordinates = coordinates
+
+        dists = [(u.x - out_coordinates[0])**2 + (u.y - out_coordinates[1])**2 for u in overlords]
+        picked = overlords[np.argmin(dists)]
+
+        answer = self.move(units_to_move=[picked], coordinates=out_coordinates)
+
+        if answer is not None:
+            self.memory.scouts[coordinates].add(picked.tag)
+            self.memory.scout_timeout[coordinates] = timeout
+
+        return answer
 
     # High-level actions
-    def main_hl(self, action, name, n=1, pop=0, increase=None, hard=False):
+    def main_hl(self, action, name='Hatchery', n=np.inf, pop=0, increase=None, bypass=False, hard=False,
+                with_burrowed=True):
+        bypass = bypass and self.action is not None and self.action.function == RAW_FUNCTIONS.no_op.id
         if increase is None:
             increase = self.train_drone
-        if self.action is None:
-            if not self.unit_count_agg(name) >= n:
+
+        if self.action is None or bypass:
+            if not self.unit_count_agg(name, with_burrowed=with_burrowed) >= n:
                 if self.obs.observation.player.food_used >= pop:
                     self.action = action()
                 elif increase != 'no_increase':
                     self.action = increase()
 
-        if self.action is None and hard:
+        if self.action is None and (hard or bypass):
             self.action = self.wait()
 
     def train_baneling_hl(self, n, pop=0, increase=None, how='random', hard=False):
@@ -1629,19 +2011,6 @@ class ZergAgent(RawAgent):
         name = 'BanelingNest'
         self.main_hl(action, name, n=n, pop=pop, increase=increase, hard=hard)
 
-    ########################################################## creep tumor
-    def build_creep_tumor_queen_hl(self, n, pop=0, increase=None, how=1, where='random', hard=False):
-        action = lambda : self.build_creep_tumor_queen(how=how, where=where)
-        name = 'CreepTumorQueen'
-        self.main_hl(action, name, n=n, pop=pop, increase=increase, hard=hard)
-
-    ########################################################### creep tumor
-    def build_creep_tumor_tumor(self, how=1, where='random', hard=False):
-        return self.build_check_conditions(RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt,
-                builder=[units.Zerg.CreepTumor, units.Zerg.CreepTumorQueen],
-                requirements=['CreepTumor'],
-                how=how, where=where)
-
     def build_extractor_hl(self, n, pop=0, increase=None, how=1, where='random', hard=False):
         action = lambda : self.build_extractor(how=how, where=where)
         name = 'Extractor'
@@ -1672,12 +2041,10 @@ class ZergAgent(RawAgent):
         name = 'LurkerDen'
         self.main_hl(action, name, n=n, pop=pop, increase=increase, hard=hard)
 
-    ################################ nydus canal
-    def build_nydus_canal(self, how=1, where='random', hard=False):
-        return self.build_check_conditions(RAW_FUNCTIONS.Build_NydusWorm_pt,
-                builder=units.Zerg.NydusNetwork,
-                requirements=['NydusNetwork'],
-                minerals=75, vespene=75, how=how, where=where)
+    def build_nydus_canal_hl(self, n=1, pop=0, incease=None, how=1, where='random', hard=False):
+        action = lambda : self.build_nydus_canal(how=how, where=where)
+        name = 'NydusCanal'
+        self.main_hl(action, name, n=n, pop=pop, increase=increase, hard=hard)
 
     def build_nydus_network_hl(self, n=1, pop=0, increase=None, how=1, where='random', hard=False):
         action = lambda : self.build_nydus_network(how=how, where=where)
@@ -1714,58 +2081,98 @@ class ZergAgent(RawAgent):
         name = 'UltraliskCavern'
         self.main_hl(action, name, n=n, pop=pop, increase=increase, hard=hard)
 
+    def build_creep_tumor_queen_hl(self, n=np.inf, how='random', target=('self', 'creep')):
+        action = lambda : self.build_creep_tumor_queen(how=how, target=target)
+        name = 'CreepTumor'
+        self.main_hl(action, name, n=n, with_burrowed=False, bypass=True)
+
+    def build_creep_tumor_tumor_hl(self, how='random', target=('self', 'creep')):
+        action = lambda : self.build_creep_tumor_tumor(how=how, target=target)
+        self.main_hl(action, bypass=True)
+
+    def cast_inject_larva_hl(self):
+        action = self.cast_inject_larva
+        self.main_hl(action, bypass=True)
+
     def move_workers_to_gas_hl(self, pop=0, increase=None, how='all',
                                only_idle=False, may_build_extractor=False):
         action = lambda : self.move_workers_to_gas(how=how, only_idle=only_idle,
                                                    may_build_extractor=may_build_extractor)
-        self.main_hl(action, 'Hatchery', n=np.inf, pop=pop, increase=increase)
+        self.main_hl(action, pop=pop, increase=increase, bypass=True)
 
     def move_workers_to_minerals_hl(self, pop=0, increase=None, how='all',
                                     only_idle=False):
         action = lambda : self.move_workers_to_minerals(how=how, only_idle=only_idle)
-        self.main_hl(action, 'Hatchery', n=np.inf, pop=pop, increase=increase)
+        self.main_hl(action, pop=pop, increase=increase, bypass=True)
 
     def adjust_workers_distribution_intra_hl(self):
-        if self.action is None:
-            self.action = self.adjust_workers_distribution_intra()
+        action = self.adjust_workers_distribution_intra
+        self.main_hl(action, bypass=True)
 
-    def adjust_workers_distribution_inter_hl(self):
-        if self.action is None:
-            self.action = self.adjust_workers_distribution_inter()
+    def adjust_workers_distribution_inter_hl(self, how='equal'):
+        action = lambda : self.adjust_workers_distribution_inter(how=how)
+        self.main_hl(action, bypass=True)
 
-    def send_idle_workers_hl(self):
-        if self.action is None:
-            self.action = self.send_idle_workers()
+    def check_rally_points_workers_hl(self):
+        action = self.check_rally_points_workers
+        self.main_hl(action, bypass=True)
 
-    ################################################################ attack
-    def attack_hl(self, pop=0, increase=None, attackers=None, coordinates=None, only_idle=False,
-                                        can_reach_ground=True, can_reach_air=True, where='mean'):
+    def set_rally_point_units_hl(self, coordinates='home', how='all'):
+        action = lambda : self.set_rally_point_units(coordinates=coordinates, how=how)
+        self.main_hl(action, bypass=True)
+
+    def reset_rally_points_units_hl(self, how='all'):
+        bases = self.get_bases(how=how)
+        for b in bases:
+            self.memory.has_rally_point.remove(b.tag)
+
+        self.set_rally_point_units_hl(coordinates='home', how=how)
+
+        bases = self.get_bases(how=how)
+        for b in bases:
+            self.memory.has_rally_point.remove(b.tag)
+
+    def attack_hl(self, pop=0, increase=None, attackers=None, unit_names='all',
+                        with_queen=False, with_drone=False, coordinates=None,
+                        only_idle=False, can_reach_ground=True, can_reach_air=True, where='median'):
         if attackers is None:
-            attackers = self.get_units_agg('Hydralisk') + self.get_units_agg('Zergling')
+            attackers = self.get_army(unit_names=unit_names, with_queen=with_queen,
+                                                            with_drone=with_drone)
         if only_idle:
             attackers = [u for u in attackers if u.order_id_0 == RAW_FUNCTIONS.no_op.id]
         action = lambda : self.attack(attackers=attackers, coordinates=coordinates,
                                         can_reach_ground=can_reach_ground,
                                         can_reach_air=can_reach_air,
-                                                        where=where)
-        self.main_hl(action, 'Hatchery', n=np.inf, pop=pop, increase=increase)
+                                        where=where)
+        self.main_hl(action, pop=pop, increase=increase, bypass=True)
 
-    ################################################################ move
-    def move_hl(self, coordinates, pop=0, increase=None):
-        units_to_move = self.get_units_agg('Hydralisk') + self.get_units_agg('Zergling')
+    def move_hl(self, coordinates='home', pop=0, increase=None, units_to_move=None, unit_names='all',
+                                                    only_idle=False, with_queen=False, with_drone=False):
+        if units_to_move is None:
+            units_to_move = self.get_army(unit_names=unit_names, with_queen=with_queen,
+                                                            with_drone=with_drone)
+        if only_idle:
+            units_to_move = [u for u in units_to_move if u.order_id_0 == RAW_FUNCTIONS.no_op.id]
         action = lambda : self.move(units_to_move=units_to_move, coordinates=coordinates)
-        self.main_hl(action, 'Hatchery', n=np.inf, pop=pop, increase=increase)
+        self.main_hl(action, pop=pop, increase=increase, bypass=True)
+
+    def scout_zergling_hl(self, coordinates='enemy_far', pop=0, increase=None, pack_size=1):
+        action = lambda : self.scout_zergling(pack_size=pack_size, coordinates=coordinates)
+        self.main_hl(action, pop=pop, increase=increase, bypass=True)
+
+    def scout_overlord_hl(self, coordinates='enemy', pop=0, increase=None, with_overseer=False,
+                                                                        stay=False, timeout=6000):
+        action = lambda : self.scout_overlord(with_overseer=with_overseer, coordinates=coordinates,
+                                                                        stay=stay, timeout=timeout)
+        self.main_hl(action, pop=pop, increase=increase, bypass=True)
 
     def wait_hl(self):
         if self.action is None:
             self.action = self.wait()
 
         ## Todo
-        # Inject larvae
-        # Rally point second base on minerals (idle workers)
-        # Set rally point of bases when attack is launched
-        # Micro
-        # Check "None" actions are justified
-        # adjust between bases
+        # nydus
+        # every=..
 
-        # pysc2 missing microbial shroud?
+        # macro
+        # rl

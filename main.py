@@ -2,7 +2,7 @@ import os
 from pysc2.env import sc2_env
 from pysc2.lib import features
 from absl import app
-from raw_agents import ZerglingRush
+from raw_agents import ZerglingRush, HydraliskPush
 from settings import RESOLUTION, STEP_MUL
 
 # Settings
@@ -12,7 +12,7 @@ op_difficulty = 'very_hard' # very_easy, easy, medium, medium_hard, harder, very
 map_name = 'WorldofSleepers'
 visualize = True
 realtime = False
-save_replay_episodes = 1 # whether to save a replay
+save_replay_episodes = 0 # whether to save a replay
 
 def main(unused_args):
     try:
@@ -57,10 +57,3 @@ def main(unused_args):
 
 if __name__ == "__main__":
     app.run(main)
-
-## Issues
-# The AI may not find and destroy all enemy buildings even though it has defeated the opponent
-# Clicks but repeatedly gets overlord (move them?)
-# Pb build_queue / production queue : only for selection
-# Why do I need to clip x, y?
-# feature_units only returns units on the screen

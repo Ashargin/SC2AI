@@ -6,18 +6,21 @@ STEP_MUL = 16
 CAP_MINERALS = 400
 CAP_GAS = 300
 
-ATTACK_PRIORITY_GROUND = [units.Zerg.Queen,
+ATTACK_PRIORITY_GROUND = [units.Zerg.Hydralisk,
                           units.Zerg.Ravager,
                           units.Zerg.Roach,
+                          units.Zerg.Queen,
                           units.Zerg.Zergling,
                           units.Zerg.Drone,
                           units.Zerg.RoachWarren,
                           units.Zerg.SpawningPool,
                           units.Zerg.Hatchery,
 
+                          units.Protoss.Immortal,
                           units.Protoss.Zealot,
                           units.Protoss.Stalker,
                           units.Protoss.Adept,
+                          units.Protoss.Sentry,
                           units.Protoss.Probe,
                           units.Protoss.Pylon,
                           units.Protoss.Stargate,
@@ -25,6 +28,9 @@ ATTACK_PRIORITY_GROUND = [units.Zerg.Queen,
                           units.Protoss.Nexus,
 
                           units.Terran.SiegeTankSieged,
+                          units.Terran.Hellbat,
+                          units.Terran.Hellion,
+                          units.Terran.Cyclone,
                           units.Terran.Marauder,
                           units.Terran.Reaper,
                           units.Terran.Marine,
@@ -46,5 +52,3 @@ ATTACK_PRIORITY_ALL = {key: len(ATTACK_PRIORITY_ALL) - i
 ATTACK_PRIORITY = {'Ground': ATTACK_PRIORITY_GROUND,
                    'Air': ATTACK_PRIORITY_AIR,
                    'All': ATTACK_PRIORITY_ALL}
-
-

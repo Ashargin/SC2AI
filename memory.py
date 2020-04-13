@@ -1,10 +1,12 @@
 import itertools
 from pysc2.lib.named_array import NamedNumpyArray
-from pysc2.lib import features, actions, units
+from pysc2.lib import features, actions, units, buffs
+from settings import STEP_MUL
 
 
 class Memory:
-    def __init__(self):
+    def __init__(self, agent):
+        self.agent = agent
         self.obs = None
         self.self_units = {}
         self.enemy_units = {}
@@ -12,12 +14,40 @@ class Memory:
         self.birth_dates = {}
         self.base_locations = []
         self.discarded_units = []
+        self.has_rally_point = []
+        self.spell_targets = {}
+        self.expired_tumors = set()
+        self.scouts = {}
+        self.scout_timeout = {}
         self.game_step = 0
 
     def update(self, obs):
         self.obs = obs
         self.update_units()
+        self.update_miscellaneous()
         self.game_step += 1
+
+    def update_miscellaneous(self):
+        try:
+            for u in self.self_units[units.Zerg.CreepTumorBurrowed]:
+                if u.order_id_0 == actions.RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt.id:
+                    self.expired_tumors.add(u.tag)
+        except KeyError:
+            pass
+
+        to_remove = []
+        for loc in self.scout_timeout:
+            self.scout_timeout[loc] -= STEP_MUL
+            if self.scout_timeout[loc] < 0:
+                to_remove.append(loc)
+        for loc in to_remove:
+            self.scout_timeout.pop(loc)
+
+        for b in self.agent.get_units_agg('Hatchery'):
+            if b.buff_id_0 == buffs.Buffs.QueenSpawnLarvaTimer:
+                queen_tag = [q for q, h in self.spell_targets.items() if h == b.tag]
+                if queen_tag:
+                    self.spell_targets.pop(queen_tag[0])
 
     def update_units(self):
         self_units = [u for u in self.obs.observation.raw_units
@@ -74,6 +104,9 @@ class Memory:
             if died or u.tag < 0:
                 to_remove.append(u.tag)
                 self.discarded_units.append(u.tag)
+                for key in self.scouts:
+                    if u.tag in self.scouts[key]:
+                        self.scouts[key].remove(u.tag)
                 if u.alliance == features.PlayerRelative.SELF \
                                         and u.unit_type in [units.Zerg.Hatchery,
                                                             units.Zerg.Lair,
@@ -85,6 +118,11 @@ class Memory:
                                                             units.Terran.OrbitalCommandFlying,
                                                             units.Terran.PlanetaryFortress]:
                     self.base_locations.remove((u.x, u.y))
+                if u.alliance == features.PlayerRelative.SELF and u.unit_type == units.Zerg.Queen:
+                    try:
+                        self.spell_targets.pop(u.tag)
+                    except KeyError:
+                        pass
             else:
                 u.display_type = 2 # seen
                 u.time_unseen += 1
