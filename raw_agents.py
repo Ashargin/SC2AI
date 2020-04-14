@@ -58,66 +58,71 @@ class ZerglingRush(ZergAgent):
         return self.action
 
 
-class HydraliskPush(ZergAgent):
-    """Build : https://lotv.spawningtool.com/build/118355/"""
+class MacroZerg(ZergAgent):
+    """Build : https://lotv.spawningtool.com/build/118526/"""
 
     def __init__(self):
         super().__init__()
-        self.mode = 'macro'
-        self.hydralisks_to_push = 10
 
     def reset(self):
         super().reset()
-        self.mode = 'macro'
 
     def step(self, obs):
         super().step(obs)
 
-        n_hydralisks = self.unit_count_agg('Hydralisk', with_training=False)
-
         # Build order
         # Always needed
+        self.scout_overlord_hl(coordinates='enemy_close', timeout=np.inf)
         self.cast_inject_larva_hl()
+        self.build_creep_tumor_queen_hl()
+        self.build_creep_tumor_tumor_hl()
+        self.set_rally_point_units_hl(coordinates='home')
+        self.move_workers_to_gas_hl()
         self.adjust_workers_distribution_inter_hl()
 
-        if self.mode == 'macro':
-            # First base
-            self.train_drone_hl(14, how=1)
-    
-            # Second base
-            self.build_hatchery_hl(2, pop=14)
-            self.train_drone_hl(28, how=2)
-            self.build_spine_crawler_hl(2, how=2)
-    
-            # Third base
-            self.train_queen_hl(1)
-            self.build_hatchery_hl(3, pop=28)
-            self.build_spine_crawler_hl(4, how=2)
-    
-            # Train hydralisks and attack
-            self.train_hydralisk_hl(5)
-            self.train_drone_hl(38, how=2)
-            self.train_hydralisk_hl(100)
-            if self.game_step % 10 == 0:
-                # Keep army at second base
-                self.move_hl(coordinates='home')
-    
-            # Research in the meantime
-            self.research_missile_attack_1_hl()
-            self.research_ground_armor_1_hl()
-            self.research_muscular_augments_hl()
-            self.research_ground_armor_2_hl()
-            self.research_grooved_spines_hl()
-            self.research_missile_attack_2_hl()
-
-            if n_hydralisks >= self.hydralisks_to_push:
-                self.mode = 'attack'
-
-        elif self.mode == 'attack':
-            self.attack_hl(where='head')
-
-            if n_hydralisks <= int(self.hydralisks_to_push / 2):
-                self.mode = 'macro'
+        # Building mode
+        ### missing lings?
+        ### add drone count
+        self.train_overlord_hl(2, pop=13)
+        self.build_hatchery_hl(2, pop=16)
+        self.build_spawning_pool_hl(pop=19)
+        self.build_extractor_hl(1, pop=20)
+        self.train_overlord_hl(3, pop=25)
+        self.train_queen_hl(1, how=1, pop=25)
+        self.train_overlord_hl(5, pop=28)
+        self.train_queen_hl(2, how=2, pop=28)
+        self.build_hatchery_hl(3, pop=28)
+        self.build_roach_warren_hl(pop=33)
+        self.train_overlord_hl(6, pop=33)
+        self.build_lair_hl(pop=33)
+        self.build_evolution_chamber_hl(1, pop=33)
+        self.train_queen_hl(3, how=3, pop=34)
+        self.research_missile_attack_1_hl(pop=42)
+        self.build_extractor_hl(3, pop=47)
+        self.train_queen_hl(4, pop=47)
+        self.research_glial_reconstitution_hl(pop=47)
+        self.train_roach_hl(4, pop=51)
+        self.train_overseer_hl(1, pop=59)
+        self.train_roach_hl(8, pop=59)
+        self.build_hatchery_hl(4, pop=82)
+        self.build_extractor_hl(5, pop=81)
+        self.build_hydralisk_den_hl(pop=90)
+        self.build_evolution_chamber_hl(2, pop=89)
+        self.build_extractor_hl(6, pop=89)
+        self.train_overseer_hl(2, pop=101)
+        self.build_hatchery_hl(5, pop=104)
+        self.build_extractor_hl(8, pop=103)
+        self.train_hydralisk_hl(5, pop=103)
+        self.research_grooved_spines_hl(pop=103)
+        self.build_infestation_pit_hl(pop=116)
+        self.research_missile_attack_2_hl(pop=116)
+        self.research_ground_armor_1_hl(pop=116)
+        self.train_hydralisk_hl(10, pop=116)
+        self.build_hive_hl(pop=150)
+        self.research_muscular_augments_hl(pop=172)
+        self.train_roach_hl(10, pop=190)
+        self.build_lurker_den_hl(pop=200)
+        self.build_spire_hl(pop=200)
 
         self.wait_hl()
 

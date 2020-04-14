@@ -2,13 +2,13 @@ import os
 from pysc2.env import sc2_env
 from pysc2.lib import features
 from absl import app
-from raw_agents import ZerglingRush, HydraliskPush
+from raw_agents import ZerglingRush, MacroZerg
 from settings import RESOLUTION, STEP_MUL
 
 # Settings
 agent = ZerglingRush()
-op_race = 'random'
-op_difficulty = 'very_hard' # very_easy, easy, medium, medium_hard, harder, very_hard
+op_race = 'very_hard'
+op_difficulty = 'medium' # very_easy, easy, medium, medium_hard, harder, very_hard
 map_name = 'WorldofSleepers'
 visualize = True
 realtime = False

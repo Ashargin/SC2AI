@@ -1004,6 +1004,8 @@ class ZergAgent(RawAgent):
             return self.check_requirements_unit('Corruptor', self.train_corruptor, n=n, how=how)
         elif req == 'Hydralisk':
             return self.check_requirements_unit('Hydralisk', self.train_hydralisk, n=n, how=how)
+        elif req == 'Overlord':
+            return self.check_requirements_unit('Overlord', self.train_overlord, n=n, how=how)
         elif req == 'Queen':
             return self.check_requirements_unit('Queen', self.train_queen, n=n, how=how)
         elif req == 'Roach':
@@ -1609,8 +1611,11 @@ class ZergAgent(RawAgent):
         id_from = np.argmax(excess_workers)
         candidate_ids = [i for i in range(n_bases)
                            if excess_workers[i] <= -excess_workers[id_from]]
-        id_dists = [np.abs(i - id_from) for i in candidate_ids]
-        id_to = candidate_ids[np.argmin(id_dists)]
+        if candidate_ids:
+            id_dists = [np.abs(i - id_from) for i in candidate_ids]
+            id_to = candidate_ids[np.argmin(id_dists)]
+        else:
+            id_to = np.argmin(excess_workers)
         excess_base = self.get_base(id_from + 1)
         target_base = self.get_base(id_to + 1)
 
