@@ -65,7 +65,10 @@ class RawAgent(base_agent.BaseAgent):
 
     def get_units_by_type(self, unit_type, from_raw=False):
         if from_raw:
-            return [u for u in self.obs.observation.raw_units if u.unit_type == unit_type]
+            unit_types = self.obs.observation.raw_units[:, features.FeatureUnit.unit_type]
+            res = self.obs.observation.raw_units[unit_types == unit_type]
+            res = res[res[:, features.FeatureUnit.alliance] != features.PlayerRelative.ENEMY]
+            return [u for u in res]
         if unit_type in self.memory.self_units:
             return self.memory.self_units[unit_type]
         if unit_type in self.memory.neutral_units:
@@ -96,24 +99,32 @@ class RawAgent(base_agent.BaseAgent):
              + self.get_units_by_type(units.Protoss.Probe) \
              + self.get_units_by_type(units.Terran.SCV)
 
-    def get_minerals(self, from_raw=False):
+    def get_minerals(self, from_raw=True):
         return list(itertools.chain.from_iterable(
             [self.get_units_by_type(getattr(units.Neutral, attr), from_raw=from_raw)
                 for attr in dir(units.Neutral) if 'MineralField' in attr]))
                 
-    def get_vespenes(self, from_raw=False, include_built=False):
+    def get_vespenes(self, from_raw=True, include_built=False, separate=False):
         vespenes = list(itertools.chain.from_iterable(
             [self.get_units_by_type(getattr(units.Neutral, attr), from_raw=from_raw)
-                for attr in dir(units.Neutral) if 'Geyser' in attr]))
+                for attr in dir(units.Neutral) if 'Geyser' in attr and 'Rich' not in attr]))
+            # Rich extractors not recognized by pysc2 ; ignored
+        if include_built and not separate:
+            return vespenes
+
         extractors = self.get_units_by_type(units.Zerg.Extractor) \
-                   + self.get_units_by_type(units.Zerg.ExtractorRich) \
-                   + self.get_units_by_type(units.Protoss.Assimilator) \
-                   + self.get_units_by_type(units.Protoss.AssimilatorRich) \
-                   + self.get_units_by_type(units.Terran.Refinery) \
-                   + self.get_units_by_type(units.Terran.RefineryRich)
+                + self.get_units_by_type(units.Zerg.ExtractorRich) \
+                + self.get_units_by_type(units.Protoss.Assimilator) \
+                + self.get_units_by_type(units.Protoss.AssimilatorRich) \
+                + self.get_units_by_type(units.Terran.Refinery) \
+                + self.get_units_by_type(units.Terran.RefineryRich)
+        free = [all([(v.x, v.y) != (e.x, e.y) for e in extractors]) for v in vespenes]
+        free_vespenes = [v for i, v in enumerate(vespenes) if free[i]]
         if not include_built:
-            vespenes = [v for v in vespenes if all([(v.x, v.y) != (e.x, e.y) for e in extractors])]
-        return vespenes
+            return free_vespenes
+
+        built_vespenes = [v for i, v in enumerate(vespenes) if not free[i]]
+        return free_vespenes, built_vespenes
 
     def get_premade_coordinates(self, coordinates):
         if coordinates == 'proxy':
@@ -122,18 +133,20 @@ class RawAgent(base_agent.BaseAgent):
             started_on_top_right = np.sign(np.subtract(*self.self_coordinates))
             out_coordinates += 0.6 * out_coordinates.min() * started_on_top_right
         elif coordinates == 'home':
-            out_coordinates = 0.8 * np.array(self.self_coordinates) \
-                            + 0.2 * np.array(self.enemy_coordinates)
+            out_coordinates = 0.7 * np.array(self.self_coordinates) \
+                            + 0.3 * np.array(self.enemy_coordinates)
         elif coordinates == 'enemy':
             out_coordinates = self.enemy_coordinates
         elif coordinates == 'enemy_far':
-            out_coordinates = -0.04 * np.array(self.self_coordinates) \
-                             + 1.04 * np.array(self.enemy_coordinates)
+            out_coordinates = -0.07 * np.array(self.self_coordinates) \
+                             + 1.07 * np.array(self.enemy_coordinates)
         elif coordinates == 'enemy_close':
-            out_coordinates = 0.04 * np.array(self.self_coordinates) \
-                            + 0.96 * np.array(self.enemy_coordinates)
+            out_coordinates = 0.07 * np.array(self.self_coordinates) \
+                            + 0.93 * np.array(self.enemy_coordinates)
         elif coordinates == 'self':
             out_coordinates = self.self_coordinates
+        elif coordinates == 'middle':
+            out_coordinates = np.array([RESOLUTION / 2, RESOLUTION / 2])
 
         return tuple(np.array(out_coordinates).astype(int))
 
@@ -160,14 +173,14 @@ class RawAgent(base_agent.BaseAgent):
                               creep_constraint,
                               visibility_constraint]).all(axis=0).T.astype('uint8')
 
-        diam = int(THRESHOLD * 0.23) # approximate standard building size
+        diam = int(THRESHOLD * 0.28) # approximate standard building size
         if action in [RAW_FUNCTIONS.Build_CommandCenter_pt,
                       RAW_FUNCTIONS.Build_Nexus_pt,
                       RAW_FUNCTIONS.Build_Hatchery_pt]:
             diam = int(THRESHOLD * 0.38) # approximate base building size
         elif action in [RAW_FUNCTIONS.Build_CreepTumor_Queen_pt,
                         RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt]:
-            diam = 1
+            diam = int(THRESHOLD * 0.12)
         can_build = cv2.erode(can_build, np.ones((diam, diam)))
 
         return can_build
@@ -208,7 +221,7 @@ class RawAgent(base_agent.BaseAgent):
 
             # Choose the marker point
             if how == 'base':
-                minerals = self.get_minerals(from_raw=True)
+                minerals = self.get_minerals()
                 bases = self.get_bases()
 
                 def shortest_path(grid, targets, max_lookup):
@@ -252,8 +265,8 @@ class RawAgent(base_agent.BaseAgent):
                 x, y = chosen_mineral.x, chosen_mineral.y
 
                 # Build a score for proximity to minerals :
-                minerals_vespenes = self.get_minerals(from_raw=True) \
-                                  + self.get_vespenes(from_raw=True, include_built=True)
+                minerals_vespenes = self.get_minerals() \
+                                  + self.get_vespenes(include_built=True)
                 dists = [(m.x - x)**2 + (m.y - y)**2 for m in minerals_vespenes]
                 # Select minerals and vespenes in the line :
                 minerals_vespenes = [minerals_vespenes[i] for i in np.argsort(dists)[:10]]
@@ -412,6 +425,13 @@ class RawAgent(base_agent.BaseAgent):
                 self.memory.expired_tumors.add(picked.tag)
                 return None
 
+            if picked.tag not in self.memory.creep_tumor_tries:
+                self.memory.creep_tumor_tries[picked.tag] = 0
+            self.memory.creep_tumor_tries[picked.tag] += 1
+            if self.memory.creep_tumor_tries[picked.tag] > 10:
+                self.memory.expired_tumors.add(picked.tag)
+                return None
+
             on_our_side = started_on_top_right == np.sign(np.subtract(picked.x, picked.y))
             if on_our_side:
                 base_x, base_y = self.self_coordinates
@@ -466,9 +486,11 @@ class RawAgent(base_agent.BaseAgent):
         return self.do(action, 'now', tag, skill_target)
 
     def attack(self, attackers, coordinates=None, can_reach_ground=True, can_reach_air=True,
-                                                                            where='median'):
+                                where='median', defend=False, defend_up_to=0.5, hunt=False):
         busy = list(itertools.chain.from_iterable(self.memory.scouts.values()))
         attackers = [u for u in attackers if u.tag not in busy]
+        if isinstance(coordinates, str):
+            coordinates = self.get_premade_coordinates(coordinates)
 
         if not attackers:
             return None
@@ -480,7 +502,7 @@ class RawAgent(base_agent.BaseAgent):
             prio = ATTACK_PRIORITY['Air']
 
         if where == 'median':
-            x, y = np.median([[u.x, u.y] for u in attackers], axis=0)
+            army_x, army_y = np.median([[u.x, u.y] for u in attackers], axis=0)
         else:
             base_x, base_y = self.self_coordinates
             dists = [np.abs(u.x - base_x) + np.abs(u.y - base_y) for u in attackers]
@@ -492,32 +514,58 @@ class RawAgent(base_agent.BaseAgent):
                 raise Warning(f'Unknown army marker : {where}')
             army_x, army_y = picked.x, picked.y
 
-        enemies = list(itertools.chain.from_iterable(self.memory.enemy_units.values()))  
+        enemies = list(itertools.chain.from_iterable(self.memory.enemy_units.values()))
         enemies = [u for u in enemies if u.unit_type in prio.keys()]
+        if defend:
+            self_diff = np.subtract(*self.self_coordinates)
+            enemy_diff = np.subtract(*self.enemy_coordinates)
+            target_diff = self_diff + defend_up_to * (enemy_diff - self_diff)
+            enemies = [u for u in enemies if np.sign(u.x - u.y - target_diff)
+                                             == np.sign(self_diff)]
         dists = np.sqrt([(u.x - army_x)**2 + (u.y - army_y)**2 for u in enemies])
-        if coordinates is None:
-            visible = [u for i, u in enumerate(enemies) 
-                         if u.display_type == 1 and dists[i] < 2 * THRESHOLD]
 
-            if visible:
-                priorities = [prio[u.unit_type] for u in visible]
-                candidates = [u for i, u in enumerate(visible) if priorities[i] == max(priorities)]
-                hps = [u.health for u in candidates]
-                picked = candidates[np.argmin(hps)]
-                coordinates = (picked.x, picked.y)
+        out_coordinates = None
+        visible = [u for i, u in enumerate(enemies) 
+                        if u.display_type == 1 and (dists[i] < 3 * THRESHOLD or defend)]
 
-        if coordinates is None:
+        found_location = True
+        if visible:
+            priorities = [prio[u.unit_type] for u in visible]
+            candidates = [u for i, u in enumerate(visible) if priorities[i] == max(priorities)]
+            hps = [u.health for u in candidates]
+            picked = candidates[np.argmin(hps)]
+            out_coordinates = (picked.x, picked.y)
+
+        elif defend:
+            return None
+
+        else:
             # Look for enemy units where we have an information on the position
-            candidates = [u for u in enemies if u.pos_tracked and u.display_type != 3]
-            if not candidates:
-                coordinates = self.enemy_coordinates
+            if hunt:
+                candidates = [u for u in enemies if u.pos_tracked and u.display_type != 3]
+                if candidates:
+                    dists = [(u.x - army_x)**2 + (u.y - army_y)**2 for u in candidates]
+                    picked = candidates[np.argmin(dists)]
+                    out_coordinates = (picked.x, picked.y)
+                else:
+                    out_coordinates = coordinates if coordinates is not None \
+                                    else self.get_premade_coordinates('middle')
+                    found_location = False
             else:
-                dists = [(u.x - army_x)**2 + (u.y - army_y)**2 for u in candidates]
-                picked = candidates[np.argmin(dists)]
-                coordinates = (picked.x, picked.y)
+                out_coordinates = coordinates
+                if coordinates is None:
+                    out_coordinates = self.enemy_coordinates
+                found_location = False
+
+        if not found_location:
+            dists = np.sqrt([(u.x - out_coordinates[0])**2 + (u.y - out_coordinates[1])**2
+                                                                        for u in attackers])
+            n_in_range = (dists < THRESHOLD / 5).sum()
+            if n_in_range >= min(4, len(attackers)):
+                return None
 
         attackers = [u.tag for u in attackers]
-        return self.do(RAW_FUNCTIONS.Attack_pt, 'now', attackers, coordinates)
+        return self.do(RAW_FUNCTIONS.Attack_pt, 'now', attackers, out_coordinates)
 
     def move(self, units_to_move, coordinates='home'):
         busy = list(itertools.chain.from_iterable(self.memory.scouts.values()))
@@ -552,7 +600,8 @@ class ZergAgent(RawAgent):
         dict_res = {}
         x, y = self.memory.base_locations[how - 1]
 
-        v_spots = self.get_vespenes(from_raw=True) + self.get_units_agg('Extractor', with_training=True)
+        free_vespenes, built_vespenes = self.get_vespenes(include_built=True, separate=True)
+        v_spots = free_vespenes + self.get_units_agg('Extractor', with_training=True)
         dists = np.sqrt([(s.x - x)**2 + (s.y - y)**2 for s in v_spots])
         v_spots = [s for i, s in enumerate(v_spots) if dists[i] < THRESHOLD]
         neutral_vespenes = [s for s in v_spots if s.unit_type
@@ -561,7 +610,7 @@ class ZergAgent(RawAgent):
 
         v_spots = [s for s in v_spots if s.unit_type
                    in [units.Zerg.Extractor, units.Zerg.ExtractorRich]]
-        linked_vespenes = [[v for v in self.get_vespenes(from_raw=True, include_built=True)
+        linked_vespenes = [[v for v in free_vespenes + built_vespenes
                             if (v.x, v.y) == (s.x, s.y)][0] for s in v_spots]
         dict_res['extractors'] = [NamedNumpyArray([s.tag,
                                                    s.build_progress == 100,
@@ -573,7 +622,7 @@ class ZergAgent(RawAgent):
                                                     'x', 'y', 'vespene_left'])
                                                    for i, s in enumerate(v_spots)]
 
-        m_spots = self.get_minerals(from_raw=True)
+        m_spots = self.get_minerals()
         dists = np.sqrt([(s.x - x)**2 + (s.y - y)**2 for s in m_spots])
         m_spots = [s for i, s in enumerate(m_spots) if dists[i] < THRESHOLD]
         dict_res['minerals'] = m_spots
@@ -1392,7 +1441,10 @@ class ZergAgent(RawAgent):
 
     def build_extractor(self, how=1, where='random'):
         if where == 'random':
-            neutral_vespenes = self.get_vespenes(from_raw=True)
+            if len(self.get_bases()) < how:
+                return None
+
+            neutral_vespenes = self.get_vespenes()
             x, y = self.memory.base_locations[how - 1]
             dists = [(v.x - x)**2 + (v.y - y)**2 for v in neutral_vespenes]
             vespene = neutral_vespenes[np.argmin(dists)]
@@ -1501,7 +1553,13 @@ class ZergAgent(RawAgent):
 
         return None
 
-    def move_workers_to(self, to, how='all', only_idle=False, may_build_extractor=False):
+    def move_workers_to(self, to, how='all', only_idle=False, may_build_extractor=False, timeout=0):
+        key = f'move_workers_to_{to}'
+        if key in self.memory.function_timeout:
+            return None
+        else:
+            self.memory.function_timeout[key] = timeout
+
         if not self.memory.base_locations:
             return None
 
@@ -1576,13 +1634,20 @@ class ZergAgent(RawAgent):
 
         return None
 
-    def move_workers_to_gas(self, how='all', only_idle=False, may_build_extractor=False):
-        return self.move_workers_to('gas', how=how, only_idle=only_idle, may_build_extractor=may_build_extractor)
+    def move_workers_to_gas(self, how='all', only_idle=False, may_build_extractor=False, timeout=0):
+        return self.move_workers_to('gas', how=how, only_idle=only_idle,
+                    may_build_extractor=may_build_extractor, timeout=timeout)
 
-    def move_workers_to_minerals(self, how='all', only_idle=False):
-        return self.move_workers_to('minerals', how=how, only_idle=only_idle)
+    def move_workers_to_minerals(self, how='all', only_idle=False, timeout=0):
+        return self.move_workers_to('minerals', how=how, only_idle=only_idle, timeout=timeout)
 
-    def adjust_workers_distribution_intra(self):
+    def adjust_workers_distribution_intra(self, timeout=0):
+        key = 'adjust_workers_distribution_intra'
+        if key in self.memory.function_timeout:
+            return None
+        else:
+            self.memory.function_timeout[key] = timeout
+
         capped_minerals = self.obs.observation.player.minerals >= CAP_MINERALS
         capped_gas = self.obs.observation.player.vespene >= CAP_GAS
 
@@ -1595,7 +1660,13 @@ class ZergAgent(RawAgent):
         else:
             return None
 
-    def adjust_workers_distribution_inter(self, how='equal'):
+    def adjust_workers_distribution_inter(self, how='equal', timeout=0):
+        key = 'adjust_workers_distribution_inter'
+        if key in self.memory.function_timeout:
+            return None
+        else:
+            self.memory.function_timeout[key] = timeout
+
         n_bases = len(self.get_bases())
         excess_workers = []
         for i in range(n_bases):
@@ -1634,9 +1705,11 @@ class ZergAgent(RawAgent):
                                             buffs.Buffs.CarryHighYieldMineralFieldMinerals]]
         dists = np.sqrt([(w.x - excess_base.x)**2 + (w.y - excess_base.y)**2 for w in workers])
         workers = [w for i, w in enumerate(workers) if dists[i] < THRESHOLD][:n_workers]
+        if not workers:
+            return None
         workers = [w.tag for w in workers]
 
-        minerals = self.get_minerals(from_raw=True)
+        minerals = self.get_minerals()
         dists = [np.abs(m.x - target_base.x) + np.abs(m.y - target_base.y) for m in minerals]
         target = minerals[np.argmin(dists)]
 
@@ -1645,7 +1718,7 @@ class ZergAgent(RawAgent):
     def check_rally_points_workers(self):
         for b in self.get_units_agg('Hatchery', with_training=True):
             if b.tag > 0 and b.time_alive == 0: # has just been created
-                minerals = self.get_minerals(from_raw=True)
+                minerals = self.get_minerals()
                 dists = [(m.x - b.x)**2 + (m.y - b.y)**2 for m in minerals]
                 picked = minerals[np.argmin(dists)]
                 return self.do(RAW_FUNCTIONS.Rally_Workers_unit, 'now', [b.tag], picked.tag)
@@ -2100,22 +2173,24 @@ class ZergAgent(RawAgent):
         self.main_hl(action, bypass=True)
 
     def move_workers_to_gas_hl(self, pop=0, increase=None, how='all',
-                               only_idle=False, may_build_extractor=False):
+                               only_idle=False, may_build_extractor=False, timeout=0):
         action = lambda : self.move_workers_to_gas(how=how, only_idle=only_idle,
-                                                   may_build_extractor=may_build_extractor)
+                                                   may_build_extractor=may_build_extractor,
+                                                   timeout=timeout)
         self.main_hl(action, pop=pop, increase=increase, bypass=True)
 
     def move_workers_to_minerals_hl(self, pop=0, increase=None, how='all',
-                                    only_idle=False):
-        action = lambda : self.move_workers_to_minerals(how=how, only_idle=only_idle)
+                                    only_idle=False, timeout=0):
+        action = lambda : self.move_workers_to_minerals(how=how, only_idle=only_idle,
+                                                                    timeout=timeout)
         self.main_hl(action, pop=pop, increase=increase, bypass=True)
 
-    def adjust_workers_distribution_intra_hl(self):
-        action = self.adjust_workers_distribution_intra
+    def adjust_workers_distribution_intra_hl(self, timeout=0):
+        action = lambda : self.adjust_workers_distribution_intra(timeout=timeout)
         self.main_hl(action, bypass=True)
 
-    def adjust_workers_distribution_inter_hl(self, how='equal'):
-        action = lambda : self.adjust_workers_distribution_inter(how=how)
+    def adjust_workers_distribution_inter_hl(self, how='equal', timeout=0):
+        action = lambda : self.adjust_workers_distribution_inter(how=how, timeout=timeout)
         self.main_hl(action, bypass=True)
 
     def check_rally_points_workers_hl(self):
@@ -2139,7 +2214,8 @@ class ZergAgent(RawAgent):
 
     def attack_hl(self, pop=0, increase=None, attackers=None, unit_names='all',
                         with_queen=False, with_drone=False, coordinates=None,
-                        only_idle=False, can_reach_ground=True, can_reach_air=True, where='median'):
+                        only_idle=False, can_reach_ground=True, can_reach_air=True, where='median',
+                        hunt=False, defend=False, defend_up_to=0.5):
         if attackers is None:
             attackers = self.get_army(unit_names=unit_names, with_queen=with_queen,
                                                             with_drone=with_drone)
@@ -2148,8 +2224,15 @@ class ZergAgent(RawAgent):
         action = lambda : self.attack(attackers=attackers, coordinates=coordinates,
                                         can_reach_ground=can_reach_ground,
                                         can_reach_air=can_reach_air,
-                                        where=where)
+                                        where=where, hunt=hunt, defend=defend,
+                                        defend_up_to=defend_up_to)
         self.main_hl(action, pop=pop, increase=increase, bypass=True)
+
+    def defend_hl(self, defend_up_to=0.5, **kwargs):
+        self.attack_hl(defend=True, defend_up_to=defend_up_to, **kwargs)
+
+    def hunt_hl(self, **kwargs):
+        self.attack_hl(hunt=True, **kwargs)
 
     def move_hl(self, coordinates='home', pop=0, increase=None, units_to_move=None, unit_names='all',
                                                     only_idle=False, with_queen=False, with_drone=False):
@@ -2176,8 +2259,10 @@ class ZergAgent(RawAgent):
             self.action = self.wait()
 
         ## Todo
+        # skills
         # nydus
-        # every=..
 
+        # every=..
         # macro
         # rl
+        # notebook

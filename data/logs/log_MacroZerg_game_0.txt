@@ -10,13 +10,13 @@ Time step 1
 Resources : 50, 0
 Supply : 12/14
 Larvae : 3
-Chose action Move_pt, args [[<Queued.now: 0>], [4353163265], [172, 26]]
+Chose action Rally_Units_pt, args [[<Queued.now: 0>], [4348968961], [67, 131]]
 
 Time step 2
 Resources : 50, 0
 Supply : 12/14
 Larvae : 3
-Chose action Rally_Units_pt, args [[<Queued.now: 0>], [4348968961], [51, 147]]
+Chose action Move_pt, args [[<Queued.now: 0>], [4353163265], [167, 31]]
 
 Time step 3
 Resources : 50, 0
@@ -118,7 +118,7 @@ Time step 19
 Resources : 115, 0
 Supply : 13/14
 Larvae : 3
-Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4349755393]]
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4349231105]]
 
 Time step 20
 Resources : 20, 0
@@ -148,7 +148,7 @@ Time step 24
 Resources : 50, 0
 Supply : 13/14
 Larvae : 2
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4349231105]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4349755393]]
 
 Time step 25
 Resources : 5, 0
@@ -229,7 +229,7 @@ Larvae : 2
 Chose action no_op, args []
 
 Time step 38
-Resources : 120, 0
+Resources : 125, 0
 Supply : 14/14
 Larvae : 2
 Chose action no_op, args []
@@ -268,13 +268,13 @@ Time step 44
 Resources : 180, 0
 Supply : 14/22
 Larvae : 2
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4357619713]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4358668289]]
 
 Time step 45
 Resources : 140, 0
 Supply : 15/22
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4356833281]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4358144001]]
 
 Time step 46
 Resources : 100, 0
@@ -295,7 +295,7 @@ Larvae : 0
 Chose action no_op, args []
 
 Time step 49
-Resources : 120, 0
+Resources : 125, 0
 Supply : 16/22
 Larvae : 1
 Chose action no_op, args []
@@ -313,7 +313,7 @@ Larvae : 1
 Chose action no_op, args []
 
 Time step 52
-Resources : 155, 0
+Resources : 160, 0
 Supply : 16/22
 Larvae : 1
 Chose action no_op, args []
@@ -331,7 +331,7 @@ Larvae : 1
 Chose action no_op, args []
 
 Time step 55
-Resources : 180, 0
+Resources : 175, 0
 Supply : 16/22
 Larvae : 1
 Chose action no_op, args []
@@ -343,7 +343,7 @@ Larvae : 1
 Chose action no_op, args []
 
 Time step 57
-Resources : 205, 0
+Resources : 210, 0
 Supply : 16/22
 Larvae : 1
 Chose action no_op, args []
@@ -361,7 +361,7 @@ Larvae : 1
 Chose action no_op, args []
 
 Time step 60
-Resources : 225, 0
+Resources : 230, 0
 Supply : 16/22
 Larvae : 1
 Chose action no_op, args []
@@ -409,103 +409,103 @@ Larvae : 2
 Chose action no_op, args []
 
 Time step 68
-Resources : 315, 0
+Resources : 310, 0
 Supply : 16/22
 Larvae : 2
-Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4357357569], [23, 139]]
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4354211842], [23, 139]]
 
 Time step 69
-Resources : 25, 0
+Resources : 20, 0
 Supply : 16/22
 Larvae : 2
 Chose action no_op, args []
 
 Time step 70
-Resources : 30, 0
+Resources : 25, 0
 Supply : 16/22
 Larvae : 2
 Chose action no_op, args []
 
 Time step 71
-Resources : 45, 0
+Resources : 35, 0
 Supply : 16/22
 Larvae : 2
 Chose action no_op, args []
 
 Time step 72
-Resources : 55, 0
+Resources : 50, 0
 Supply : 16/22
 Larvae : 2
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4356833282]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4360241153]]
 
 Time step 73
-Resources : 15, 0
+Resources : 10, 0
 Supply : 17/22
 Larvae : 1
 Chose action no_op, args []
 
 Time step 74
-Resources : 20, 0
+Resources : 15, 0
 Supply : 17/22
 Larvae : 1
 Chose action no_op, args []
 
 Time step 75
-Resources : 25, 0
+Resources : 20, 0
 Supply : 17/22
 Larvae : 1
 Chose action no_op, args []
 
 Time step 76
-Resources : 45, 0
+Resources : 40, 0
 Supply : 17/22
 Larvae : 1
 Chose action no_op, args []
 
 Time step 77
+Resources : 45, 0
+Supply : 17/22
+Larvae : 1
+Chose action no_op, args []
+
+Time step 78
 Resources : 50, 0
 Supply : 17/22
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4349755394]]
-
-Time step 78
-Resources : 10, 0
-Supply : 18/22
-Larvae : 0
-Chose action no_op, args []
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4359192577]]
 
 Time step 79
-Resources : 25, 0
+Resources : 20, 0
 Supply : 18/22
 Larvae : 1
 Chose action no_op, args []
 
 Time step 80
-Resources : 30, 0
+Resources : 25, 0
 Supply : 17/22
 Larvae : 1
-Chose action Rally_Workers_unit, args [[<Queued.now: 0>], [4359979009], [8726118401]]
+Chose action Rally_Workers_unit, args [[<Queued.now: 0>], [4361027585], [8726380545]]
 
 Time step 81
-Resources : 40, 0
+Resources : 35, 0
 Supply : 17/22
 Larvae : 1
-Chose action Rally_Units_pt, args [[<Queued.now: 0>], [4359979009], [51, 147]]
+Chose action Rally_Units_pt, args [[<Queued.now: 0>], [4361027585], [67, 131]]
 
 Time step 82
 Resources : 50, 0
 Supply : 17/22
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4359716865]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4360765441]]
 
 Time step 83
-Resources : 15, 0
+Resources : 10, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 84
-Resources : 20, 0
+Resources : 15, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
@@ -517,152 +517,152 @@ Larvae : 0
 Chose action no_op, args []
 
 Time step 86
-Resources : 45, 0
+Resources : 40, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 87
-Resources : 50, 0
+Resources : 45, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 88
-Resources : 60, 0
+Resources : 55, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 89
-Resources : 75, 0
+Resources : 70, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 90
-Resources : 85, 0
+Resources : 80, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 91
-Resources : 95, 0
+Resources : 85, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 92
-Resources : 105, 0
+Resources : 100, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 93
-Resources : 115, 0
+Resources : 110, 0
 Supply : 18/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 94
-Resources : 120, 0
+Resources : 115, 0
 Supply : 18/22
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4360503297]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4349231107]]
 
 Time step 95
-Resources : 75, 0
+Resources : 70, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 96
-Resources : 95, 0
+Resources : 90, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 97
-Resources : 105, 0
+Resources : 95, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 98
-Resources : 110, 0
+Resources : 105, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 99
-Resources : 125, 0
+Resources : 120, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 100
-Resources : 130, 0
+Resources : 125, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 101
-Resources : 135, 0
+Resources : 130, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 102
-Resources : 155, 0
+Resources : 145, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 103
-Resources : 165, 0
+Resources : 160, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 104
-Resources : 170, 0
+Resources : 165, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 105
-Resources : 185, 0
+Resources : 175, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 106
-Resources : 200, 0
+Resources : 190, 0
 Supply : 19/22
 Larvae : 0
-Chose action Build_SpawningPool_pt, args [[<Queued.now: 0>], [4358930433], [20, 174]]
+Chose action no_op, args []
 
 Time step 107
-Resources : 0, 0
+Resources : 190, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 108
-Resources : 10, 0
+Resources : 205, 0
 Supply : 19/22
 Larvae : 0
-Chose action no_op, args []
+Chose action Build_SpawningPool_pt, args [[<Queued.now: 0>], [4353949698], [20, 173]]
 
 Time step 109
-Resources : 35, 0
-Supply : 18/22
+Resources : 20, 0
+Supply : 19/22
 Larvae : 1
 Chose action no_op, args []
 
 Time step 110
-Resources : 40, 0
-Supply : 18/22
+Resources : 35, 0
+Supply : 19/22
 Larvae : 1
 Chose action no_op, args []
 
@@ -673,199 +673,199 @@ Larvae : 1
 Chose action no_op, args []
 
 Time step 112
-Resources : 65, 0
+Resources : 45, 0
 Supply : 18/22
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4361551873]]
-
-Time step 113
-Resources : 30, 0
-Supply : 19/22
-Larvae : 0
 Chose action no_op, args []
 
+Time step 113
+Resources : 70, 0
+Supply : 18/22
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4361814017]]
+
 Time step 114
-Resources : 30, 0
+Resources : 25, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 115
-Resources : 45, 0
+Resources : 35, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 116
-Resources : 70, 0
+Resources : 55, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 117
-Resources : 70, 0
+Resources : 60, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 118
-Resources : 75, 0
+Resources : 60, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 119
-Resources : 105, 0
+Resources : 80, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 120
-Resources : 110, 0
+Resources : 90, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 121
-Resources : 110, 0
+Resources : 95, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 122
-Resources : 120, 0
+Resources : 115, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 123
-Resources : 145, 0
-Supply : 19/22
-Larvae : 0
-Chose action no_op, args []
-
-Time step 124
-Resources : 150, 0
-Supply : 19/22
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4360503298]]
-
-Time step 125
-Resources : 110, 0
-Supply : 20/22
-Larvae : 0
-Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4352638977], [4305715201]]
-
-Time step 126
-Resources : 95, 0
-Supply : 20/22
-Larvae : 0
-Chose action no_op, args []
-
-Time step 127
-Resources : 105, 0
-Supply : 20/22
-Larvae : 0
-Chose action no_op, args []
-
-Time step 128
-Resources : 120, 0
-Supply : 19/22
-Larvae : 0
-Chose action no_op, args []
-
-Time step 129
 Resources : 130, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
+Time step 124
+Resources : 130, 0
+Supply : 19/22
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4362600449]]
+
+Time step 125
+Resources : 95, 0
+Supply : 20/22
+Larvae : 0
+Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4352638977], [4305715201]]
+
+Time step 126
+Resources : 80, 0
+Supply : 20/22
+Larvae : 0
+Chose action no_op, args []
+
+Time step 127
+Resources : 85, 0
+Supply : 20/22
+Larvae : 0
+Chose action no_op, args []
+
+Time step 128
+Resources : 100, 0
+Supply : 19/22
+Larvae : 0
+Chose action no_op, args []
+
+Time step 129
+Resources : 120, 0
+Supply : 19/22
+Larvae : 0
+Chose action no_op, args []
+
 Time step 130
-Resources : 140, 0
+Resources : 125, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 131
-Resources : 155, 0
+Resources : 140, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 132
-Resources : 160, 0
+Resources : 140, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 133
-Resources : 175, 0
+Resources : 160, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 134
-Resources : 175, 0
+Resources : 165, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 135
-Resources : 195, 0
+Resources : 180, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 136
-Resources : 210, 0
+Resources : 205, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 137
-Resources : 215, 0
+Resources : 205, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 138
-Resources : 230, 0
+Resources : 215, 0
 Supply : 19/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 139
-Resources : 245, 0
+Resources : 230, 0
 Supply : 19/22
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4362600449]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4363386881]]
 
 Time step 140
-Resources : 200, 0
+Resources : 190, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 141
-Resources : 200, 0
+Resources : 195, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 142
-Resources : 225, 0
+Resources : 210, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 143
-Resources : 240, 0
+Resources : 225, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 144
-Resources : 240, 0
+Resources : 235, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
@@ -877,13 +877,13 @@ Larvae : 0
 Chose action no_op, args []
 
 Time step 146
-Resources : 270, 0
+Resources : 260, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 147
-Resources : 275, 0
+Resources : 265, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
@@ -895,67 +895,67 @@ Larvae : 0
 Chose action no_op, args []
 
 Time step 149
-Resources : 305, 0
+Resources : 290, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 150
-Resources : 315, 0
+Resources : 305, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 151
-Resources : 325, 0
+Resources : 320, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 152
-Resources : 340, 0
+Resources : 330, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 153
-Resources : 345, 0
+Resources : 340, 0
 Supply : 20/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 154
-Resources : 360, 0
+Resources : 355, 0
 Supply : 20/22
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4363649025]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4357881860]]
 
 Time step 155
-Resources : 320, 0
+Resources : 310, 0
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 156
-Resources : 335, 0
+Resources : 330, 0
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 157
-Resources : 345, 0
+Resources : 340, 0
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 158
-Resources : 360, 0
+Resources : 350, 0
 Supply : 21/22
 Larvae : 0
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4362862593, 4360765441, 4351590401], [4362076161]]
+Chose action no_op, args []
 
 Time step 159
-Resources : 370, 0
+Resources : 365, 0
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
@@ -967,10 +967,10 @@ Larvae : 0
 Chose action no_op, args []
 
 Time step 161
-Resources : 380, 0
+Resources : 390, 0
 Supply : 21/22
 Larvae : 0
-Chose action no_op, args []
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4351066113, 4350803969, 4351328257], [4355784706]]
 
 Time step 162
 Resources : 390, 0
@@ -979,3792 +979,3828 @@ Larvae : 0
 Chose action no_op, args []
 
 Time step 163
-Resources : 400, 0
+Resources : 390, 0
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 164
-Resources : 420, 4
+Resources : 405, 0
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 165
-Resources : 425, 4
+Resources : 425, 0
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 166
-Resources : 440, 8
+Resources : 425, 0
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 167
-Resources : 445, 8
+Resources : 435, 4
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 168
-Resources : 460, 12
+Resources : 455, 4
 Supply : 21/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 169
-Resources : 465, 12
+Resources : 465, 8
 Supply : 21/22
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4362600450]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4356571139]]
 
 Time step 170
-Resources : 430, 16
+Resources : 415, 8
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 171
-Resources : 440, 16
+Resources : 430, 12
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 172
-Resources : 455, 20
+Resources : 440, 12
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 173
-Resources : 460, 20
+Resources : 450, 16
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 174
-Resources : 475, 24
+Resources : 465, 16
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 175
-Resources : 485, 24
+Resources : 475, 20
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 176
-Resources : 500, 28
+Resources : 485, 20
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 177
-Resources : 515, 28
+Resources : 500, 24
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 178
-Resources : 520, 32
+Resources : 510, 24
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 179
-Resources : 545, 32
+Resources : 520, 28
 Supply : 22/22
 Larvae : 0
 Chose action no_op, args []
 
 Time step 180
-Resources : 545, 36
+Resources : 525, 28
 Supply : 22/28
 Larvae : 1
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4350803969, 4352376833, 4350017537, 4351852545, 4360241153], [4324589569]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4364959745]]
 
 Time step 181
-Resources : 545, 36
-Supply : 22/28
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4363649026]]
-
-Time step 182
-Resources : 495, 40
+Resources : 495, 32
 Supply : 23/28
 Larvae : 0
 Chose action no_op, args []
 
+Time step 182
+Resources : 500, 32
+Supply : 23/28
+Larvae : 0
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4352901121, 4358668290, 4364435457, 4363124737, 4359192578, 4360241154], [4324589569]]
+
 Time step 183
-Resources : 510, 40
+Resources : 500, 36
 Supply : 23/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 184
-Resources : 525, 44
+Resources : 500, 36
 Supply : 23/28
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4357357570]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4354211843]]
 
 Time step 185
-Resources : 480, 44
+Resources : 460, 40
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 186
-Resources : 490, 48
+Resources : 470, 40
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 187
-Resources : 500, 48
+Resources : 475, 44
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 188
-Resources : 505, 52
+Resources : 485, 44
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 189
-Resources : 510, 52
+Resources : 500, 48
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 190
-Resources : 520, 56
+Resources : 505, 48
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 191
-Resources : 530, 56
+Resources : 505, 52
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 192
-Resources : 540, 60
+Resources : 510, 52
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 193
-Resources : 565, 60
+Resources : 520, 56
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 194
-Resources : 585, 60
+Resources : 535, 56
 Supply : 24/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 195
-Resources : 590, 64
+Resources : 540, 60
 Supply : 24/28
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4362600451]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4365221889]]
 
 Time step 196
-Resources : 560, 64
+Resources : 520, 60
 Supply : 25/28
 Larvae : 0
 Chose action Train_Queen_quick, args [[<Queued.now: 0>], [4348968961]]
 
 Time step 197
-Resources : 410, 68
+Resources : 395, 64
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 198
-Resources : 420, 68
+Resources : 405, 64
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 199
-Resources : 445, 72
+Resources : 405, 64
 Supply : 27/28
 Larvae : 1
-Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4363649027]]
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4352638979]]
 
 Time step 200
-Resources : 350, 72
+Resources : 315, 68
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 201
-Resources : 360, 76
+Resources : 330, 68
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 202
-Resources : 375, 76
+Resources : 340, 72
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 203
-Resources : 390, 80
+Resources : 350, 72
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 204
-Resources : 405, 80
+Resources : 365, 76
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 205
-Resources : 420, 84
+Resources : 380, 76
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 206
-Resources : 435, 84
+Resources : 390, 80
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 207
-Resources : 445, 88
+Resources : 410, 80
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 208
-Resources : 445, 88
+Resources : 425, 84
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 209
-Resources : 475, 92
+Resources : 445, 84
 Supply : 27/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 210
-Resources : 485, 92
+Resources : 445, 88
 Supply : 27/28
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4357357571]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4356571141]]
 
 Time step 211
-Resources : 455, 96
+Resources : 405, 88
 Supply : 28/28
 Larvae : 0
-Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4352901121], [61, 178]]
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4350279681], [61, 178]]
 
 Time step 212
-Resources : 175, 96
+Resources : 125, 92
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 213
-Resources : 185, 100
+Resources : 135, 92
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 214
-Resources : 185, 100
+Resources : 160, 96
 Supply : 28/28
 Larvae : 1
-Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4362600452]]
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4357881862]]
 
 Time step 215
-Resources : 100, 104
+Resources : 65, 96
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 216
-Resources : 125, 104
+Resources : 80, 100
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 217
-Resources : 135, 108
+Resources : 95, 100
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 218
-Resources : 150, 108
+Resources : 105, 104
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 219
-Resources : 175, 112
+Resources : 115, 104
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 220
-Resources : 180, 112
+Resources : 135, 108
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 221
-Resources : 185, 116
+Resources : 160, 108
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 222
-Resources : 205, 116
+Resources : 170, 112
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 223
-Resources : 225, 120
+Resources : 185, 112
 Supply : 28/28
 Larvae : 0
 Chose action no_op, args []
 
 Time step 224
-Resources : 235, 120
+Resources : 190, 116
 Supply : 28/36
 Larvae : 0
-Chose action Train_Queen_quick, args [[<Queued.now: 0>], [4359979009]]
+Chose action Train_Queen_quick, args [[<Queued.now: 0>], [4361027585]]
 
 Time step 225
-Resources : 100, 120
+Resources : 55, 116
 Supply : 30/36
 Larvae : 1
-Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4366270465]]
+Chose action no_op, args []
 
 Time step 226
-Resources : 20, 124
+Resources : 70, 120
 Supply : 30/36
-Larvae : 0
+Larvae : 1
 Chose action no_op, args []
 
 Time step 227
-Resources : 35, 124
+Resources : 80, 120
 Supply : 30/36
-Larvae : 0
+Larvae : 1
 Chose action no_op, args []
 
 Time step 228
-Resources : 40, 128
-Supply : 30/36
-Larvae : 0
-Chose action no_op, args []
-
-Time step 229
-Resources : 50, 128
+Resources : 105, 124
 Supply : 30/36
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4366794753]]
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4367581186]]
 
-Time step 230
-Resources : 25, 132
-Supply : 31/36
-Larvae : 0
+Time step 229
+Resources : 25, 124
+Supply : 30/36
+Larvae : 1
 Chose action no_op, args []
 
+Time step 230
+Resources : 35, 128
+Supply : 30/36
+Larvae : 1
+Chose action Move_pt, args [[<Queued.now: 0>], [4353163265], [20, 179]]
+
 Time step 231
-Resources : 45, 132
-Supply : 31/36
-Larvae : 0
+Resources : 45, 128
+Supply : 30/36
+Larvae : 1
 Chose action no_op, args []
 
 Time step 232
-Resources : 50, 136
-Supply : 31/36
-Larvae : 0
-Chose action no_op, args []
+Resources : 60, 128
+Supply : 30/36
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4356571144]]
 
 Time step 233
-Resources : 65, 136
+Resources : 20, 132
 Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 234
-Resources : 85, 140
+Resources : 35, 132
 Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 235
-Resources : 110, 140
-Supply : 31/28
+Resources : 50, 136
+Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 236
-Resources : 110, 144
-Supply : 31/28
+Resources : 70, 136
+Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 237
-Resources : 125, 144
-Supply : 31/28
+Resources : 85, 140
+Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 238
-Resources : 150, 148
-Supply : 31/28
+Resources : 100, 140
+Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 239
-Resources : 160, 148
-Supply : 31/36
+Resources : 110, 144
+Supply : 31/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 240
-Resources : 175, 152
-Supply : 31/36
+Resources : 125, 144
+Supply : 31/44
 Larvae : 1
-Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4362600453]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4365221895]]
 
 Time step 241
-Resources : 90, 152
-Supply : 31/36
+Resources : 95, 148
+Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 242
-Resources : 110, 156
-Supply : 31/36
+Resources : 110, 148
+Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 243
-Resources : 135, 156
-Supply : 30/36
-Larvae : 0
-Chose action Rally_Workers_unit, args [[<Queued.now: 0>], [4367843329], [8734048257]]
-
-Time step 244
-Resources : 145, 160
-Supply : 30/36
-Larvae : 1
-Chose action Rally_Units_pt, args [[<Queued.now: 0>], [4367843329], [51, 147]]
-
-Time step 245
-Resources : 150, 160
-Supply : 30/36
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4368105473]]
-
-Time step 246
-Resources : 125, 164
-Supply : 31/36
-Larvae : 0
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4359979009]]
-
-Time step 247
-Resources : 135, 164
-Supply : 31/36
+Resources : 125, 152
+Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
+Time step 244
+Resources : 145, 152
+Supply : 31/44
+Larvae : 1
+Chose action Rally_Workers_unit, args [[<Queued.now: 0>], [4367843332], [8733589505]]
+
+Time step 245
+Resources : 165, 156
+Supply : 31/44
+Larvae : 1
+Chose action Rally_Units_pt, args [[<Queued.now: 0>], [4367843332], [67, 131]]
+
+Time step 246
+Resources : 165, 156
+Supply : 31/44
+Larvae : 1
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
+
+Time step 247
+Resources : 170, 160
+Supply : 31/36
+Larvae : 1
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4369154049]]
+
 Time step 248
-Resources : 150, 168
+Resources : 105, 160
 Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 249
-Resources : 160, 168
+Resources : 115, 164
 Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 250
-Resources : 190, 172
-Supply : 31/44
+Resources : 125, 164
+Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 251
-Resources : 205, 172
-Supply : 31/44
+Resources : 145, 168
+Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 252
-Resources : 205, 176
-Supply : 31/44
+Resources : 170, 168
+Supply : 31/36
 Larvae : 0
 Chose action no_op, args []
 
 Time step 253
-Resources : 220, 176
+Resources : 175, 172
 Supply : 31/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 254
-Resources : 245, 180
+Resources : 180, 172
 Supply : 31/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 255
-Resources : 255, 180
+Resources : 210, 176
 Supply : 31/44
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4352638979]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4367056904]]
 
 Time step 256
-Resources : 215, 184
+Resources : 175, 176
 Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 257
-Resources : 250, 184
+Resources : 185, 180
 Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 258
-Resources : 260, 188
+Resources : 195, 180
 Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 259
-Resources : 265, 188
+Resources : 220, 184
 Supply : 32/44
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4369678337]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4365221896]]
 
 Time step 260
-Resources : 225, 188
+Resources : 185, 184
 Supply : 33/44
 Larvae : 0
-Chose action Build_RoachWarren_pt, args [[<Queued.now: 0>], [4362862593], [26, 179]]
+Chose action Build_RoachWarren_pt, args [[<Queued.now: 0>], [4365746177], [26, 179]]
 
 Time step 261
-Resources : 100, 188
+Resources : 35, 188
 Supply : 33/44
 Larvae : 0
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4352114689], [4362076161]]
+Chose action no_op, args []
 
 Time step 262
-Resources : 115, 188
+Resources : 60, 188
 Supply : 33/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 263
-Resources : 120, 192
-Supply : 33/44
+Resources : 75, 192
+Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 264
-Resources : 155, 192
-Supply : 33/44
+Resources : 90, 192
+Supply : 32/44
 Larvae : 0
-Chose action Morph_Lair_quick, args [[<Queued.now: 0>], [4348968961]]
+Chose action no_op, args []
 
 Time step 265
-Resources : 10, 96
-Supply : 32/52
+Resources : 105, 192
+Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 266
-Resources : 20, 96
-Supply : 32/52
+Resources : 115, 196
+Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 267
-Resources : 40, 96
-Supply : 32/52
+Resources : 140, 196
+Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 268
-Resources : 50, 100
-Supply : 32/52
+Resources : 160, 200
+Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 269
-Resources : 60, 100
-Supply : 32/52
+Resources : 165, 200
+Supply : 32/44
 Larvae : 0
 Chose action no_op, args []
 
 Time step 270
-Resources : 85, 104
-Supply : 32/52
+Resources : 180, 204
+Supply : 32/44
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4362600454]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4370464769]]
 
 Time step 271
-Resources : 50, 104
-Supply : 33/52
+Resources : 155, 204
+Supply : 33/44
 Larvae : 0
-Chose action no_op, args []
+Chose action Morph_Lair_quick, args [[<Queued.now: 0>], [4348968961]]
 
 Time step 272
-Resources : 60, 108
+Resources : 25, 108
 Supply : 33/52
 Larvae : 0
 Chose action no_op, args []
 
 Time step 273
-Resources : 70, 108
+Resources : 30, 108
 Supply : 33/52
 Larvae : 0
 Chose action no_op, args []
 
 Time step 274
-Resources : 95, 112
+Resources : 35, 112
 Supply : 33/52
 Larvae : 1
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
 
 Time step 275
-Resources : 100, 112
+Resources : 75, 112
 Supply : 33/52
 Larvae : 1
-Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4352638980]]
+Chose action no_op, args []
 
 Time step 276
-Resources : 10, 116
+Resources : 80, 116
 Supply : 33/52
-Larvae : 0
+Larvae : 1
 Chose action no_op, args []
 
 Time step 277
-Resources : 30, 116
+Resources : 85, 116
 Supply : 33/52
-Larvae : 0
+Larvae : 1
 Chose action no_op, args []
 
 Time step 278
-Resources : 55, 120
+Resources : 110, 120
 Supply : 33/52
-Larvae : 0
-Chose action no_op, args []
+Larvae : 1
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4367056905]]
 
 Time step 279
-Resources : 65, 120
+Resources : 35, 120
 Supply : 33/52
 Larvae : 0
 Chose action no_op, args []
 
 Time step 280
-Resources : 85, 124
-Supply : 33/52
-Larvae : 0
-Chose action Build_EvolutionChamber_pt, args [[<Queued.now: 0>], [4352114689], [24, 174]]
-
-Time step 281
-Resources : 35, 124
-Supply : 33/52
-Larvae : 0
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4368367617], [4362076161]]
-
-Time step 282
-Resources : 40, 128
+Resources : 40, 124
 Supply : 33/52
 Larvae : 0
 Chose action no_op, args []
 
+Time step 281
+Resources : 50, 124
+Supply : 33/52
+Larvae : 0
+Chose action no_op, args []
+
+Time step 282
+Resources : 80, 128
+Supply : 33/52
+Larvae : 0
+Chose action Build_EvolutionChamber_pt, args [[<Queued.now: 0>], [4351590401], [24, 173]]
+
 Time step 283
-Resources : 50, 128
+Resources : 15, 128
 Supply : 33/52
 Larvae : 0
 Chose action no_op, args []
 
 Time step 284
-Resources : 85, 132
-Supply : 32/52
-Larvae : 0
-Chose action no_op, args []
-
-Time step 285
-Resources : 95, 132
-Supply : 32/52
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372037633]]
-
-Time step 286
-Resources : 60, 132
+Resources : 20, 132
 Supply : 33/52
 Larvae : 0
 Chose action no_op, args []
 
+Time step 285
+Resources : 45, 132
+Supply : 33/52
+Larvae : 1
+Chose action no_op, args []
+
+Time step 286
+Resources : 55, 136
+Supply : 33/52
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4371513345]]
+
 Time step 287
-Resources : 85, 136
+Resources : 25, 136
 Supply : 33/52
 Larvae : 0
 Chose action no_op, args []
 
 Time step 288
-Resources : 95, 136
+Resources : 35, 140
 Supply : 33/52
-Larvae : 0
+Larvae : 1
 Chose action no_op, args []
 
 Time step 289
-Resources : 110, 140
+Resources : 65, 140
 Supply : 33/52
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4362600455]]
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372561921]]
 
 Time step 290
-Resources : 75, 140
+Resources : 25, 144
 Supply : 34/52
-Larvae : 0
+Larvae : 2
 Chose action no_op, args []
 
 Time step 291
-Resources : 95, 144
+Resources : 40, 144
 Supply : 34/52
-Larvae : 0
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4368629761], [37, 136]]
+Larvae : 2
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 292
-Resources : 105, 144
+Resources : 55, 148
 Supply : 34/52
-Larvae : 0
+Larvae : 3
 Chose action no_op, args []
 
 Time step 293
-Resources : 125, 148
+Resources : 70, 148
 Supply : 34/52
-Larvae : 0
+Larvae : 3
 Chose action no_op, args []
 
 Time step 294
-Resources : 155, 148
+Resources : 80, 152
 Supply : 34/52
-Larvae : 0
-Chose action Train_Queen_quick, args [[<Queued.now: 0>], [4359979009]]
+Larvae : 3
+Chose action no_op, args []
 
 Time step 295
-Resources : 10, 152
-Supply : 36/52
-Larvae : 0
+Resources : 110, 152
+Supply : 34/52
+Larvae : 3
 Chose action no_op, args []
 
 Time step 296
-Resources : 20, 152
-Supply : 36/52
-Larvae : 0
+Resources : 130, 156
+Supply : 34/52
+Larvae : 3
 Chose action no_op, args []
 
 Time step 297
-Resources : 45, 156
-Supply : 36/52
-Larvae : 0
+Resources : 140, 156
+Supply : 34/52
+Larvae : 3
 Chose action no_op, args []
 
 Time step 298
-Resources : 70, 156
-Supply : 36/52
-Larvae : 0
-Chose action no_op, args []
+Resources : 160, 156
+Supply : 34/52
+Larvae : 3
+Chose action Train_Queen_quick, args [[<Queued.now: 0>], [4361027585]]
 
 Time step 299
-Resources : 70, 160
+Resources : 20, 160
 Supply : 36/52
-Larvae : 0
+Larvae : 3
 Chose action no_op, args []
 
 Time step 300
-Resources : 95, 160
-Supply : 36/60
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4373086209]]
-
-Time step 301
-Resources : 70, 164
-Supply : 37/60
-Larvae : 0
+Resources : 45, 160
+Supply : 36/52
+Larvae : 4
 Chose action no_op, args []
 
+Time step 301
+Resources : 55, 164
+Supply : 36/52
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4373872642]]
+
 Time step 302
-Resources : 85, 164
-Supply : 37/60
-Larvae : 0
+Resources : 35, 164
+Supply : 37/52
+Larvae : 3
 Chose action no_op, args []
 
 Time step 303
-Resources : 100, 168
+Resources : 45, 168
 Supply : 37/60
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4352638981]]
+Larvae : 3
+Chose action no_op, args []
 
 Time step 304
-Resources : 70, 168
-Supply : 38/60
+Resources : 65, 168
+Supply : 37/60
 Larvae : 3
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4374134786]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372037633]]
 
 Time step 305
-Resources : 35, 168
-Supply : 39/60
+Resources : 35, 172
+Supply : 38/60
 Larvae : 2
 Chose action no_op, args []
 
 Time step 306
-Resources : 50, 172
-Supply : 39/60
+Resources : 45, 172
+Supply : 38/60
 Larvae : 2
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4374396929]]
+Chose action no_op, args []
 
 Time step 307
-Resources : 20, 172
-Supply : 40/60
-Larvae : 1
-Chose action no_op, args []
+Resources : 60, 176
+Supply : 38/60
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4373348354]]
 
 Time step 308
 Resources : 35, 176
-Supply : 40/60
+Supply : 39/60
 Larvae : 1
 Chose action no_op, args []
 
 Time step 309
-Resources : 55, 176
-Supply : 40/60
+Resources : 50, 180
+Supply : 39/60
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4373872641]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4373086209]]
 
 Time step 310
-Resources : 25, 180
-Supply : 41/60
+Resources : 15, 180
+Supply : 40/60
 Larvae : 0
 Chose action no_op, args []
 
 Time step 311
-Resources : 45, 180
-Supply : 41/60
+Resources : 35, 184
+Supply : 40/60
 Larvae : 0
 Chose action no_op, args []
 
 Time step 312
-Resources : 65, 184
-Supply : 41/60
+Resources : 60, 184
+Supply : 40/60
 Larvae : 0
 Chose action no_op, args []
 
 Time step 313
-Resources : 85, 184
-Supply : 41/60
+Resources : 65, 188
+Supply : 40/60
 Larvae : 0
 Chose action no_op, args []
 
 Time step 314
-Resources : 100, 188
-Supply : 41/60
+Resources : 80, 188
+Supply : 40/60
 Larvae : 0
 Chose action no_op, args []
 
 Time step 315
-Resources : 110, 188
-Supply : 41/60
-Larvae : 0
-Chose action no_op, args []
+Resources : 115, 192
+Supply : 40/60
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372561922]]
 
 Time step 316
-Resources : 125, 192
-Supply : 41/60
-Larvae : 0
-Chose action no_op, args []
-
-Time step 317
-Resources : 160, 192
+Resources : 75, 192
 Supply : 41/60
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372037634]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4371513346]]
+
+Time step 317
+Resources : 30, 196
+Supply : 42/60
+Larvae : 2
+Chose action no_op, args []
 
 Time step 318
-Resources : 135, 196
+Resources : 60, 196
 Supply : 42/60
-Larvae : 0
+Larvae : 2
 Chose action no_op, args []
 
 Time step 319
-Resources : 135, 196
+Resources : 90, 200
 Supply : 42/60
-Larvae : 1
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4370726913], [29, 168]]
+Larvae : 3
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
 
 Time step 320
-Resources : 165, 200
+Resources : 100, 200
 Supply : 42/60
-Larvae : 1
-Chose action Research_ZergMissileWeaponsLevel1_quick, args [[<Queued.now: 0>], [4371775489]]
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4374921217]]
 
 Time step 321
-Resources : 85, 100
-Supply : 42/60
-Larvae : 1
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4361814017, 4358144001], [4324589569]]
-
-Time step 322
-Resources : 85, 104
-Supply : 42/60
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4373086210]]
-
-Time step 323
-Resources : 50, 104
+Resources : 65, 204
 Supply : 43/60
-Larvae : 0
+Larvae : 2
 Chose action no_op, args []
 
-Time step 324
-Resources : 80, 108
+Time step 322
+Resources : 85, 204
 Supply : 43/60
-Larvae : 0
+Larvae : 2
+Chose action no_op, args []
+
+Time step 323
+Resources : 110, 208
+Supply : 43/60
+Larvae : 2
+Chose action Research_ZergMissileWeaponsLevel1_quick, args [[<Queued.now: 0>], [4371775489]]
+
+Time step 324
+Resources : 10, 108
+Supply : 43/60
+Larvae : 2
 Chose action no_op, args []
 
 Time step 325
-Resources : 100, 108
+Resources : 40, 112
 Supply : 43/60
-Larvae : 0
+Larvae : 2
 Chose action no_op, args []
 
 Time step 326
-Resources : 115, 112
+Resources : 65, 112
 Supply : 43/60
-Larvae : 0
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4352376833], [4334813185]]
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4375445505]]
 
 Time step 327
-Resources : 135, 112
-Supply : 43/60
-Larvae : 0
+Resources : 30, 116
+Supply : 44/60
+Larvae : 1
 Chose action no_op, args []
 
 Time step 328
-Resources : 155, 116
-Supply : 43/60
-Larvae : 0
+Resources : 45, 116
+Supply : 44/60
+Larvae : 1
 Chose action no_op, args []
 
 Time step 329
-Resources : 160, 116
-Supply : 43/60
+Resources : 55, 120
+Supply : 44/60
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4373872642]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4373872643]]
 
 Time step 330
-Resources : 135, 120
-Supply : 44/60
-Larvae : 2
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4376231937]]
+Resources : 30, 120
+Supply : 45/60
+Larvae : 0
+Chose action no_op, args []
 
 Time step 331
-Resources : 90, 120
+Resources : 50, 120
 Supply : 45/60
 Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4375707649]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4373086210]]
 
 Time step 332
-Resources : 70, 124
+Resources : 20, 124
 Supply : 46/60
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4375969794]]
+Larvae : 0
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4363649025], [4324589569]]
 
 Time step 333
-Resources : 45, 124
-Supply : 47/60
+Resources : 35, 124
+Supply : 46/60
 Larvae : 0
-Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4364435457], [4326424577]]
+Chose action no_op, args []
 
 Time step 334
-Resources : 30, 128
-Supply : 47/60
-Larvae : 0
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4364697601], [4334813185]]
+Resources : 70, 128
+Supply : 46/60
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4376494081]]
 
 Time step 335
-Resources : 50, 128
+Resources : 25, 128
 Supply : 47/60
-Larvae : 0
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4359979009]]
+Larvae : 2
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 336
-Resources : 80, 128
-Supply : 47/60
-Larvae : 1
-Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4368367617], [8738504717]]
-
-Time step 337
-Resources : 75, 128
-Supply : 46/60
-Larvae : 1
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4365221889], [4362076161]]
-
-Time step 338
-Resources : 80, 128
-Supply : 46/60
-Larvae : 1
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372037635]]
-
-Time step 339
 Resources : 40, 132
 Supply : 47/60
-Larvae : 0
+Larvae : 3
+Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4354473986], [4326424577]]
+
+Time step 337
+Resources : 35, 132
+Supply : 47/60
+Larvae : 3
+Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4352901121], [4333764609]]
+
+Time step 338
+Resources : 40, 136
+Supply : 47/60
+Larvae : 3
+Chose action no_op, args []
+
+Time step 339
+Resources : 65, 136
+Supply : 47/60
+Larvae : 3
 Chose action no_op, args []
 
 Time step 340
-Resources : 80, 132
-Supply : 47/60
-Larvae : 0
-Chose action no_op, args []
+Resources : 70, 140
+Supply : 45/60
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4378066946]]
 
 Time step 341
-Resources : 100, 136
-Supply : 47/60
-Larvae : 0
+Resources : 40, 140
+Supply : 46/60
+Larvae : 2
 Chose action no_op, args []
 
 Time step 342
-Resources : 115, 136
-Supply : 47/60
-Larvae : 0
-Chose action no_op, args []
+Resources : 70, 144
+Supply : 46/60
+Larvae : 2
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4378329089], [4320657409]]
 
 Time step 343
-Resources : 130, 140
-Supply : 47/66
-Larvae : 1
-Chose action no_op, args []
+Resources : 75, 144
+Supply : 46/60
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372037634]]
 
 Time step 344
-Resources : 160, 140
+Resources : 50, 148
 Supply : 47/66
-Larvae : 1
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
-
-Time step 345
-Resources : 170, 144
-Supply : 47/66
-Larvae : 1
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4372824065], [49, 128]]
-
-Time step 346
-Resources : 190, 144
-Supply : 47/66
-Larvae : 1
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4377280513, 4373610498, 4351328257, 4362338305, 4364173313, 4371513345, 4357619714], [4337696769]]
-
-Time step 347
-Resources : 195, 148
-Supply : 47/66
-Larvae : 2
-Chose action Train_Queen_quick, args [[<Queued.now: 0>], [4348968961]]
-
-Time step 348
-Resources : 60, 148
-Supply : 49/66
 Larvae : 2
 Chose action no_op, args []
 
-Time step 349
-Resources : 75, 152
-Supply : 49/66
+Time step 345
+Resources : 60, 148
+Supply : 47/66
 Larvae : 2
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4374134787, 4375183361], [4334813185]]
+Chose action no_op, args []
+
+Time step 346
+Resources : 95, 152
+Supply : 47/66
+Larvae : 3
+Chose action no_op, args []
+
+Time step 347
+Resources : 105, 152
+Supply : 47/66
+Larvae : 3
+Chose action no_op, args []
+
+Time step 348
+Resources : 130, 156
+Supply : 47/66
+Larvae : 3
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4367843332]]
+
+Time step 349
+Resources : 150, 156
+Supply : 47/66
+Larvae : 3
+Chose action Train_Queen_quick, args [[<Queued.now: 0>], [4367843332]]
 
 Time step 350
-Resources : 85, 152
+Resources : 25, 160
 Supply : 49/66
-Larvae : 2
+Larvae : 3
 Chose action no_op, args []
 
 Time step 351
-Resources : 105, 156
-Supply : 49/66
-Larvae : 3
-Chose action Research_GlialRegeneration_quick, args [[<Queued.now: 0>], [4368105474]]
-
-Time step 352
-Resources : 25, 56
+Resources : 40, 160
 Supply : 49/66
 Larvae : 3
 Chose action no_op, args []
 
+Time step 352
+Resources : 55, 164
+Supply : 49/66
+Larvae : 3
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4373348355, 4351852545, 4359716865, 4356571146, 4352376833], [4330094593]]
+
 Time step 353
-Resources : 40, 60
+Resources : 65, 164
 Supply : 49/66
 Larvae : 3
 Chose action no_op, args []
 
 Time step 354
-Resources : 55, 60
+Resources : 80, 168
 Supply : 49/66
 Larvae : 3
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4378329089]]
+Chose action no_op, args []
 
 Time step 355
-Resources : 25, 64
-Supply : 50/66
-Larvae : 2
+Resources : 95, 168
+Supply : 49/66
+Larvae : 4
 Chose action no_op, args []
 
 Time step 356
-Resources : 40, 64
-Supply : 50/66
-Larvae : 2
-Chose action no_op, args []
+Resources : 120, 172
+Supply : 49/66
+Larvae : 4
+Chose action Research_GlialRegeneration_quick, args [[<Queued.now: 0>], [4369940481]]
 
 Time step 357
-Resources : 45, 68
-Supply : 50/66
-Larvae : 2
+Resources : 45, 72
+Supply : 49/66
+Larvae : 4
 Chose action no_op, args []
 
 Time step 358
-Resources : 65, 68
-Supply : 50/66
-Larvae : 3
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372037636]]
+Resources : 65, 76
+Supply : 49/66
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4375707650]]
 
 Time step 359
-Resources : 40, 72
-Supply : 51/66
-Larvae : 2
+Resources : 35, 76
+Supply : 50/66
+Larvae : 4
 Chose action no_op, args []
 
 Time step 360
-Resources : 65, 72
-Supply : 51/66
-Larvae : 2
-Chose action no_op, args []
+Resources : 55, 80
+Supply : 50/66
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4350279682]]
 
 Time step 361
-Resources : 80, 76
+Resources : 15, 80
 Supply : 51/66
-Larvae : 2
-Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4373086211]]
-
-Time step 362
-Resources : 25, 51
-Supply : 53/66
-Larvae : 2
+Larvae : 4
 Chose action no_op, args []
 
+Time step 362
+Resources : 40, 84
+Supply : 51/66
+Larvae : 6
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4365484033, 4359192578, 4374659075, 4377542658, 4370726913, 4363124737], [4337696769]]
+
 Time step 363
-Resources : 45, 51
-Supply : 53/66
-Larvae : 2
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Resources : 40, 84
+Supply : 51/66
+Larvae : 6
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
 
 Time step 364
-Resources : 50, 55
-Supply : 53/66
-Larvae : 2
+Resources : 60, 84
+Supply : 51/66
+Larvae : 6
 Chose action no_op, args []
 
 Time step 365
-Resources : 70, 55
-Supply : 53/66
-Larvae : 2
-Chose action no_op, args []
+Resources : 75, 88
+Supply : 51/66
+Larvae : 6
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4375445506]]
 
 Time step 366
-Resources : 100, 59
+Resources : 20, 63
 Supply : 53/66
-Larvae : 3
-Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4375969795]]
+Larvae : 5
+Chose action no_op, args []
 
 Time step 367
-Resources : 50, 34
-Supply : 54/66
-Larvae : 2
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4349755395, 4363911169, 4377804802], [4376756225]]
+Resources : 40, 67
+Supply : 53/66
+Larvae : 5
+Chose action no_op, args []
 
 Time step 368
-Resources : 55, 38
-Supply : 54/66
-Larvae : 2
+Resources : 65, 67
+Supply : 53/66
+Larvae : 5
 Chose action no_op, args []
 
 Time step 369
-Resources : 65, 38
-Supply : 54/66
-Larvae : 2
-Chose action no_op, args []
+Resources : 80, 71
+Supply : 53/66
+Larvae : 5
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4379115521]]
 
 Time step 370
-Resources : 85, 42
-Supply : 54/66
-Larvae : 2
-Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4373872643]]
+Resources : 10, 46
+Supply : 55/66
+Larvae : 5
+Chose action no_op, args []
 
 Time step 371
-Resources : 35, 17
-Supply : 56/66
-Larvae : 1
+Resources : 35, 50
+Supply : 55/66
+Larvae : 6
 Chose action no_op, args []
 
 Time step 372
-Resources : 40, 21
-Supply : 56/66
-Larvae : 1
-Chose action no_op, args []
+Resources : 50, 50
+Supply : 55/66
+Larvae : 6
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4351590402, 4375183362, 4359979010], [4374921218]]
 
 Time step 373
-Resources : 55, 25
-Supply : 56/66
-Larvae : 2
+Resources : 65, 54
+Supply : 55/66
+Larvae : 6
 Chose action no_op, args []
 
 Time step 374
-Resources : 85, 29
-Supply : 56/66
-Larvae : 2
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4374396930], [34, 156]]
+Resources : 80, 54
+Supply : 55/66
+Larvae : 7
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4352901122]]
 
 Time step 375
-Resources : 105, 33
-Supply : 56/66
-Larvae : 2
-Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4378591233]]
+Resources : 15, 33
+Supply : 57/66
+Larvae : 6
+Chose action no_op, args []
 
 Time step 376
-Resources : 45, 12
-Supply : 58/66
-Larvae : 1
+Resources : 40, 33
+Supply : 57/66
+Larvae : 6
 Chose action no_op, args []
 
 Time step 377
-Resources : 65, 16
-Supply : 58/66
-Larvae : 2
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372037637]]
+Resources : 55, 37
+Supply : 57/66
+Larvae : 7
+Chose action no_op, args []
 
 Time step 378
-Resources : 30, 20
-Supply : 59/66
-Larvae : 1
+Resources : 70, 37
+Supply : 57/66
+Larvae : 9
 Chose action no_op, args []
 
 Time step 379
-Resources : 40, 20
-Supply : 59/66
-Larvae : 1
-Chose action no_op, args []
+Resources : 90, 45
+Supply : 57/66
+Larvae : 9
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4379377667]]
 
 Time step 380
-Resources : 65, 28
+Resources : 30, 20
 Supply : 59/66
-Larvae : 3
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4359979009]]
+Larvae : 8
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 381
-Resources : 80, 28
+Resources : 45, 28
 Supply : 59/66
-Larvae : 5
+Larvae : 8
 Chose action no_op, args []
 
 Time step 382
-Resources : 120, 36
+Resources : 65, 28
 Supply : 59/66
-Larvae : 5
-Chose action no_op, args []
+Larvae : 8
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4376231937, 4376756226, 4365746178], [4377018370]]
 
 Time step 383
-Resources : 170, 36
+Resources : 70, 36
 Supply : 59/66
-Larvae : 5
+Larvae : 8
 Chose action no_op, args []
 
 Time step 384
-Resources : 185, 44
+Resources : 90, 36
 Supply : 59/66
-Larvae : 5
+Larvae : 8
 Chose action no_op, args []
 
 Time step 385
-Resources : 200, 44
+Resources : 110, 40
 Supply : 59/66
-Larvae : 5
-Chose action no_op, args []
+Larvae : 8
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4381474817]]
 
 Time step 386
-Resources : 220, 52
+Resources : 20, 44
 Supply : 59/66
-Larvae : 5
-Chose action Morph_Overseer_quick, args [[<Queued.now: 0>], [4353163266]]
+Larvae : 7
+Chose action no_op, args []
 
 Time step 387
-Resources : 200, 2
+Resources : 45, 48
 Supply : 59/66
-Larvae : 5
+Larvae : 7
 Chose action no_op, args []
 
 Time step 388
-Resources : 205, 10
+Resources : 70, 52
 Supply : 59/66
-Larvae : 6
+Larvae : 7
 Chose action no_op, args []
 
 Time step 389
-Resources : 225, 10
+Resources : 105, 60
 Supply : 59/66
-Larvae : 6
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4352901122], [67, 162]]
+Larvae : 8
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4378591233]]
 
 Time step 390
-Resources : 255, 18
+Resources : 20, 64
 Supply : 59/66
-Larvae : 6
+Larvae : 7
 Chose action no_op, args []
 
 Time step 391
-Resources : 295, 18
+Resources : 40, 72
 Supply : 59/66
-Larvae : 6
+Larvae : 7
 Chose action no_op, args []
 
 Time step 392
-Resources : 310, 26
+Resources : 75, 76
 Supply : 59/66
-Larvae : 6
-Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4380688385]]
+Larvae : 7
+Chose action no_op, args []
 
 Time step 393
-Resources : 265, 1
-Supply : 61/66
-Larvae : 5
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4352901122], [70, 165]]
+Resources : 85, 84
+Supply : 59/66
+Larvae : 7
+Chose action no_op, args []
 
 Time step 394
-Resources : 295, 9
-Supply : 61/66
-Larvae : 5
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4376494082, 4366532609], [4320657409]]
+Resources : 100, 88
+Supply : 59/66
+Larvae : 7
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4379639809]]
 
 Time step 395
-Resources : 315, 9
-Supply : 61/66
-Larvae : 5
+Resources : 15, 96
+Supply : 59/66
+Larvae : 7
 Chose action no_op, args []
 
 Time step 396
-Resources : 320, 17
-Supply : 61/66
-Larvae : 6
+Resources : 40, 100
+Supply : 59/66
+Larvae : 7
 Chose action no_op, args []
 
 Time step 397
-Resources : 340, 17
-Supply : 61/66
-Larvae : 6
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [33, 182]]
+Resources : 65, 104
+Supply : 59/66
+Larvae : 7
+Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4373872644], [66, 165]]
 
 Time step 398
-Resources : 380, 21
-Supply : 61/66
-Larvae : 6
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4377542657], [55, 116]]
+Resources : 90, 112
+Supply : 59/66
+Larvae : 7
+Chose action no_op, args []
 
 Time step 399
-Resources : 390, 25
-Supply : 61/66
-Larvae : 6
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4362338305, 4351328257, 4364173313], [4364435458]]
+Resources : 125, 116
+Supply : 59/66
+Larvae : 7
+Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4379115522], [73, 177]]
 
 Time step 400
-Resources : 420, 25
-Supply : 61/66
-Larvae : 6
-Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4380426242]]
+Resources : 140, 124
+Supply : 59/66
+Larvae : 7
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4375445507]]
 
 Time step 401
-Resources : 380, 8
-Supply : 63/66
-Larvae : 5
+Resources : 65, 128
+Supply : 59/66
+Larvae : 6
 Chose action no_op, args []
 
 Time step 402
-Resources : 385, 12
-Supply : 63/66
-Larvae : 5
+Resources : 75, 136
+Supply : 59/66
+Larvae : 6
 Chose action no_op, args []
 
 Time step 403
-Resources : 395, 16
-Supply : 63/66
+Resources : 100, 140
+Supply : 59/66
 Larvae : 6
-Chose action no_op, args []
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4354473987]]
 
 Time step 404
-Resources : 425, 16
-Supply : 63/66
-Larvae : 6
-Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4372299777], [4333764609]]
-
-Time step 405
-Resources : 415, 28
-Supply : 63/66
-Larvae : 7
-Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4379901954]]
-
-Time step 406
-Resources : 365, 3
-Supply : 65/66
-Larvae : 6
-Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4378329090]]
-
-Time step 407
-Resources : 290, 11
-Supply : 64/66
+Resources : 20, 148
+Supply : 59/66
 Larvae : 5
 Chose action no_op, args []
 
-Time step 408
-Resources : 320, 15
-Supply : 64/66
-Larvae : 7
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Time step 405
+Resources : 50, 152
+Supply : 59/66
+Larvae : 6
+Chose action no_op, args []
 
-Time step 409
-Resources : 345, 23
-Supply : 64/66
+Time step 406
+Resources : 70, 160
+Supply : 59/66
 Larvae : 8
 Chose action no_op, args []
 
-Time step 410
-Resources : 360, 27
-Supply : 64/66
+Time step 407
+Resources : 100, 164
+Supply : 59/66
 Larvae : 8
-Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4383047681]]
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4378066947]]
+
+Time step 408
+Resources : 30, 172
+Supply : 59/66
+Larvae : 7
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
+
+Time step 409
+Resources : 35, 176
+Supply : 59/66
+Larvae : 7
+Chose action no_op, args []
+
+Time step 410
+Resources : 65, 180
+Supply : 59/74
+Larvae : 7
+Chose action Morph_Overseer_quick, args [[<Queued.now: 0>], [4368105475]]
 
 Time step 411
-Resources : 320, 10
-Supply : 66/66
+Resources : 45, 138
+Supply : 59/74
 Larvae : 7
 Chose action no_op, args []
 
 Time step 412
-Resources : 325, 14
-Supply : 66/66
+Resources : 55, 142
+Supply : 59/74
 Larvae : 7
 Chose action no_op, args []
 
 Time step 413
-Resources : 340, 22
-Supply : 66/66
+Resources : 90, 150
+Supply : 59/74
 Larvae : 7
-Chose action no_op, args []
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4375707651]]
 
 Time step 414
-Resources : 380, 26
-Supply : 66/66
-Larvae : 7
+Resources : 40, 129
+Supply : 61/82
+Larvae : 6
 Chose action no_op, args []
 
 Time step 415
-Resources : 400, 34
-Supply : 66/66
+Resources : 60, 137
+Supply : 61/82
 Larvae : 7
 Chose action no_op, args []
 
 Time step 416
-Resources : 420, 38
-Supply : 66/66
+Resources : 90, 141
+Supply : 61/82
 Larvae : 7
-Chose action no_op, args []
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4381212674]]
 
 Time step 417
-Resources : 445, 46
-Supply : 66/66
-Larvae : 7
+Resources : 40, 120
+Supply : 63/82
+Larvae : 6
 Chose action no_op, args []
 
 Time step 418
-Resources : 470, 46
-Supply : 66/66
-Larvae : 7
+Resources : 55, 128
+Supply : 63/82
+Larvae : 6
 Chose action no_op, args []
 
 Time step 419
-Resources : 475, 58
-Supply : 66/66
-Larvae : 7
-Chose action no_op, args []
+Resources : 80, 132
+Supply : 63/90
+Larvae : 6
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4383571969]]
 
 Time step 420
-Resources : 500, 58
-Supply : 66/66
-Larvae : 8
+Resources : 30, 115
+Supply : 65/90
+Larvae : 5
 Chose action no_op, args []
 
 Time step 421
-Resources : 525, 70
-Supply : 66/66
-Larvae : 8
+Resources : 45, 119
+Supply : 65/90
+Larvae : 5
 Chose action no_op, args []
 
 Time step 422
-Resources : 560, 70
-Supply : 66/66
-Larvae : 9
+Resources : 65, 127
+Supply : 65/90
+Larvae : 7
 Chose action no_op, args []
 
 Time step 423
-Resources : 570, 82
-Supply : 66/66
-Larvae : 11
-Chose action no_op, args []
+Resources : 95, 131
+Supply : 65/90
+Larvae : 9
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4376494082]]
 
 Time step 424
-Resources : 600, 82
-Supply : 66/66
-Larvae : 11
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4359979009]]
+Resources : 50, 114
+Supply : 67/90
+Larvae : 8
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 425
-Resources : 620, 94
-Supply : 66/66
-Larvae : 11
-Chose action no_op, args []
+Resources : 75, 118
+Supply : 67/98
+Larvae : 8
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4383047681]]
 
 Time step 426
-Resources : 635, 94
-Supply : 66/66
-Larvae : 14
+Resources : 45, 126
+Supply : 68/98
+Larvae : 7
 Chose action no_op, args []
 
 Time step 427
-Resources : 665, 106
-Supply : 66/66
-Larvae : 14
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4379115521], [45, 148]]
+Resources : 65, 130
+Supply : 68/98
+Larvae : 7
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4378591234]]
 
 Time step 428
-Resources : 685, 106
-Supply : 66/66
-Larvae : 14
+Resources : 40, 138
+Supply : 69/106
+Larvae : 6
 Chose action no_op, args []
 
 Time step 429
-Resources : 710, 118
-Supply : 66/66
-Larvae : 14
-Chose action no_op, args []
+Resources : 50, 142
+Supply : 69/106
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4384620546]]
 
 Time step 430
-Resources : 730, 118
-Supply : 66/66
-Larvae : 14
+Resources : 40, 146
+Supply : 70/106
+Larvae : 5
 Chose action no_op, args []
 
 Time step 431
-Resources : 755, 122
-Supply : 66/74
-Larvae : 14
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4385669121]]
+Resources : 55, 154
+Supply : 70/106
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4379639810]]
 
 Time step 432
-Resources : 725, 130
-Supply : 67/74
-Larvae : 13
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4380164097]]
+Resources : 40, 158
+Supply : 71/114
+Larvae : 4
+Chose action no_op, args []
 
 Time step 433
-Resources : 695, 130
-Supply : 68/74
-Larvae : 12
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
+Resources : 65, 166
+Supply : 71/114
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4385406977]]
 
 Time step 434
-Resources : 730, 142
-Supply : 68/74
-Larvae : 12
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4382523393]]
+Resources : 35, 170
+Supply : 72/114
+Larvae : 4
+Chose action no_op, args []
 
 Time step 435
-Resources : 700, 142
-Supply : 69/74
-Larvae : 11
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4380688386]]
+Resources : 50, 178
+Supply : 72/114
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4380950529]]
 
 Time step 436
-Resources : 665, 154
-Supply : 70/74
-Larvae : 10
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4384882689]]
+Resources : 10, 182
+Supply : 73/114
+Larvae : 4
+Chose action no_op, args []
 
 Time step 437
-Resources : 640, 154
-Supply : 71/74
-Larvae : 9
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4350803969, 4351852545, 4358144001], [4384096257]]
+Resources : 50, 190
+Supply : 73/114
+Larvae : 6
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4367843332]]
 
 Time step 438
-Resources : 655, 166
-Supply : 71/74
-Larvae : 10
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4382261249]]
+Resources : 70, 194
+Supply : 73/114
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4378066948]]
 
 Time step 439
-Resources : 620, 166
-Supply : 72/74
-Larvae : 9
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4384620546]]
+Resources : 30, 202
+Supply : 74/114
+Larvae : 6
+Chose action no_op, args []
 
 Time step 440
-Resources : 605, 178
-Supply : 73/74
-Larvae : 8
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4385144834]]
+Resources : 85, 206
+Supply : 74/114
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4386717697]]
 
 Time step 441
-Resources : 565, 178
-Supply : 74/74
-Larvae : 7
-Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4383571969]]
+Resources : 55, 214
+Supply : 75/114
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4382523393]]
 
 Time step 442
-Resources : 495, 186
-Supply : 74/74
-Larvae : 6
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [19, 183]]
+Resources : 10, 218
+Supply : 76/114
+Larvae : 4
+Chose action no_op, args []
 
 Time step 443
-Resources : 505, 194
-Supply : 74/74
-Larvae : 6
+Resources : 35, 222
+Supply : 76/114
+Larvae : 4
 Chose action no_op, args []
 
 Time step 444
-Resources : 530, 202
-Supply : 74/74
-Larvae : 6
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4375969796], [80, 156]]
+Resources : 65, 230
+Supply : 76/114
+Larvae : 4
+Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4379115522], [57, 177]]
 
 Time step 445
-Resources : 555, 210
-Supply : 74/74
-Larvae : 6
-Chose action no_op, args []
+Resources : 75, 234
+Supply : 76/114
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4386193409]]
 
 Time step 446
-Resources : 560, 218
-Supply : 74/74
-Larvae : 6
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [15, 171]]
+Resources : 60, 242
+Supply : 77/114
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4385669122]]
 
 Time step 447
-Resources : 590, 226
-Supply : 74/74
-Larvae : 6
+Resources : 35, 246
+Supply : 78/114
+Larvae : 2
 Chose action no_op, args []
 
 Time step 448
-Resources : 605, 234
-Supply : 74/74
-Larvae : 6
-Chose action no_op, args []
+Resources : 65, 254
+Supply : 78/114
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4382785540]]
 
 Time step 449
-Resources : 645, 242
-Supply : 74/74
-Larvae : 6
+Resources : 30, 258
+Supply : 79/114
+Larvae : 2
 Chose action no_op, args []
 
 Time step 450
-Resources : 655, 250
-Supply : 74/74
-Larvae : 7
-Chose action no_op, args []
+Resources : 50, 262
+Supply : 79/114
+Larvae : 3
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4381999105], [74, 155]]
 
 Time step 451
-Resources : 670, 258
-Supply : 74/74
-Larvae : 10
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4373872645], [41, 170]]
+Resources : 80, 270
+Supply : 79/114
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4379639811]]
 
 Time step 452
-Resources : 685, 266
-Supply : 74/74
-Larvae : 10
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Resources : 35, 274
+Supply : 80/114
+Larvae : 4
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
 
 Time step 453
-Resources : 725, 274
-Supply : 74/74
-Larvae : 10
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4368367618], [64, 107]]
+Resources : 70, 282
+Supply : 80/114
+Larvae : 4
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4373086211, 4352114689, 4375969794], [4324589569]]
 
 Time step 454
-Resources : 740, 282
-Supply : 74/74
-Larvae : 10
-Chose action no_op, args []
+Resources : 100, 286
+Supply : 80/114
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4352901123], [75, 188]]
 
 Time step 455
-Resources : 750, 286
-Supply : 74/74
-Larvae : 10
-Chose action no_op, args []
+Resources : 115, 294
+Supply : 80/114
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4383571970]]
 
 Time step 456
-Resources : 770, 298
-Supply : 74/74
-Larvae : 10
-Chose action no_op, args []
+Resources : 100, 298
+Supply : 81/114
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4387766273]]
 
 Time step 457
-Resources : 805, 302
-Supply : 74/74
-Larvae : 10
+Resources : 70, 306
+Supply : 82/114
+Larvae : 3
 Chose action no_op, args []
 
 Time step 458
-Resources : 810, 314
-Supply : 74/74
-Larvae : 10
+Resources : 90, 310
+Supply : 82/114
+Larvae : 3
 Chose action no_op, args []
 
 Time step 459
-Resources : 850, 314
-Supply : 74/74
-Larvae : 10
+Resources : 105, 318
+Supply : 82/114
+Larvae : 3
 Chose action no_op, args []
 
 Time step 460
-Resources : 875, 330
-Supply : 74/74
-Larvae : 10
+Resources : 140, 322
+Supply : 82/114
+Larvae : 3
 Chose action no_op, args []
 
 Time step 461
-Resources : 900, 330
-Supply : 74/74
-Larvae : 10
+Resources : 155, 330
+Supply : 82/114
+Larvae : 3
 Chose action no_op, args []
 
 Time step 462
-Resources : 920, 342
-Supply : 74/74
-Larvae : 10
+Resources : 190, 334
+Supply : 82/114
+Larvae : 3
 Chose action no_op, args []
 
 Time step 463
-Resources : 925, 346
-Supply : 74/74
-Larvae : 10
-Chose action no_op, args []
+Resources : 215, 338
+Supply : 82/114
+Larvae : 4
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4359979010, 4351066113], [4334813185]]
 
 Time step 464
-Resources : 960, 358
-Supply : 74/74
-Larvae : 10
+Resources : 255, 338
+Supply : 82/114
+Larvae : 4
 Chose action no_op, args []
 
 Time step 465
-Resources : 990, 362
-Supply : 74/74
-Larvae : 10
+Resources : 265, 342
+Supply : 82/114
+Larvae : 4
 Chose action no_op, args []
 
 Time step 466
-Resources : 1020, 366
-Supply : 74/82
-Larvae : 12
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4383309826]]
+Resources : 300, 350
+Supply : 82/114
+Larvae : 6
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4377542658], [62, 142]]
 
 Time step 467
-Resources : 1010, 378
-Supply : 75/82
-Larvae : 13
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4390912001]]
+Resources : 45, 354
+Supply : 82/114
+Larvae : 8
+Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4369678337], [4297064449]]
 
 Time step 468
-Resources : 975, 382
-Supply : 76/82
-Larvae : 12
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4389863425]]
+Resources : 25, 362
+Supply : 82/114
+Larvae : 8
+Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4388552706], [4322492417]]
 
 Time step 469
-Resources : 950, 394
-Supply : 77/82
-Larvae : 11
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4359979009]]
+Resources : 20, 366
+Supply : 82/114
+Larvae : 8
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 470
-Resources : 960, 398
-Supply : 77/82
-Larvae : 11
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4389339137]]
+Resources : 65, 366
+Supply : 81/114
+Larvae : 8
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4383834115]]
 
 Time step 471
-Resources : 930, 410
-Supply : 78/82
-Larvae : 10
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4383047682]]
+Resources : 35, 374
+Supply : 81/114
+Larvae : 7
+Chose action no_op, args []
 
 Time step 472
-Resources : 910, 414
-Supply : 79/82
-Larvae : 9
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4387241985]]
-
-Time step 473
-Resources : 895, 426
-Supply : 80/82
-Larvae : 8
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4390387713]]
-
-Time step 474
-Resources : 880, 430
-Supply : 81/82
+Resources : 65, 378
+Supply : 81/114
 Larvae : 7
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4379377666]]
-
-Time step 475
-Resources : 850, 438
-Supply : 82/82
-Larvae : 6
-Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4381212673], [40, 151]]
-
-Time step 476
-Resources : 585, 446
-Supply : 82/82
-Larvae : 6
-Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4366532609], [4322492417]]
-
-Time step 477
-Resources : 575, 454
-Supply : 82/82
-Larvae : 6
-Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4378591234]]
-
-Time step 478
-Resources : 490, 462
-Supply : 82/82
-Larvae : 6
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
-
-Time step 479
-Resources : 515, 470
-Supply : 82/82
-Larvae : 8
-Chose action no_op, args []
-
-Time step 480
-Resources : 540, 478
-Supply : 82/82
-Larvae : 8
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4385406978], [56, 139]]
-
-Time step 481
-Resources : 575, 486
-Supply : 81/82
-Larvae : 8
-Chose action Rally_Workers_unit, args [[<Queued.now: 0>], [4392484865], [4303355905]]
-
-Time step 482
-Resources : 600, 494
-Supply : 81/82
-Larvae : 8
-Chose action Rally_Units_pt, args [[<Queued.now: 0>], [4392484865], [51, 147]]
-
-Time step 483
-Resources : 630, 502
-Supply : 81/82
-Larvae : 8
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4386455553]]
-
-Time step 484
-Resources : 605, 510
-Supply : 82/82
-Larvae : 7
-Chose action no_op, args []
-
-Time step 485
-Resources : 615, 518
-Supply : 82/82
-Larvae : 7
-Chose action no_op, args []
-
-Time step 486
-Resources : 645, 526
-Supply : 82/82
-Larvae : 7
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [19, 185]]
-
-Time step 487
-Resources : 665, 534
-Supply : 82/82
-Larvae : 7
-Chose action no_op, args []
-
-Time step 488
-Resources : 685, 538
-Supply : 82/82
-Larvae : 8
-Chose action no_op, args []
-
-Time step 489
-Resources : 725, 550
-Supply : 82/82
-Larvae : 8
-Chose action no_op, args []
-
-Time step 490
-Resources : 750, 554
-Supply : 82/82
-Larvae : 8
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [19, 185]]
-
-Time step 491
-Resources : 760, 566
-Supply : 82/82
-Larvae : 9
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [20, 185]]
-
-Time step 492
-Resources : 785, 566
-Supply : 82/82
-Larvae : 9
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4390912002, 4388028418], [4320657409]]
-
-Time step 493
-Resources : 810, 582
-Supply : 82/82
-Larvae : 9
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4350279681, 4364697601, 4374134787], [4337696769]]
-
-Time step 494
-Resources : 825, 582
-Supply : 82/82
-Larvae : 10
-Chose action no_op, args []
-
-Time step 495
-Resources : 835, 594
-Supply : 82/82
-Larvae : 12
-Chose action no_op, args []
-
-Time step 496
-Resources : 880, 598
-Supply : 82/82
-Larvae : 12
-Chose action no_op, args []
-
-Time step 497
-Resources : 905, 606
-Supply : 82/82
-Larvae : 12
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
-
-Time step 498
-Resources : 925, 614
-Supply : 82/82
-Larvae : 12
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4379901955], [89, 147]]
-
-Time step 499
-Resources : 940, 618
-Supply : 82/82
-Larvae : 12
-Chose action no_op, args []
-
-Time step 500
-Resources : 980, 630
-Supply : 82/82
-Larvae : 12
-Chose action no_op, args []
-
-Time step 501
-Resources : 1005, 634
-Supply : 82/82
-Larvae : 12
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4386717698], [21, 159]]
-
-Time step 502
-Resources : 1025, 646
-Supply : 82/90
-Larvae : 12
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4394057729]]
-
-Time step 503
-Resources : 1000, 650
-Supply : 83/90
-Larvae : 12
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4394582017]]
-
-Time step 504
-Resources : 995, 662
-Supply : 84/90
-Larvae : 11
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4380164098], [50, 161]]
-
-Time step 505
-Resources : 1010, 666
-Supply : 84/90
-Larvae : 11
 Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4390387714]]
 
-Time step 506
-Resources : 990, 678
-Supply : 85/90
+Time step 473
+Resources : 40, 386
+Supply : 82/114
+Larvae : 6
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4367056906], [4355784706]]
+
+Time step 474
+Resources : 65, 390
+Supply : 82/114
+Larvae : 6
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4360241154], [4320657409]]
+
+Time step 475
+Resources : 90, 394
+Supply : 82/114
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4388290561]]
+
+Time step 476
+Resources : 45, 394
+Supply : 83/114
+Larvae : 5
+Chose action no_op, args []
+
+Time step 477
+Resources : 85, 402
+Supply : 83/114
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4386455554]]
+
+Time step 478
+Resources : 80, 406
+Supply : 84/114
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4390912001]]
+
+Time step 479
+Resources : 50, 414
+Supply : 84/114
+Larvae : 4
+Chose action Rally_Workers_unit, args [[<Queued.now: 0>], [4391698433], [4328783873]]
+
+Time step 480
+Resources : 90, 418
+Supply : 84/114
+Larvae : 4
+Chose action Rally_Units_pt, args [[<Queued.now: 0>], [4391698433], [67, 131]]
+
+Time step 481
+Resources : 130, 426
+Supply : 84/114
+Larvae : 6
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4381736962, 4385931266, 4383047682, 4382261249, 4386979842, 4383309826, 4350279683, 4388814849], [82, 134]]
+
+Time step 482
+Resources : 140, 426
+Supply : 84/114
+Larvae : 9
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4367843332]]
+
+Time step 483
+Resources : 170, 430
+Supply : 84/114
+Larvae : 9
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4378329089], [4374921218]]
+
+Time step 484
+Resources : 205, 438
+Supply : 84/114
+Larvae : 9
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4351328257], [4314890241]]
+
+Time step 485
+Resources : 225, 438
+Supply : 84/114
+Larvae : 9
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4388814849, 4386979842, 4382261249, 4350279683, 4383309826, 4385931266, 4383047682, 4381736962], [79, 135]]
+
+Time step 486
+Resources : 265, 446
+Supply : 84/114
+Larvae : 9
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4385931266, 4350279683, 4382261249, 4386979842, 4383309826, 4381736962, 4388814849, 4383047682], [79, 135]]
+
+Time step 487
+Resources : 300, 450
+Supply : 84/114
+Larvae : 9
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4383047682, 4386979842, 4383309826, 4388814849, 4385931266, 4381736962, 4382261249, 4350279683], [79, 135]]
+
+Time step 488
+Resources : 345, 454
+Supply : 84/114
+Larvae : 9
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4383047682, 4388814849, 4381736962, 4386979842, 4382261249, 4383309826, 4385931266, 4350279683], [81, 132]]
+
+Time step 489
+Resources : 370, 462
+Supply : 84/114
+Larvae : 9
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4382261249, 4388814849, 4386979842, 4350279683, 4385931266, 4381736962, 4383309826, 4383047682], [81, 132]]
+
+Time step 490
+Resources : 380, 466
+Supply : 82/114
+Larvae : 9
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4383047682, 4388814849, 4386979842, 4383309826, 4382261249, 4381736962, 4385931266], [80, 132]]
+
+Time step 491
+Resources : 425, 470
+Supply : 82/114
+Larvae : 9
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4383309826, 4381736962, 4382261249, 4388814849, 4383047682, 4386979842, 4385931266], [80, 132]]
+
+Time step 492
+Resources : 445, 478
+Supply : 82/114
+Larvae : 9
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4385931266, 4383047682, 4381736962, 4383309826, 4382261249, 4386979842, 4388814849], [80, 134]]
+
+Time step 493
+Resources : 475, 482
+Supply : 82/114
+Larvae : 9
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4381212675], [4355784706]]
+
+Time step 494
+Resources : 515, 490
+Supply : 82/114
+Larvae : 9
+Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4379115522], [55, 162]]
+
+Time step 495
+Resources : 540, 494
+Supply : 82/114
+Larvae : 12
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4364697601, 4378591235], [4330094593]]
+
+Time step 496
+Resources : 575, 498
+Supply : 82/114
+Larvae : 12
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4394057733]]
+
+Time step 497
+Resources : 530, 477
+Supply : 84/114
+Larvae : 12
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
+
+Time step 498
+Resources : 540, 485
+Supply : 84/114
+Larvae : 12
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4367319043]]
+
+Time step 499
+Resources : 535, 489
+Supply : 85/114
+Larvae : 11
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4387504129], [49, 170]]
+
+Time step 500
+Resources : 550, 497
+Supply : 85/114
+Larvae : 11
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4383834119]]
+
+Time step 501
+Resources : 545, 497
+Supply : 86/114
 Larvae : 10
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4388552705], [74, 98]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4392747010]]
+
+Time step 502
+Resources : 525, 509
+Supply : 87/114
+Larvae : 9
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4390912002]]
+
+Time step 503
+Resources : 510, 513
+Supply : 88/114
+Larvae : 8
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4375969794, 4374396930, 4389601282], [4390649858]]
+
+Time step 504
+Resources : 545, 521
+Supply : 88/114
+Larvae : 9
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4389076993], [84, 145]]
+
+Time step 505
+Resources : 565, 521
+Supply : 88/114
+Larvae : 9
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4351328257], [4324589569]]
+
+Time step 506
+Resources : 570, 533
+Supply : 88/114
+Larvae : 9
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4385669123]]
 
 Time step 507
-Resources : 1015, 682
-Supply : 85/90
-Larvae : 10
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4393533441]]
+Resources : 565, 533
+Supply : 89/114
+Larvae : 8
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4390125569], [65, 185]]
 
 Time step 508
-Resources : 1000, 690
-Supply : 86/90
-Larvae : 9
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4384358401]]
+Resources : 590, 545
+Supply : 89/114
+Larvae : 8
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4388028420]]
 
 Time step 509
-Resources : 975, 698
-Supply : 86/90
-Larvae : 8
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4391436289]]
+Resources : 565, 545
+Supply : 90/114
+Larvae : 7
+Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4387241986], [28, 175]]
 
 Time step 510
-Resources : 955, 706
-Supply : 87/90
+Resources : 505, 457
+Supply : 90/114
 Larvae : 7
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4391960577]]
+Chose action Build_EvolutionChamber_pt, args [[<Queued.now: 0>], [4394582018], [15, 172]]
 
 Time step 511
-Resources : 925, 714
-Supply : 88/90
-Larvae : 7
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4378591235]]
+Resources : 455, 461
+Supply : 90/114
+Larvae : 8
+Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4351852545], [4335075329]]
 
 Time step 512
-Resources : 910, 722
-Supply : 89/90
-Larvae : 8
-Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4383571970]]
+Resources : 460, 473
+Supply : 89/114
+Larvae : 10
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4364173324]]
 
 Time step 513
-Resources : 885, 730
-Supply : 90/90
-Larvae : 7
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4359979009]]
+Resources : 430, 477
+Supply : 90/114
+Larvae : 9
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4378853379, 4391436289, 4359192578], [4379639812]]
 
 Time step 514
-Resources : 900, 738
-Supply : 90/90
-Larvae : 7
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4383047683], [28, 176]]
+Resources : 455, 489
+Supply : 88/114
+Larvae : 9
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 515
-Resources : 930, 746
-Supply : 90/90
-Larvae : 7
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4376231938], [28, 176]]
+Resources : 490, 493
+Supply : 88/114
+Larvae : 9
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4372561924]]
 
 Time step 516
-Resources : 960, 754
-Supply : 90/90
+Resources : 460, 501
+Supply : 89/114
 Larvae : 8
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4363911169], [28, 176]]
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4370202627]]
 
 Time step 517
-Resources : 1000, 762
-Supply : 90/90
-Larvae : 8
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4369940481], [28, 176]]
+Resources : 430, 509
+Supply : 90/114
+Larvae : 7
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4393009153]]
 
 Time step 518
-Resources : 1010, 770
-Supply : 90/90
-Larvae : 8
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4360765441], [28, 176]]
+Resources : 410, 521
+Supply : 91/114
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4392484865]]
 
 Time step 519
-Resources : 1035, 774
-Supply : 90/90
-Larvae : 8
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4351066113, 4388028418], [4330094593]]
+Resources : 395, 529
+Supply : 92/114
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4386193410]]
 
 Time step 520
-Resources : 1070, 786
-Supply : 90/90
-Larvae : 9
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4397465604], [28, 176]]
+Resources : 365, 537
+Supply : 93/114
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4392222722]]
 
 Time step 521
-Resources : 1085, 790
-Supply : 90/90
-Larvae : 11
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4397465604], [28, 176]]
+Resources : 330, 549
+Supply : 94/114
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4388290564]]
 
 Time step 522
-Resources : 1115, 802
-Supply : 90/90
-Larvae : 12
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
+Resources : 335, 557
+Supply : 95/114
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4386455555]]
 
 Time step 523
-Resources : 1140, 802
-Supply : 90/90
-Larvae : 12
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4369940481], [4337696769]]
+Resources : 300, 569
+Supply : 96/114
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4391960577]]
 
 Time step 524
-Resources : 1175, 818
-Supply : 90/90
-Larvae : 12
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4363649030], [28, 176]]
+Resources : 280, 577
+Supply : 97/114
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4396417025]]
 
 Time step 525
-Resources : 1195, 818
-Supply : 90/90
-Larvae : 12
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4363649030], [28, 176]]
+Resources : 250, 589
+Supply : 98/114
+Larvae : 4
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4391436289], [4330094593]]
 
 Time step 526
-Resources : 1205, 834
-Supply : 90/90
-Larvae : 12
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4351590401], [28, 176]]
+Resources : 265, 593
+Supply : 98/114
+Larvae : 4
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4367843332]]
 
 Time step 527
-Resources : 1245, 834
-Supply : 90/90
-Larvae : 12
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4378066945], [28, 176]]
+Resources : 315, 605
+Supply : 98/114
+Larvae : 4
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4395892737, 4383571971], [4337696769]]
 
 Time step 528
-Resources : 1280, 846
-Supply : 90/90
-Larvae : 12
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4397465604], [28, 176]]
+Resources : 320, 609
+Supply : 98/114
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4397465601]]
 
 Time step 529
-Resources : 1305, 850
-Supply : 90/90
-Larvae : 12
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4366270467], [28, 176]]
+Resources : 295, 625
+Supply : 99/114
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4390912003]]
 
 Time step 530
-Resources : 1355, 858
-Supply : 88/90
-Larvae : 12
-Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4396679171]]
+Resources : 280, 629
+Supply : 100/114
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4398252033]]
 
 Time step 531
-Resources : 1305, 841
-Supply : 90/90
-Larvae : 11
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [6, 182]]
+Resources : 270, 645
+Supply : 101/114
+Larvae : 1
+Chose action Morph_Overseer_quick, args [[<Queued.now: 0>], [4375445508]]
 
 Time step 532
-Resources : 1325, 845
-Supply : 90/90
-Larvae : 11
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4398776321], [28, 176]]
+Resources : 255, 599
+Supply : 101/114
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4396941313]]
 
 Time step 533
-Resources : 1355, 857
-Supply : 90/90
-Larvae : 11
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4390912002], [28, 176]]
+Resources : 215, 611
+Supply : 102/114
+Larvae : 1
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4380426242], [4379639812]]
 
 Time step 534
-Resources : 1390, 861
-Supply : 90/90
-Larvae : 11
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4365221889], [28, 176]]
+Resources : 250, 619
+Supply : 102/114
+Larvae : 1
+Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4379115522], [60, 151]]
 
 Time step 535
-Resources : 1410, 873
-Supply : 90/90
-Larvae : 11
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4387504130], [28, 176]]
+Resources : 280, 631
+Supply : 102/114
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4385669124]]
 
 Time step 536
-Resources : 1445, 877
-Supply : 90/90
-Larvae : 11
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4393795586], [28, 176]]
+Resources : 260, 635
+Supply : 103/114
+Larvae : 0
+Chose action no_op, args []
 
 Time step 537
-Resources : 1480, 889
-Supply : 90/90
-Larvae : 11
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4352638982], [28, 176]]
+Resources : 290, 651
+Supply : 103/114
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4386193411]]
 
 Time step 538
-Resources : 1500, 893
-Supply : 90/90
-Larvae : 11
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4377804802], [28, 176]]
+Resources : 290, 651
+Supply : 104/114
+Larvae : 0
+Chose action no_op, args []
 
 Time step 539
-Resources : 1540, 905
-Supply : 90/90
-Larvae : 12
-Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4393533445, 4371513345, 4384882690], [4395892739]]
+Resources : 305, 671
+Supply : 104/114
+Larvae : 1
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4389601282], [22, 99]]
 
 Time step 540
-Resources : 1570, 909
-Supply : 90/90
-Larvae : 14
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4394582018], [28, 176]]
+Resources : 345, 671
+Supply : 104/114
+Larvae : 3
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4374396930], [22, 99]]
 
 Time step 541
-Resources : 1590, 917
-Supply : 90/90
-Larvae : 14
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Resources : 360, 691
+Supply : 104/114
+Larvae : 3
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
 
 Time step 542
-Resources : 1625, 925
-Supply : 90/90
-Larvae : 14
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4379377667], [30, 194]]
+Resources : 390, 691
+Supply : 104/114
+Larvae : 3
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4381736962, 4383309826, 4386979842, 4383047682, 4385931266, 4382261249, 4397989889, 4388814849], [31, 125]]
 
 Time step 543
-Resources : 1665, 933
-Supply : 90/90
-Larvae : 14
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4393795586], [28, 176]]
+Resources : 440, 711
+Supply : 104/114
+Larvae : 3
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4386979842, 4383309826, 4382261249, 4383047682, 4388814849, 4381736962, 4385931266, 4397989889], [28, 128]]
 
 Time step 544
-Resources : 1685, 941
-Supply : 90/90
-Larvae : 14
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4393009153], [28, 176]]
+Resources : 460, 711
+Supply : 104/114
+Larvae : 3
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4382261249, 4397989889, 4383047682, 4388814849, 4386979842, 4385931266, 4381736962, 4383309826], [24, 132]]
 
 Time step 545
-Resources : 1720, 953
-Supply : 90/90
-Larvae : 14
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4398776321], [28, 176]]
+Resources : 485, 727
+Supply : 104/114
+Larvae : 3
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4388814849, 4381736962, 4382261249, 4385931266, 4383309826, 4397989889, 4386979842, 4383047682], [29, 132]]
 
 Time step 546
-Resources : 1745, 961
-Supply : 90/90
-Larvae : 14
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4352376833], [28, 176]]
+Resources : 535, 731
+Supply : 104/114
+Larvae : 3
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4383309826, 4385931266, 4397989889, 4388814849, 4383047682, 4382261249, 4381736962, 4386979842], [34, 131]]
 
 Time step 547
-Resources : 1785, 973
-Supply : 90/90
-Larvae : 14
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4383047683], [28, 176]]
+Resources : 555, 747
+Supply : 104/114
+Larvae : 3
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4381736962, 4388814849, 4382261249, 4386979842, 4397989889, 4385931266, 4383047682, 4383309826], [39, 131]]
 
 Time step 548
-Resources : 1810, 977
-Supply : 90/90
-Larvae : 14
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4397465604], [28, 176]]
+Resources : 595, 751
+Supply : 104/114
+Larvae : 4
+Chose action Attack_pt, args [[<Queued.now: 0>], [4368105475, 4375445508, 4382261249, 4397989889, 4386979842, 4381736962, 4383309826, 4383047682, 4388814849, 4385931266], [43, 131]]
 
 Time step 549
-Resources : 1835, 993
-Supply : 90/90
-Larvae : 14
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4363649030], [28, 176]]
+Resources : 630, 763
+Supply : 104/114
+Larvae : 4
+Chose action Attack_pt, args [[<Queued.now: 0>], [4375445508, 4368105475, 4397989889, 4386979842, 4388814849, 4381736962, 4383047682, 4382261249, 4383309826, 4385931266], [44, 131]]
 
 Time step 550
-Resources : 1885, 997
-Supply : 90/90
-Larvae : 14
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4350541825], [28, 176]]
+Resources : 660, 771
+Supply : 104/114
+Larvae : 4
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4393795591], [46, 152]]
 
 Time step 551
-Resources : 1905, 1009
-Supply : 90/90
-Larvae : 14
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4391174147], [95, 137]]
+Resources : 700, 783
+Supply : 104/114
+Larvae : 4
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4389601282], [22, 99]]
 
 Time step 552
-Resources : 1930, 1017
-Supply : 90/90
-Larvae : 14
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4391174147], [95, 137]]
+Resources : 735, 791
+Supply : 104/114
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4393271306], [44, 157]]
 
 Time step 553
-Resources : 1965, 1029
-Supply : 90/90
-Larvae : 14
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4391174147], [95, 137]]
+Resources : 775, 803
+Supply : 104/114
+Larvae : 5
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4363124737, 4356571146, 4399300610], [4372824070]]
 
 Time step 554
-Resources : 2000, 1037
-Supply : 90/90
-Larvae : 14
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 795, 811
+Supply : 104/114
+Larvae : 5
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4375969794], [22, 99]]
 
 Time step 555
-Resources : 2050, 1049
-Supply : 90/90
-Larvae : 15
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4391174147], [95, 137]]
+Resources : 825, 823
+Supply : 104/114
+Larvae : 5
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4375969794], [22, 99]]
 
 Time step 556
-Resources : 2080, 1057
-Supply : 90/90
-Larvae : 17
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 875, 831
+Supply : 104/114
+Larvae : 6
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4389601282], [22, 99]]
 
 Time step 557
-Resources : 2115, 1069
-Supply : 90/90
-Larvae : 17
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 905, 843
+Supply : 104/114
+Larvae : 8
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4369678338], [89, 134]]
 
 Time step 558
-Resources : 2140, 1073
-Supply : 90/90
-Larvae : 17
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4359979009]]
+Resources : 940, 851
+Supply : 104/114
+Larvae : 8
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 559
-Resources : 2175, 1089
-Supply : 90/90
-Larvae : 17
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 1000, 863
+Supply : 104/114
+Larvae : 8
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4388552708], [67, 195]]
 
 Time step 560
-Resources : 2200, 1093
-Supply : 90/90
-Larvae : 17
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4395630594], [58, 150]]
+Resources : 1015, 875
+Supply : 104/114
+Larvae : 8
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4375969794], [22, 99]]
 
 Time step 561
-Resources : 2235, 1101
-Supply : 90/90
-Larvae : 17
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 1040, 887
+Supply : 104/114
+Larvae : 8
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4375969794], [22, 99]]
 
 Time step 562
-Resources : 2280, 1113
-Supply : 90/90
-Larvae : 17
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 1090, 899
+Supply : 104/114
+Larvae : 8
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4389601282], [22, 99]]
 
 Time step 563
-Resources : 2305, 1121
-Supply : 90/90
-Larvae : 17
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4386455556], [85, 104]]
+Resources : 1115, 911
+Supply : 104/114
+Larvae : 9
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4389601282], [22, 99]]
 
 Time step 564
-Resources : 2350, 1133
-Supply : 90/90
-Larvae : 18
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 1150, 923
+Supply : 104/114
+Larvae : 9
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4374396930], [22, 99]]
 
 Time step 565
-Resources : 2380, 1137
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 1195, 927
+Supply : 104/114
+Larvae : 9
+Chose action Build_Hatchery_pt, args [[<Queued.now: 0>], [4375969794], [22, 99]]
 
 Time step 566
-Resources : 2405, 1153
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 935, 947
+Supply : 104/114
+Larvae : 9
+Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4374396930], [8706260993]]
 
 Time step 567
-Resources : 2425, 1157
-Supply : 90/90
-Larvae : 20
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
+Resources : 940, 951
+Supply : 104/114
+Larvae : 9
+Chose action Build_Extractor_unit, args [[<Queued.now: 0>], [4389601282], [8713797633]]
 
 Time step 568
-Resources : 2470, 1173
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 965, 967
+Supply : 104/114
+Larvae : 10
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4394582020]]
 
 Time step 569
-Resources : 2505, 1177
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 895, 917
+Supply : 106/114
+Larvae : 11
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4401659906]]
 
 Time step 570
-Resources : 2540, 1189
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 830, 937
+Supply : 106/114
+Larvae : 10
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4356046851]]
 
 Time step 571
-Resources : 2580, 1197
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 765, 937
+Supply : 106/114
+Larvae : 9
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4367843332]]
 
 Time step 572
-Resources : 2615, 1209
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 795, 957
+Supply : 106/114
+Larvae : 9
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4385669125]]
 
 Time step 573
-Resources : 2640, 1217
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 730, 957
+Supply : 106/114
+Larvae : 8
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4364435457, 4358668290, 4352638983], [4390649858]]
 
 Time step 574
-Resources : 2665, 1229
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 765, 977
+Supply : 106/114
+Larvae : 8
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4400087041]]
 
 Time step 575
-Resources : 2715, 1237
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [5, 169]]
+Resources : 695, 977
+Supply : 106/114
+Larvae : 7
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4377280514]]
 
 Time step 576
-Resources : 2740, 1249
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 635, 997
+Supply : 105/114
+Larvae : 6
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4401135619]]
 
 Time step 577
-Resources : 2780, 1257
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 570, 947
+Supply : 106/114
+Larvae : 5
+Chose action Rally_Workers_unit, args [[<Queued.now: 0>], [4372561926], [4340056065]]
 
 Time step 578
-Resources : 2820, 1269
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 610, 963
+Supply : 106/114
+Larvae : 5
+Chose action Rally_Units_pt, args [[<Queued.now: 0>], [4372561926], [67, 131]]
 
 Time step 579
-Resources : 2845, 1277
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 660, 967
+Supply : 106/120
+Larvae : 6
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4379115522], [4391698433]]
 
 Time step 580
-Resources : 2870, 1289
-Supply : 90/90
-Larvae : 20
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 670, 987
+Supply : 106/120
+Larvae : 6
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4400873474]]
 
 Time step 581
-Resources : 2915, 1293
-Supply : 90/96
-Larvae : 21
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 610, 941
+Supply : 108/120
+Larvae : 5
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4403757058]]
 
 Time step 582
-Resources : 2945, 1309
-Supply : 90/96
-Larvae : 21
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 565, 907
+Supply : 109/120
+Larvae : 4
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4393009154]]
 
 Time step 583
-Resources : 2975, 1313
-Supply : 90/96
-Larvae : 22
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 480, 865
+Supply : 111/120
+Larvae : 3
+Chose action Research_GroovedSpines_quick, args [[<Queued.now: 0>], [4395630594]]
 
 Time step 584
-Resources : 3025, 1325
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 425, 781
+Supply : 111/120
+Larvae : 7
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4386193412]]
 
 Time step 585
-Resources : 3050, 1333
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4374659075], [13, 194]]
+Resources : 425, 789
+Supply : 112/120
+Larvae : 6
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4402184193]]
 
 Time step 586
-Resources : 3080, 1345
-Supply : 90/96
-Larvae : 24
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Resources : 350, 805
+Supply : 112/120
+Larvae : 5
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
 
 Time step 587
-Resources : 3120, 1353
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 380, 813
+Supply : 112/120
+Larvae : 6
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4402446339]]
 
 Time step 588
-Resources : 3155, 1365
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 330, 829
+Supply : 112/120
+Larvae : 5
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4360241154, 4384620547, 4383834120, 4351066113, 4396154881], [4328783873]]
 
 Time step 589
-Resources : 3175, 1373
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 345, 833
+Supply : 112/120
+Larvae : 5
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4404543489]]
 
 Time step 590
-Resources : 3205, 1385
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 260, 853
+Supply : 112/120
+Larvae : 4
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4377542659]]
 
 Time step 591
-Resources : 3240, 1389
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 200, 857
+Supply : 112/120
+Larvae : 3
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4392222723]]
 
 Time step 592
-Resources : 3290, 1405
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 140, 873
+Supply : 112/120
+Larvae : 2
+Chose action Train_Overlord_quick, args [[<Queued.now: 0>], [4404281346]]
 
 Time step 593
-Resources : 3315, 1409
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 70, 881
+Supply : 112/120
+Larvae : 1
+Chose action no_op, args []
 
 Time step 594
-Resources : 3340, 1421
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 110, 897
+Supply : 112/128
+Larvae : 2
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4351852546], [55, 139]]
 
 Time step 595
-Resources : 3395, 1429
-Supply : 90/96
-Larvae : 24
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4391960583], [42, 190]]
+Resources : 145, 905
+Supply : 112/136
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4404805634]]
 
 Time step 596
-Resources : 3425, 1437
-Supply : 90/96
-Larvae : 25
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 135, 921
+Supply : 113/136
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4402970628]]
 
 Time step 597
-Resources : 3445, 1449
-Supply : 90/96
-Larvae : 25
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 110, 929
+Supply : 114/144
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4356046852]]
 
 Time step 598
-Resources : 3480, 1453
-Supply : 90/96
-Larvae : 25
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 90, 941
+Supply : 115/144
+Larvae : 0
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4399562753, 4392484866, 4391960578, 4388290565, 4374659075, 4376494084, 4364697601], [4328783873]]
 
 Time step 599
-Resources : 3515, 1469
-Supply : 90/96
-Larvae : 25
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 105, 953
+Supply : 115/152
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4406116353]]
 
 Time step 600
-Resources : 3545, 1473
-Supply : 90/96
-Larvae : 26
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 85, 961
+Supply : 116/160
+Larvae : 1
+Chose action no_op, args []
 
 Time step 601
-Resources : 3590, 1485
-Supply : 90/96
-Larvae : 28
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 110, 977
+Supply : 116/160
+Larvae : 3
+Chose action Build_InfestationPit_pt, args [[<Queued.now: 0>], [4387241987], [28, 184]]
 
 Time step 602
-Resources : 3620, 1493
-Supply : 90/96
-Larvae : 28
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4392484865]]
+Resources : 60, 881
+Supply : 116/160
+Larvae : 4
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 603
-Resources : 3655, 1505
-Supply : 90/96
-Larvae : 28
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 100, 901
+Supply : 116/160
+Larvae : 4
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4386455557], [41, 143]]
 
 Time step 604
-Resources : 3685, 1513
-Supply : 90/96
-Larvae : 28
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 120, 905
+Supply : 116/160
+Larvae : 4
+Chose action no_op, args []
 
 Time step 605
-Resources : 3720, 1525
-Supply : 90/96
-Larvae : 28
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 165, 925
+Supply : 116/160
+Larvae : 4
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4356571146, 4380426242], [4330094593]]
 
 Time step 606
-Resources : 3750, 1533
-Supply : 90/96
-Larvae : 28
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 175, 925
+Supply : 115/160
+Larvae : 4
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4396941314], [33, 151]]
 
 Time step 607
-Resources : 3790, 1545
-Supply : 90/96
-Larvae : 28
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 205, 941
+Supply : 115/160
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4406378497]]
 
 Time step 608
-Resources : 3825, 1553
-Supply : 90/96
-Larvae : 28
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4372299780], [91, 126]]
+Resources : 180, 941
+Supply : 116/160
+Larvae : 3
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4366794754, 4359979010], [4328783873]]
 
 Time step 609
-Resources : 3860, 1565
-Supply : 90/96
-Larvae : 29
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 200, 965
+Supply : 116/160
+Larvae : 4
+Chose action Research_ZergMissileWeaponsLevel2_quick, args [[<Queued.now: 0>], [4371775489]]
 
 Time step 610
-Resources : 3905, 1573
-Supply : 90/96
-Larvae : 31
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 100, 815
+Supply : 116/168
+Larvae : 4
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4399824901], [95, 123]]
 
 Time step 611
-Resources : 3930, 1585
-Supply : 90/96
-Larvae : 32
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
+Resources : 150, 835
+Supply : 116/168
+Larvae : 4
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4356833282], [55, 190]]
 
 Time step 612
-Resources : 3960, 1593
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 180, 839
+Supply : 116/176
+Larvae : 5
+Chose action Research_ZergGroundArmorLevel1_quick, args [[<Queued.now: 0>], [4394844163]]
 
 Time step 613
-Resources : 3985, 1605
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4396679172], [67, 139]]
+Resources : 75, 705
+Supply : 116/176
+Larvae : 6
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4380950531], [4379639812]]
 
 Time step 614
-Resources : 4015, 1609
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 120, 709
+Supply : 116/184
+Larvae : 8
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4408737793]]
 
 Time step 615
-Resources : 4060, 1625
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 55, 671
+Supply : 118/192
+Larvae : 7
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4367843332]]
 
 Time step 616
-Resources : 4090, 1629
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 75, 683
+Supply : 118/200
+Larvae : 7
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4363124737], [4330094593]]
 
 Time step 617
-Resources : 4130, 1641
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4383571973], [95, 96]]
+Resources : 105, 695
+Supply : 118/200
+Larvae : 7
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4394582021]]
 
 Time step 618
-Resources : 4175, 1649
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 60, 649
+Supply : 120/200
+Larvae : 6
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4400611329], [4328783873]]
 
 Time step 619
-Resources : 4205, 1661
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 85, 665
+Supply : 120/200
+Larvae : 6
+Chose action no_op, args []
 
 Time step 620
-Resources : 4225, 1669
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [10, 158]]
+Resources : 130, 669
+Supply : 120/200
+Larvae : 6
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4407689217]]
 
 Time step 621
-Resources : 4255, 1681
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 60, 635
+Supply : 122/200
+Larvae : 5
+Chose action no_op, args []
 
 Time step 622
-Resources : 4300, 1685
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 95, 639
+Supply : 122/200
+Larvae : 7
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4379115522], [4391698433]]
 
 Time step 623
-Resources : 4330, 1697
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 140, 659
+Supply : 122/200
+Larvae : 10
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4359716865, 4363124737], [4372824070]]
 
 Time step 624
-Resources : 4365, 1705
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 160, 663
+Supply : 122/200
+Larvae : 10
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4411097089]]
 
 Time step 625
-Resources : 4410, 1717
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 105, 625
+Supply : 124/200
+Larvae : 9
+Chose action Train_Hydralisk_quick, args [[<Queued.now: 0>], [4385669126]]
 
 Time step 626
-Resources : 4425, 1725
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 55, 583
+Supply : 126/200
+Larvae : 8
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4359192578], [4304666625]]
 
 Time step 627
-Resources : 4480, 1737
-Supply : 90/96
-Larvae : 32
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 95, 591
+Supply : 126/200
+Larvae : 10
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4406902785]]
 
 Time step 628
-Resources : 4485, 1745
-Supply : 90/96
-Larvae : 33
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 80, 599
+Supply : 127/200
+Larvae : 10
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4350541825], [4337696769]]
 
 Time step 629
-Resources : 4520, 1753
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4401659906], [6, 157]]
+Resources : 115, 611
+Supply : 127/200
+Larvae : 12
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4409524225]]
 
 Time step 630
-Resources : 4565, 1765
-Supply : 90/96
-Larvae : 35
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Resources : 105, 623
+Supply : 128/200
+Larvae : 11
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
 
 Time step 631
-Resources : 4595, 1769
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 140, 635
+Supply : 128/200
+Larvae : 11
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4409262081]]
 
 Time step 632
-Resources : 4635, 1785
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 140, 647
+Supply : 129/200
+Larvae : 10
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4412669953]]
 
 Time step 633
-Resources : 4680, 1789
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 125, 659
+Supply : 130/200
+Larvae : 9
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4398252035], [4379639812]]
 
 Time step 634
-Resources : 4705, 1801
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 185, 667
+Supply : 130/200
+Larvae : 9
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4406378498]]
 
 Time step 635
-Resources : 4735, 1809
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 165, 679
+Supply : 131/200
+Larvae : 8
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4411883522]]
 
 Time step 636
-Resources : 4760, 1821
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 155, 691
+Supply : 132/200
+Larvae : 7
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4380950531], [4335861761]]
 
 Time step 637
-Resources : 4800, 1829
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 185, 695
+Supply : 132/200
+Larvae : 7
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4410834946]]
 
 Time step 638
-Resources : 4830, 1841
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 170, 711
+Supply : 133/200
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4392222725]]
 
 Time step 639
-Resources : 4865, 1849
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402970626], [25, 194]]
+Resources : 180, 711
+Supply : 134/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4412407809]]
 
 Time step 640
-Resources : 4905, 1861
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 175, 735
+Supply : 135/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4412145666]]
 
 Time step 641
-Resources : 4940, 1869
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 155, 735
+Supply : 136/200
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4389601283]]
 
 Time step 642
-Resources : 4970, 1881
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 155, 759
+Supply : 137/200
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4411621377]]
 
 Time step 643
-Resources : 5005, 1889
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 145, 759
+Supply : 138/200
+Larvae : 2
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4359192578], [4379639812]]
 
 Time step 644
-Resources : 5030, 1901
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 180, 775
+Supply : 138/200
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4394057735]]
 
 Time step 645
-Resources : 5065, 1909
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 155, 783
+Supply : 139/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4413718529]]
 
 Time step 646
-Resources : 5095, 1921
-Supply : 90/96
-Larvae : 35
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4359979009]]
+Resources : 160, 799
+Supply : 140/200
+Larvae : 4
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 647
-Resources : 5140, 1925
-Supply : 90/96
-Larvae : 35
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 210, 807
+Supply : 140/200
+Larvae : 4
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4405329921], [63, 129]]
 
 Time step 648
-Resources : 5180, 1941
-Supply : 90/96
-Larvae : 36
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 250, 819
+Supply : 140/200
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4402446340]]
 
 Time step 649
-Resources : 5200, 1945
-Supply : 90/96
-Larvae : 38
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 240, 827
+Supply : 141/200
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4310433794]]
 
 Time step 650
-Resources : 5245, 1957
-Supply : 90/96
-Larvae : 38
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 235, 843
+Supply : 142/200
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4413194241]]
 
 Time step 651
-Resources : 5275, 1965
-Supply : 90/96
-Larvae : 38
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 210, 851
+Supply : 143/200
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4404805636]]
 
 Time step 652
-Resources : 5300, 1977
-Supply : 90/96
-Larvae : 38
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 215, 867
+Supply : 144/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4400873477]]
 
 Time step 653
-Resources : 5340, 1985
-Supply : 90/96
-Larvae : 39
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 195, 875
+Supply : 145/200
+Larvae : 0
+Chose action no_op, args []
 
 Time step 654
-Resources : 5380, 1993
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 245, 891
+Supply : 145/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4411883523]]
 
 Time step 655
-Resources : 5400, 2005
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 240, 899
+Supply : 146/200
+Larvae : 0
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4386193413], [41, 130]]
 
 Time step 656
-Resources : 5450, 2013
-Supply : 90/96
-Larvae : 41
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
+Resources : 265, 915
+Supply : 146/200
+Larvae : 0
+Chose action no_op, args []
 
 Time step 657
-Resources : 5485, 2021
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 340, 919
+Supply : 146/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4392222726]]
 
 Time step 658
-Resources : 5510, 2033
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402446339], [49, 178]]
+Resources : 310, 935
+Supply : 147/200
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4415553537]]
 
 Time step 659
-Resources : 5545, 2041
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 295, 943
+Supply : 148/200
+Larvae : 1
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4374396931], [30, 139]]
 
 Time step 660
-Resources : 5580, 2049
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 350, 959
+Supply : 148/200
+Larvae : 1
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4367843332]]
 
 Time step 661
-Resources : 5605, 2061
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4407164929], [96, 115]]
+Resources : 375, 967
+Supply : 148/200
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4415029249]]
 
 Time step 662
-Resources : 5635, 2069
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 380, 983
+Supply : 149/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4411621378]]
 
 Time step 663
-Resources : 5685, 2081
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [27, 148]]
+Resources : 380, 991
+Supply : 150/200
+Larvae : 1
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4407951361], [91, 112]]
 
 Time step 664
-Resources : 5720, 2085
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [18, 149]]
+Resources : 405, 1007
+Supply : 150/200
+Larvae : 3
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 665
-Resources : 5750, 2101
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 455, 1015
+Supply : 150/200
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 666
-Resources : 5780, 2105
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 525, 1031
+Supply : 150/200
+Larvae : 5
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4379115522], [4391698433]]
 
 Time step 667
-Resources : 5815, 2117
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4407951361], [75, 128]]
+Resources : 555, 1039
+Supply : 150/200
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 668
-Resources : 5850, 2125
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 580, 1047
+Supply : 150/200
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 669
-Resources : 5865, 2137
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 650, 1063
+Supply : 150/200
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 670
-Resources : 5910, 2145
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 685, 1067
+Supply : 150/200
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 671
-Resources : 5950, 2157
-Supply : 90/96
-Larvae : 41
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 730, 1087
+Supply : 150/200
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 672
-Resources : 5965, 2165
-Supply : 90/96
-Larvae : 42
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4408213506], [107, 94]]
+Resources : 790, 1091
+Supply : 150/200
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 673
-Resources : 6015, 2177
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 825, 1111
+Supply : 150/200
+Larvae : 8
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 674
-Resources : 6035, 2185
-Supply : 90/96
-Larvae : 44
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Resources : 895, 1115
+Supply : 150/200
+Larvae : 8
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4361027585]]
 
 Time step 675
-Resources : 6070, 2197
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 925, 1135
+Supply : 150/200
+Larvae : 8
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4402184194], [49, 177]]
 
 Time step 676
-Resources : 6100, 2201
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 960, 1139
+Supply : 150/200
+Larvae : 9
+Chose action Morph_Hive_quick, args [[<Queued.now: 0>], [4348968961]]
 
 Time step 677
-Resources : 6125, 2217
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4408737793], [8, 146]]
+Resources : 825, 1005
+Supply : 150/200
+Larvae : 10
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4394057737]]
 
 Time step 678
-Resources : 6180, 2221
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 820, 1013
+Supply : 151/200
+Larvae : 10
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4377542660, 4404805637, 4412145668, 4364173325, 4396679172, 4398514177, 4362600453], [4312268801]]
 
 Time step 679
-Resources : 6210, 2237
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 840, 1029
+Supply : 151/200
+Larvae : 10
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4415553538]]
 
 Time step 680
-Resources : 6225, 2241
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 840, 1037
+Supply : 152/200
+Larvae : 9
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4400873478]]
 
 Time step 681
-Resources : 6260, 2257
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 825, 1049
+Supply : 153/200
+Larvae : 8
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4416339969]]
 
 Time step 682
-Resources : 6295, 2261
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 820, 1057
+Supply : 154/200
+Larvae : 7
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4361551875]]
 
 Time step 683
-Resources : 6320, 2273
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 830, 1073
+Supply : 155/200
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4375969795]]
 
 Time step 684
-Resources : 6350, 2281
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 820, 1081
+Supply : 156/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4411883524]]
 
 Time step 685
-Resources : 6375, 2293
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 820, 1097
+Supply : 157/200
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4416602113]]
 
 Time step 686
-Resources : 6425, 2301
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4364959751], [19, 154]]
+Resources : 825, 1105
+Supply : 158/200
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4415815682]]
 
 Time step 687
-Resources : 6440, 2309
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 820, 1121
+Supply : 159/200
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4413718530]]
 
 Time step 688
-Resources : 6475, 2321
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 805, 1129
+Supply : 160/200
+Larvae : 3
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4372037637, 4397203458, 4394582022, 4373610497, 4406378499, 4390387716, 4398776322], [4340056065]]
 
 Time step 689
-Resources : 6510, 2329
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 840, 1145
+Supply : 160/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4420796417]]
 
 Time step 690
-Resources : 6540, 2337
-Supply : 90/96
-Larvae : 44
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 820, 1149
+Supply : 161/200
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4420009986]]
 
 Time step 691
-Resources : 6560, 2349
-Supply : 90/96
-Larvae : 44
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4359979009]]
+Resources : 820, 1165
+Supply : 162/200
+Larvae : 4
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4348968961]]
 
 Time step 692
-Resources : 6595, 2357
-Supply : 90/96
-Larvae : 47
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 870, 1173
+Supply : 162/200
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4421582849]]
 
 Time step 693
-Resources : 6635, 2369
-Supply : 90/96
-Larvae : 47
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4410834946], [38, 191]]
+Resources : 865, 1189
+Supply : 163/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4350279686]]
 
 Time step 694
-Resources : 6660, 2377
-Supply : 90/96
-Larvae : 47
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 865, 1197
+Supply : 164/200
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4421320705]]
 
 Time step 695
-Resources : 6690, 2385
-Supply : 90/96
-Larvae : 47
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 855, 1213
+Supply : 165/200
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4417388546]]
 
 Time step 696
-Resources : 6730, 2397
-Supply : 90/96
-Larvae : 47
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 860, 1221
+Supply : 166/200
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4420272129]]
 
 Time step 697
-Resources : 6750, 2401
-Supply : 90/96
-Larvae : 47
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 855, 1233
+Supply : 167/200
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4394057738]]
 
 Time step 698
-Resources : 6780, 2417
-Supply : 90/96
-Larvae : 48
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 840, 1245
+Supply : 168/200
+Larvae : 1
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4373348355, 4419747841, 4395892737, 4413980674, 4356571146], [4340056065]]
 
 Time step 699
-Resources : 6825, 2421
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 880, 1257
+Supply : 168/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4349231118]]
 
 Time step 700
-Resources : 6850, 2433
-Supply : 90/96
-Larvae : 50
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
+Resources : 870, 1269
+Supply : 169/200
+Larvae : 0
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4413456386], [73, 120]]
 
 Time step 701
-Resources : 6880, 2441
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 895, 1277
+Supply : 169/200
+Larvae : 0
+Chose action no_op, args []
 
 Time step 702
-Resources : 6920, 2453
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 960, 1293
+Supply : 169/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4375969796]]
 
 Time step 703
-Resources : 6940, 2461
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 955, 1301
+Supply : 170/200
+Larvae : 3
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4406378499, 4397203458, 4398776322], [4403232769]]
 
 Time step 704
-Resources : 6970, 2473
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1010, 1317
+Supply : 170/200
+Larvae : 3
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4367843332]]
 
 Time step 705
-Resources : 7005, 2481
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1055, 1321
+Supply : 170/200
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4422631425]]
 
 Time step 706
-Resources : 7035, 2493
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1060, 1341
+Supply : 171/200
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4422107138]]
 
 Time step 707
-Resources : 7060, 2497
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1075, 1345
+Supply : 172/200
+Larvae : 4
+Chose action Research_MuscularAugments_quick, args [[<Queued.now: 0>], [4395630594]]
 
 Time step 708
-Resources : 7100, 2513
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1020, 1269
+Supply : 172/200
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4412669954], [52, 122]]
 
 Time step 709
-Resources : 7125, 2517
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4381474817], [24, 135]]
+Resources : 1050, 1273
+Supply : 172/200
+Larvae : 7
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4413718531]]
 
 Time step 710
-Resources : 7150, 2533
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1065, 1293
+Supply : 173/200
+Larvae : 7
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4424204289]]
 
 Time step 711
-Resources : 7185, 2537
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1070, 1301
+Supply : 174/200
+Larvae : 6
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4379115522], [4391698433]]
 
 Time step 712
-Resources : 7215, 2553
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4414242817], [58, 168]]
+Resources : 1115, 1321
+Supply : 174/200
+Larvae : 6
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4389601284], [30, 126]]
 
 Time step 713
-Resources : 7250, 2557
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1145, 1325
+Supply : 174/200
+Larvae : 6
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4377542660, 4412145668, 4404805637], [4298375170]]
 
 Time step 714
-Resources : 7280, 2573
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4414504962], [105, 105]]
+Resources : 1215, 1345
+Supply : 174/200
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4421582850]]
 
 Time step 715
-Resources : 7310, 2577
-Supply : 90/96
-Larvae : 50
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1210, 1353
+Supply : 175/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4423155713]]
 
 Time step 716
-Resources : 7340, 2589
-Supply : 90/96
-Larvae : 51
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1200, 1373
+Supply : 176/200
+Larvae : 5
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4417126401], [99, 102]]
 
 Time step 717
-Resources : 7365, 2597
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1250, 1381
+Supply : 176/200
+Larvae : 7
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4420796418]]
 
 Time step 718
-Resources : 7390, 2609
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1265, 1401
+Supply : 177/200
+Larvae : 6
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4362338305, 4406640642, 4418437122], [4340056065]]
 
 Time step 719
-Resources : 7445, 2617
-Supply : 90/96
-Larvae : 53
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Resources : 1300, 1413
+Supply : 177/200
+Larvae : 6
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369154050], [4372561926]]
 
 Time step 720
-Resources : 7470, 2625
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4299685890], [83, 117]]
+Resources : 1345, 1433
+Supply : 177/200
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4394057739]]
 
 Time step 721
-Resources : 7495, 2633
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1355, 1441
+Supply : 178/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4426039298]]
 
 Time step 722
-Resources : 7535, 2645
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1355, 1465
+Supply : 179/200
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4424728577]]
 
 Time step 723
-Resources : 7555, 2653
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1355, 1473
+Supply : 180/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4384358402]]
 
 Time step 724
-Resources : 7590, 2665
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4416077826], [31, 144]]
+Resources : 1360, 1493
+Supply : 181/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4349231119]]
 
 Time step 725
-Resources : 7625, 2673
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4415029250], [115, 84]]
+Resources : 1355, 1501
+Supply : 182/200
+Larvae : 6
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4422107139]]
 
 Time step 726
-Resources : 7650, 2685
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [28, 147]]
+Resources : 1355, 1525
+Supply : 183/200
+Larvae : 5
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4416602114]]
 
 Time step 727
-Resources : 7685, 2693
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4394844165], [33, 152]]
+Resources : 1375, 1533
+Supply : 184/200
+Larvae : 4
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4377804802]]
 
 Time step 728
-Resources : 7725, 2701
-Supply : 90/96
-Larvae : 53
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4360765441], [28, 176]]
+Resources : 1375, 1557
+Supply : 185/200
+Larvae : 3
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4427350018]]
 
 Time step 729
-Resources : 7745, 2709
-Supply : 90/96
-Larvae : 53
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4352638982], [28, 176]]
+Resources : 1390, 1565
+Supply : 186/200
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4425252866]]
 
 Time step 730
-Resources : 7780, 2717
-Supply : 90/96
-Larvae : 53
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4416339969], [10, 133]]
+Resources : 1410, 1585
+Supply : 187/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4427612161]]
 
 Time step 731
-Resources : 7810, 2729
-Supply : 90/96
-Larvae : 53
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4350541825], [28, 176]]
+Resources : 1395, 1597
+Supply : 188/200
+Larvae : 0
+Chose action no_op, args []
 
 Time step 732
-Resources : 7830, 2737
-Supply : 90/96
-Larvae : 53
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4365221889], [28, 176]]
+Resources : 1445, 1617
+Supply : 188/200
+Larvae : 0
+Chose action no_op, args []
 
 Time step 733
-Resources : 7875, 2749
-Supply : 90/96
-Larvae : 54
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4390912002], [28, 176]]
+Resources : 1515, 1629
+Supply : 188/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4428136449]]
 
 Time step 734
-Resources : 7900, 2757
-Supply : 90/96
-Larvae : 56
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4398776321], [28, 176]]
+Resources : 1520, 1641
+Supply : 189/200
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4401922051]]
 
 Time step 735
-Resources : 7930, 2769
-Supply : 90/96
-Larvae : 56
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4392484865]]
+Resources : 1515, 1661
+Supply : 190/200
+Larvae : 1
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4361027585]]
 
 Time step 736
-Resources : 7975, 2777
-Supply : 90/96
-Larvae : 56
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4377804802], [28, 176]]
+Resources : 1570, 1677
+Supply : 190/200
+Larvae : 1
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4428922881]]
 
 Time step 737
-Resources : 7985, 2789
-Supply : 90/96
-Larvae : 56
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4352638982], [28, 176]]
+Resources : 1555, 1668
+Supply : 192/200
+Larvae : 2
+Chose action Train_Roach_quick, args [[<Queued.now: 0>], [4420796419]]
 
 Time step 738
-Resources : 8020, 2797
-Supply : 90/96
-Larvae : 56
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4363911169], [28, 176]]
+Resources : 1540, 1651
+Supply : 194/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4428660738]]
 
 Time step 739
-Resources : 8050, 2809
-Supply : 90/96
-Larvae : 56
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4416602114], [30, 149]]
+Resources : 1555, 1675
+Supply : 195/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4426039299]]
 
 Time step 740
-Resources : 8085, 2813
-Supply : 90/96
-Larvae : 56
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4397465604], [28, 176]]
+Resources : 1560, 1683
+Supply : 196/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4424728578]]
 
 Time step 741
-Resources : 8120, 2829
-Supply : 90/96
-Larvae : 56
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4378066945], [28, 176]]
+Resources : 1565, 1707
+Supply : 197/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4384358403]]
 
 Time step 742
-Resources : 8150, 2833
-Supply : 90/96
-Larvae : 57
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4393795586], [28, 176]]
+Resources : 1575, 1711
+Supply : 198/200
+Larvae : 0
+Chose action no_op, args []
 
 Time step 743
-Resources : 8190, 2849
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4398776321], [28, 176]]
+Resources : 1625, 1735
+Supply : 198/200
+Larvae : 0
+Chose action no_op, args []
 
 Time step 744
-Resources : 8210, 2853
-Supply : 90/96
-Larvae : 58
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
+Resources : 1695, 1743
+Supply : 198/200
+Larvae : 0
+Chose action no_op, args []
 
 Time step 745
-Resources : 8245, 2869
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4383047683], [28, 176]]
+Resources : 1740, 1767
+Supply : 198/200
+Larvae : 0
+Chose action no_op, args []
 
 Time step 746
-Resources : 8280, 2873
-Supply : 90/96
-Larvae : 58
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4418174978], [49, 183]]
+Resources : 1825, 1771
+Supply : 198/200
+Larvae : 1
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4377804803]]
 
 Time step 747
-Resources : 8300, 2889
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4376231938], [28, 176]]
+Resources : 1825, 1795
+Supply : 199/200
+Larvae : 2
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4431020033]]
 
 Time step 748
-Resources : 8340, 2893
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4350541825], [28, 176]]
+Resources : 1835, 1803
+Supply : 200/200
+Larvae : 1
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4367843332]]
 
 Time step 749
-Resources : 8375, 2905
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4377804802], [28, 176]]
+Resources : 1885, 1823
+Supply : 200/200
+Larvae : 1
+Chose action Build_LurkerDen_pt, args [[<Queued.now: 0>], [4350803969], [20, 168]]
 
 Time step 750
-Resources : 8395, 2913
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4378066945], [28, 176]]
+Resources : 1850, 1681
+Supply : 200/200
+Larvae : 1
+Chose action Build_Spire_pt, args [[<Queued.now: 0>], [4426301442], [20, 168]]
 
 Time step 751
-Resources : 8430, 2925
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4365221889], [28, 176]]
+Resources : 1690, 1505
+Supply : 200/200
+Larvae : 1
+Chose action no_op, args []
 
 Time step 752
-Resources : 8460, 2933
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4398776321], [28, 176]]
+Resources : 1755, 1513
+Supply : 200/200
+Larvae : 2
+Chose action no_op, args []
 
 Time step 753
-Resources : 8490, 2941
-Supply : 90/96
-Larvae : 58
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4381474817], [4359979009]]
+Resources : 1840, 1537
+Supply : 200/200
+Larvae : 4
+Chose action Harvest_Gather_unit, args [[<Queued.now: 0>], [4411359234], [4355784706]]
 
 Time step 754
-Resources : 8520, 2953
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4393795586], [28, 176]]
+Resources : 1885, 1545
+Supply : 199/200
+Larvae : 7
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4416339970], [80, 109]]
 
 Time step 755
-Resources : 8550, 2961
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4351590401], [28, 176]]
+Resources : 1940, 1565
+Supply : 199/200
+Larvae : 7
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4379115522], [4391698433]]
 
 Time step 756
-Resources : 8590, 2969
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4366270467], [28, 176]]
+Resources : 2005, 1573
+Supply : 199/200
+Larvae : 8
+Chose action no_op, args []
 
 Time step 757
-Resources : 8605, 2981
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4352638982], [28, 176]]
+Resources : 2075, 1597
+Supply : 199/200
+Larvae : 8
+Chose action no_op, args []
 
 Time step 758
-Resources : 8635, 2989
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4378066945], [28, 176]]
+Resources : 2315, 1801
+Supply : 199/200
+Larvae : 8
+Chose action Train_Drone_quick, args [[<Queued.now: 0>], [4431806465]]
 
 Time step 759
-Resources : 8680, 2997
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4360765441], [28, 176]]
+Resources : 2345, 1829
+Supply : 200/200
+Larvae : 7
+Chose action Build_Spire_pt, args [[<Queued.now: 0>], [4426301442], [28, 171]]
 
 Time step 760
-Resources : 8710, 3005
-Supply : 90/96
-Larvae : 58
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4394582018], [28, 176]]
+Resources : 2195, 1633
+Supply : 200/200
+Larvae : 7
+Chose action no_op, args []
 
 Time step 761
-Resources : 8735, 3017
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4351590401], [28, 176]]
+Resources : 2255, 1661
+Supply : 200/200
+Larvae : 8
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4422893571], [63, 114]]
 
 Time step 762
-Resources : 8765, 3025
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4393795586], [28, 176]]
+Resources : 2350, 1665
+Supply : 200/200
+Larvae : 8
+Chose action no_op, args []
 
 Time step 763
-Resources : 8800, 3033
-Supply : 90/96
-Larvae : 59
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4370726913], [4348968961]]
+Resources : 2395, 1689
+Supply : 199/200
+Larvae : 8
+Chose action Build_CreepTumor_Queen_pt, args [[<Queued.now: 0>], [4369154050], [38, 100]]
 
 Time step 764
-Resources : 8820, 3045
-Supply : 90/96
-Larvae : 59
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4420009985], [34, 126]]
+Resources : 2455, 1697
+Supply : 199/200
+Larvae : 8
+Chose action no_op, args []
 
 Time step 765
-Resources : 8865, 3053
-Supply : 90/96
-Larvae : 59
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4418699266], [71, 175]]
+Resources : 2520, 1721
+Supply : 199/200
+Larvae : 8
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4350279687], [38, 117]]
 
 Time step 766
-Resources : 8900, 3065
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4352638982], [28, 176]]
+Resources : 2570, 1729
+Supply : 199/200
+Larvae : 8
+Chose action no_op, args []
 
 Time step 767
-Resources : 8920, 3073
-Supply : 90/96
-Larvae : 59
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4420272129], [110, 98]]
+Resources : 2660, 1749
+Supply : 199/200
+Larvae : 9
+Chose action no_op, args []
 
 Time step 768
-Resources : 8965, 3085
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4375183361], [28, 176]]
+Resources : 2705, 1761
+Supply : 199/200
+Larvae : 10
+Chose action no_op, args []
 
 Time step 769
-Resources : 8985, 3093
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4376494082], [28, 176]]
+Resources : 2765, 1777
+Supply : 199/200
+Larvae : 11
+Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4426563586], [109, 95]]
 
 Time step 770
-Resources : 9015, 3105
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4393009153], [28, 176]]
+Resources : 2845, 1793
+Supply : 199/200
+Larvae : 11
+Chose action no_op, args []
 
 Time step 771
-Resources : 9050, 3113
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4393795586], [28, 176]]
+Resources : 2890, 1805
+Supply : 199/200
+Larvae : 12
+Chose action no_op, args []
 
 Time step 772
-Resources : 9080, 3125
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4398776321], [28, 176]]
+Resources : 2950, 1825
+Supply : 199/200
+Larvae : 12
+Chose action no_op, args []
 
 Time step 773
-Resources : 9110, 3129
-Supply : 90/96
-Larvae : 59
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4298375170], [74, 116]]
+Resources : 3025, 1837
+Supply : 199/200
+Larvae : 12
+Chose action no_op, args []
 
 Time step 774
-Resources : 9150, 3145
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4352638982], [28, 176]]
+Resources : 3080, 1853
+Supply : 199/200
+Larvae : 12
+Chose action no_op, args []
 
 Time step 775
-Resources : 9180, 3149
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4363911169], [28, 176]]
+Resources : 3150, 1865
+Supply : 199/200
+Larvae : 12
+Chose action no_op, args []
 
 Time step 776
-Resources : 9210, 3165
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4378066945], [28, 176]]
+Resources : 3220, 1885
+Supply : 199/200
+Larvae : 12
+Chose action no_op, args []
 
 Time step 777
-Resources : 9230, 3169
-Supply : 90/96
-Larvae : 59
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4421582851], [43, 143]]
+Resources : 3260, 1897
+Supply : 199/200
+Larvae : 15
+Chose action no_op, args []
 
 Time step 778
-Resources : 9260, 3185
-Supply : 90/96
-Larvae : 59
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4422369282], [128, 82]]
+Resources : 3335, 1917
+Supply : 199/200
+Larvae : 15
+Chose action no_op, args []
 
 Time step 779
-Resources : 9300, 3189
-Supply : 90/96
-Larvae : 59
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4387504130], [28, 176]]
+Resources : 3405, 1925
+Supply : 199/200
+Larvae : 15
+Chose action no_op, args []
 
 Time step 780
-Resources : 9320, 3205
-Supply : 90/96
-Larvae : 59
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4368629761], [4392484865]]
+Resources : 3460, 1941
+Supply : 199/200
+Larvae : 15
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4369416193], [4372561926]]
 
 Time step 781
-Resources : 9365, 3209
-Supply : 90/96
-Larvae : 62
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4421058563], [39, 140]]
+Resources : 3520, 1953
+Supply : 199/200
+Larvae : 15
+Chose action no_op, args []
 
 Time step 782
-Resources : 9400, 3217
-Supply : 90/96
-Larvae : 62
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4363911169], [28, 176]]
+Resources : 3590, 1973
+Supply : 199/200
+Larvae : 15
+Chose action no_op, args []
 
 Time step 783
-Resources : 9420, 3229
-Supply : 90/96
-Larvae : 62
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4422893570], [19, 124]]
+Resources : 3650, 1981
+Supply : 199/200
+Larvae : 15
+Chose action no_op, args []
 
 Time step 784
-Resources : 9455, 3237
-Supply : 90/96
-Larvae : 62
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4360765441], [28, 176]]
+Resources : 3710, 2005
+Supply : 199/200
+Larvae : 16
+Chose action no_op, args []
 
 Time step 785
-Resources : 9485, 3249
-Supply : 90/96
-Larvae : 62
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4375183361], [28, 176]]
+Resources : 3775, 2013
+Supply : 199/200
+Larvae : 16
+Chose action no_op, args []
 
 Time step 786
-Resources : 9510, 3257
-Supply : 90/96
-Larvae : 62
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4352638982], [28, 176]]
+Resources : 3850, 2037
+Supply : 199/200
+Larvae : 17
+Chose action no_op, args []
 
 Time step 787
-Resources : 9535, 3269
-Supply : 90/96
-Larvae : 62
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4393009153], [28, 176]]
+Resources : 3915, 2045
+Supply : 199/200
+Larvae : 17
+Chose action no_op, args []
 
 Time step 788
-Resources : 9575, 3277
-Supply : 90/96
-Larvae : 62
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4365221889], [28, 176]]
+Resources : 3975, 2069
+Supply : 199/200
+Larvae : 17
+Chose action no_op, args []
 
 Time step 789
-Resources : 9615, 3285
-Supply : 90/96
-Larvae : 62
-Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4352901122], [4367843329]]
+Resources : 4025, 2077
+Supply : 199/200
+Larvae : 17
+Chose action no_op, args []
 
 Time step 790
-Resources : 9640, 3297
-Supply : 90/96
-Larvae : 62
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4376231938], [28, 176]]
+Resources : 4110, 2101
+Supply : 199/200
+Larvae : 18
+Chose action no_op, args []
 
 Time step 791
-Resources : 9670, 3305
-Supply : 90/96
-Larvae : 62
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4383047683], [28, 176]]
+Resources : 4160, 2109
+Supply : 199/200
+Larvae : 20
+Chose action no_op, args []
 
 Time step 792
-Resources : 9700, 3317
-Supply : 90/96
-Larvae : 62
-Chose action Build_CreepTumor_Tumor_pt, args [[<Queued.now: 0>], [4424204290], [38, 144]]
+Resources : 4210, 2133
+Supply : 199/200
+Larvae : 23
+Chose action no_op, args []
 
 Time step 793
-Resources : 9725, 3321
-Supply : 90/96
-Larvae : 62
-Chose action Build_HydraliskDen_pt, args [[<Queued.now: 0>], [4378066945], [28, 176]]
+Resources : 4285, 2137
+Supply : 199/200
+Larvae : 23
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4373872644], [4361027585]]
 
 Time step 794
-Resources : 9765, 3333
-Supply : 90/96
-Larvae : 62
+Resources : 4340, 2165
+Supply : 199/200
+Larvae : 23
+Chose action no_op, args []
+
+Time step 795
+Resources : 4405, 2169
+Supply : 199/200
+Larvae : 23
+Chose action no_op, args []
+
+Time step 796
+Resources : 4475, 2193
+Supply : 199/200
+Larvae : 23
+Chose action no_op, args []
+
+Time step 797
+Resources : 4520, 2201
+Supply : 199/200
+Larvae : 24
+Chose action no_op, args []
+
+Time step 798
+Resources : 4585, 2225
+Supply : 199/200
+Larvae : 26
+Chose action no_op, args []
+
+Time step 799
+Resources : 4660, 2233
+Supply : 199/200
+Larvae : 26
+Chose action Effect_InjectLarva_unit, args [[<Queued.now: 0>], [4379115522], [4367843332]]
+
+Time step 800
+Resources : 4700, 2253
+Supply : 199/200
+Larvae : 26

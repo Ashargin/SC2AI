@@ -1,4 +1,5 @@
 import os
+import cProfile
 from pysc2.env import sc2_env
 from pysc2.lib import features
 from absl import app
@@ -6,13 +7,16 @@ from raw_agents import ZerglingRush, MacroZerg
 from settings import RESOLUTION, STEP_MUL
 
 # Settings
-agent = ZerglingRush()
-op_race = 'very_hard'
-op_difficulty = 'medium' # very_easy, easy, medium, medium_hard, harder, very_hard
+agent = MacroZerg()
+op_race = 'random' # random, terran, protoss, zerg
+op_difficulty = 'easy' # very_easy, easy, medium, medium_hard, hard, harder, very_hard
+op_build = 'random' # random, rush, timing, power, macro, air
 map_name = 'WorldofSleepers'
 visualize = True
 realtime = False
 save_replay_episodes = 0 # whether to save a replay
+time = True
+time_iter = 800
 
 def main(unused_args):
     try:
@@ -21,7 +25,8 @@ def main(unused_args):
                 map_name=map_name,
                 players=[sc2_env.Agent(getattr(sc2_env.Race, agent.race_name)),
                          sc2_env.Bot(getattr(sc2_env.Race, op_race),
-                                     getattr(sc2_env.Difficulty, op_difficulty))],
+                                     getattr(sc2_env.Difficulty, op_difficulty),
+                                     getattr(sc2_env.BotBuild, op_build))],
                 agent_interface_format=features.AgentInterfaceFormat(
                     feature_dimensions=features.Dimensions(screen=RESOLUTION, minimap=RESOLUTION),
                     raw_resolution=RESOLUTION,
@@ -48,12 +53,17 @@ def main(unused_args):
                 agent.reset()
                 while True:
                     step_actions = [agent.step(timesteps[0])]
-                    if timesteps[0].last():
+                    if timesteps[0].last() or time and agent.game_step > time_iter:
                         break
                     timesteps = env.step(step_actions)
+                if time:
+                    break
       
     except KeyboardInterrupt:
         agent.log.close()
 
-if __name__ == "__main__":
+if time:
+    timed = cProfile.run('app.run(main)')
+    print(timed)
+elif __name__ == "__main__":
     app.run(main)

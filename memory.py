@@ -19,6 +19,8 @@ class Memory:
         self.expired_tumors = set()
         self.scouts = {}
         self.scout_timeout = {}
+        self.creep_tumor_tries = {}
+        self.function_timeout = {}
         self.game_step = 0
 
     def update(self, obs):
@@ -35,13 +37,17 @@ class Memory:
         except KeyError:
             pass
 
-        to_remove = []
-        for loc in self.scout_timeout:
-            self.scout_timeout[loc] -= STEP_MUL
-            if self.scout_timeout[loc] < 0:
-                to_remove.append(loc)
-        for loc in to_remove:
-            self.scout_timeout.pop(loc)
+        def tick_timeout(timeout_dict):
+            to_remove = []
+            for key in timeout_dict:
+                timeout_dict[key] -= STEP_MUL
+                if timeout_dict[key] < 0:
+                    to_remove.append(key)
+            for key in to_remove:
+                timeout_dict.pop(key)
+
+        tick_timeout(self.scout_timeout)
+        tick_timeout(self.function_timeout)
 
         for b in self.agent.get_units_agg('Hatchery'):
             if b.buff_id_0 == buffs.Buffs.QueenSpawnLarvaTimer:
@@ -50,12 +56,10 @@ class Memory:
                     self.spell_targets.pop(queen_tag[0])
 
     def update_units(self):
-        self_units = [u for u in self.obs.observation.raw_units
-                      if u.alliance == features.PlayerRelative.SELF]
-        enemy_units = [u for u in self.obs.observation.raw_units
-                       if u.alliance == features.PlayerRelative.ENEMY]
-        neutral_units = [u for u in self.obs.observation.raw_units
-                         if u.alliance == features.PlayerRelative.NEUTRAL]
+        alliances = self.obs.observation.raw_units[:, features.FeatureUnit.alliance]
+        self_units = self.obs.observation.raw_units[alliances == features.PlayerRelative.SELF]
+        enemy_units = self.obs.observation.raw_units[alliances == features.PlayerRelative.ENEMY]
+        neutral_units = self.obs.observation.raw_units[alliances == features.PlayerRelative.NEUTRAL]
 
         killed = self.obs.observation._response_observation().observation.raw_data.event.dead_units
         self._update_units(self.self_units, self_units, killed)
@@ -64,7 +68,9 @@ class Memory:
 
     def _update_units(self, old, new, killed):
         # Only keep visible units
-        new = [self._add_unit_variables(u) for u in new if u.display_type != 2] # remove snapshots
+        displays = new[:, features.FeatureUnit.display_type]
+        new = new[displays != 2] # remove snapshots
+        new = [self._add_unit_variables(u) for u in new]
 
         # Add empty lists for previously unseen unit types
         visible_types = set([u.unit_type for u in new])
