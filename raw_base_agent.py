@@ -190,7 +190,6 @@ class RawAgent(base_agent.BaseAgent):
 
     # Base actions
     def build(self, action, builder=None, how=1, where='random'):
-        ################################################### nydus worm
         if isinstance(builder, list):
             builders = list(itertools.chain.from_iterable(
                 [self.get_units_by_type(unit_type) for unit_type in builder]))
@@ -309,6 +308,11 @@ class RawAgent(base_agent.BaseAgent):
         return self.do(action, 'now', tag, target)
 
     def train(self, action, trainer, how='random'):
+        select_all = action in [RAW_FUNCTIONS.Train_Zergling_quick,
+                                RAW_FUNCTIONS.Train_Baneling_quick,
+                                RAW_FUNCTIONS.Morph_Ravager_quick,
+                                RAW_FUNCTIONS.Train_Roach_quick]
+
         if isinstance(trainer, list):
             trainers = list(itertools.chain.from_iterable(
                 [self.get_units_by_type(unit_type) for unit_type in trainer]))
@@ -334,7 +338,9 @@ class RawAgent(base_agent.BaseAgent):
         if not trainers and not (isinstance(how, int) and how > 50):
             return None # keep looking for an action to take
 
-        if how == 'random':
+        if select_all:
+            tag = [t.tag for t in trainers]
+        elif how == 'random':
             picked = rd.choice(trainers)
             tag = picked.tag
         elif how < 50: # how is the number of the base to train from
@@ -402,16 +408,16 @@ class RawAgent(base_agent.BaseAgent):
             started_on_top_right = max(np.sign(np.subtract(*self.self_coordinates)),0)
             if action == RAW_FUNCTIONS.Build_CreepTumor_Queen_pt:
                 base_x, base_y = self.self_coordinates
-                n = 4 * THRESHOLD
-                can_build[:max(base_x-n, 0), :] = can_build[min(base_x+n, RESOLUTION-1):, :] \
-                    = can_build[:, :max(base_y-n, 0)] = can_build[:, min(base_y+n, RESOLUTION-1):] = 0
+                y, x = np.ogrid[-base_x:RESOLUTION - base_x, -base_y:RESOLUTION - base_y]
+                mask = np.sqrt(x**2 + y**2) > 4 * THRESHOLD
+                can_build[mask] = 0
             elif action == RAW_FUNCTIONS.Build_CreepTumor_Tumor_pt:
                 if started_on_top_right:
                     can_build[picked.x:, :picked.y] = 0
                 else:
                     can_build[:picked.x, picked.y:] = 0
             save = can_build.copy()
-            for t in [int(0.7 * THRESHOLD), int(0.5 * THRESHOLD), int(0.2 * THRESHOLD), 0]:
+            for t in [int(0.7 * THRESHOLD), int(0.5 * THRESHOLD), int(0.3 * THRESHOLD)]:
                 can_build = save.copy()
                 for u in self.get_units_agg('CreepTumor', with_training=True):
                     y, x = np.ogrid[-u.x:RESOLUTION - u.x, -u.y:RESOLUTION - u.y]
@@ -428,7 +434,7 @@ class RawAgent(base_agent.BaseAgent):
             if picked.tag not in self.memory.creep_tumor_tries:
                 self.memory.creep_tumor_tries[picked.tag] = 0
             self.memory.creep_tumor_tries[picked.tag] += 1
-            if self.memory.creep_tumor_tries[picked.tag] > 10:
+            if self.memory.creep_tumor_tries[picked.tag] > 5:
                 self.memory.expired_tumors.add(picked.tag)
                 return None
 
@@ -482,7 +488,6 @@ class RawAgent(base_agent.BaseAgent):
             else:
                 skill_target = (skill_target.x, skill_target.y)
 
-        ################################################################## skill cooldown
         return self.do(action, 'now', tag, skill_target)
 
     def attack(self, attackers, coordinates=None, can_reach_ground=True, can_reach_air=True,
@@ -543,14 +548,26 @@ class RawAgent(base_agent.BaseAgent):
             # Look for enemy units where we have an information on the position
             if hunt:
                 candidates = [u for u in enemies if u.pos_tracked and u.display_type != 3]
+                print()
+                print(len(candidates))
+                print([u.unit_type for u in candidates])
                 if candidates:
                     dists = [(u.x - army_x)**2 + (u.y - army_y)**2 for u in candidates]
                     picked = candidates[np.argmin(dists)]
                     out_coordinates = (picked.x, picked.y)
                 else:
-                    out_coordinates = coordinates if coordinates is not None \
-                                    else self.get_premade_coordinates('middle')
-                    found_location = False
+                    print('HERE')
+                    to_explore = np.stack([self.obs.observation.feature_minimap.buildable,
+                                           self.obs.observation.feature_minimap.visibility_map
+                                           == features.Visibility.HIDDEN]).all(axis=0).T
+                    candidates = np.argwhere(to_explore == 1)
+                    out_coordinates = tuple(rd.choice(candidates))
+                    print(len(attackers))
+                    print(set([u.order_id_0 for u in attackers]))
+                    attackers = [u for u in attackers if u.order_id_0 == RAW_FUNCTIONS.no_op.id]
+                    print(len(attackers))
+                    if not attackers:
+                        return None
             else:
                 out_coordinates = coordinates
                 if coordinates is None:
@@ -1104,6 +1121,8 @@ class ZergAgent(RawAgent):
                            and available_trainers and met_requirements:
             return self.train(action, trainer, how=how)
         if not enough_supply:
+            if self.obs.observation.player.food_cap >= 200:
+                return None
             if self.unit_count_agg('Overlord') == self.unit_count_agg('Overlord', with_training=False):
                 return self.train_overlord()
         if not enough_minerals or not enough_vespene:
@@ -1676,39 +1695,47 @@ class ZergAgent(RawAgent):
             else:
                 excess_workers.append(0)
 
-        if not (max(excess_workers) > 0 and min(excess_workers) < 0):
-            return None
-
-        id_from = np.argmax(excess_workers)
-        candidate_ids = [i for i in range(n_bases)
-                           if excess_workers[i] <= -excess_workers[id_from]]
-        if candidate_ids:
-            id_dists = [np.abs(i - id_from) for i in candidate_ids]
-            id_to = candidate_ids[np.argmin(id_dists)]
-        else:
-            id_to = np.argmin(excess_workers)
-        excess_base = self.get_base(id_from + 1)
-        target_base = self.get_base(id_to + 1)
-
-        if how == 'excess':
-            n_workers = min(excess_workers[id_from], -excess_workers[id_to])
-        elif how == 'equal':
-            n_workers = int((excess_workers[id_from] - excess_workers[id_to]) / 2)
-        else:
-            raise Warning(f'Unknown worker inter-base distribution mode : {how}')
-
         workers = self.get_workers()
-        workers = [w for w in workers
-                     if w.order_id_0 == RAW_FUNCTIONS.no_op.id
-                     or w.order_id_0 == RAW_FUNCTIONS.Harvest_Return_Drone_quick.id
-                        and w.buff_id_0 in [buffs.Buffs.CarryMineralFieldMinerals,
-                                            buffs.Buffs.CarryHighYieldMineralFieldMinerals]]
-        dists = np.sqrt([(w.x - excess_base.x)**2 + (w.y - excess_base.y)**2 for w in workers])
-        workers = [w for i, w in enumerate(workers) if dists[i] < THRESHOLD][:n_workers]
-        if not workers:
-            return None
-        workers = [w.tag for w in workers]
+        idle_workers = [w for w in workers if w.order_id_0 == RAW_FUNCTIONS.no_op.id]
+        if idle_workers:
+            workers = idle_workers
+            id_to = np.argmin(excess_workers)
+            target_base = self.get_base(id_to + 1)
 
+        else:
+            if not (max(excess_workers) > 0 and min(excess_workers) < 0):
+                return None
+    
+            id_from = np.argmax(excess_workers)
+            candidate_ids = [i for i in range(n_bases)
+                            if excess_workers[i] <= -excess_workers[id_from]]
+            if candidate_ids:
+                id_dists = [np.abs(i - id_from) for i in candidate_ids]
+                id_to = candidate_ids[np.argmin(id_dists)]
+            else:
+                id_to = np.argmin(excess_workers)
+            excess_base = self.get_base(id_from + 1)
+            target_base = self.get_base(id_to + 1)
+    
+            if how == 'excess':
+                n_workers = min(excess_workers[id_from], -excess_workers[id_to])
+            elif how == 'equal':
+                n_workers = int((excess_workers[id_from] - excess_workers[id_to]) / 2)
+            else:
+                raise Warning(f'Unknown worker inter-base distribution mode : {how}')
+    
+            workers = self.get_workers()
+            workers = [w for w in workers
+                        if w.order_id_0 == RAW_FUNCTIONS.no_op.id
+                        or w.order_id_0 == RAW_FUNCTIONS.Harvest_Return_Drone_quick.id
+                            and w.buff_id_0 in [buffs.Buffs.CarryMineralFieldMinerals,
+                                                buffs.Buffs.CarryHighYieldMineralFieldMinerals]]
+            dists = np.sqrt([(w.x - excess_base.x)**2 + (w.y - excess_base.y)**2 for w in workers])
+            workers = [w for i, w in enumerate(workers) if dists[i] < THRESHOLD][:n_workers]
+            if not workers:
+                return None
+
+        workers = [w.tag for w in workers]
         minerals = self.get_minerals()
         dists = [np.abs(m.x - target_base.x) + np.abs(m.y - target_base.y) for m in minerals]
         target = minerals[np.argmin(dists)]
@@ -2254,15 +2281,16 @@ class ZergAgent(RawAgent):
                                                                         stay=stay, timeout=timeout)
         self.main_hl(action, pop=pop, increase=increase, bypass=True)
 
-    def wait_hl(self):
-        if self.action is None:
-            self.action = self.wait()
+    def wait_hl(self, pop=0, increase=None):
+        action = self.wait
+        self.main_hl(action, pop=pop, increase=increase, bypass=True)
 
         ## Todo
         # skills
+        # skill cooldowns?
         # nydus
 
-        # every=..
+        # PRIO settings full
         # macro
         # rl
         # notebook

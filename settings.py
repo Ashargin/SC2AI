@@ -15,6 +15,8 @@ ATTACK_PRIORITY_GROUND = [units.Zerg.Hydralisk,
                           units.Zerg.RoachWarren,
                           units.Zerg.SpawningPool,
                           units.Zerg.Hatchery,
+                          units.Zerg.Extractor,
+                          units.Zerg.ExtractorRich,
 
                           units.Protoss.Immortal,
                           units.Protoss.Zealot,
@@ -26,6 +28,8 @@ ATTACK_PRIORITY_GROUND = [units.Zerg.Hydralisk,
                           units.Protoss.Stargate,
                           units.Protoss.CyberneticsCore,
                           units.Protoss.Nexus,
+                          units.Protoss.Assimilator,
+                          units.Protoss.AssimilatorRich,
 
                           units.Terran.SiegeTankSieged,
                           units.Terran.Hellbat,
@@ -40,7 +44,9 @@ ATTACK_PRIORITY_GROUND = [units.Zerg.Hydralisk,
                           units.Terran.Barracks,
                           units.Terran.Factory,
                           units.Terran.Starport,
-                          units.Terran.CommandCenter]
+                          units.Terran.CommandCenter,
+                          units.Terran.Refinery,
+                          units.Terran.RefineryRich]
 ATTACK_PRIORITY_AIR = []
 ATTACK_PRIORITY_ALL = ATTACK_PRIORITY_GROUND + ATTACK_PRIORITY_AIR
 ATTACK_PRIORITY_GROUND = {key: len(ATTACK_PRIORITY_GROUND) - i

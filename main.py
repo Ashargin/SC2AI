@@ -8,14 +8,14 @@ from settings import RESOLUTION, STEP_MUL
 
 # Settings
 agent = MacroZerg()
-op_race = 'random' # random, terran, protoss, zerg
-op_difficulty = 'easy' # very_easy, easy, medium, medium_hard, hard, harder, very_hard
-op_build = 'random' # random, rush, timing, power, macro, air
+op_race = 'terran' # random, terran, protoss, zerg
+op_difficulty = 'very_hard' # very_easy, easy, medium, medium_hard, hard, harder, very_hard
+op_build = 'macro' # random, rush, timing, power, macro, air
 map_name = 'WorldofSleepers'
 visualize = True
 realtime = False
-save_replay_episodes = 0 # whether to save a replay
-time = True
+save_replay_episodes = 1 # whether to save a replay
+time = False
 time_iter = 800
 
 def main(unused_args):
