@@ -8,9 +8,17 @@ class Memory:
     def __init__(self, agent):
         self.agent = agent
         self.obs = None
-        self.self_units = {}
-        self.enemy_units = {}
-        self.neutral_units = {}
+
+        class CustomDict(dict):
+            def __getitem__(self, key):
+                try:
+                    return super().__getitem__(key)
+                except KeyError:
+                    return []
+
+        self.self_units = CustomDict()
+        self.enemy_units = CustomDict()
+        self.neutral_units = CustomDict()
         self.birth_dates = {}
         self.base_locations = []
         self.discarded_units = []
