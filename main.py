@@ -9,7 +9,7 @@ from raw_agents import ZerglingRush, MacroZerg, SmartZerg
 from settings import RESOLUTION, STEP_MUL
 
 # Settings
-agent = ZerglingRush()
+agent = MacroZerg()
 op_race = 'terran' # random, terran, protoss, zerg
 op_difficulty = 'very_hard' # very_easy, easy, medium, medium_hard, hard, harder, very_hard
 op_build = 'macro' # random, rush, timing, power, macro, air
